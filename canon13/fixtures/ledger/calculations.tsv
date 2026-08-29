@@ -1,0 +1,2 @@
+id	output_claim	formula	notes
+CALC-9001	CLM-9002	40	intentional mismatch (40 vs 60) -> demonstrates automatic class-A arithmetic detection

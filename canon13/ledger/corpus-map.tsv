@@ -1,0 +1,128 @@
+id	kind	chapter	part	volume	title	url	fetched	status	snapshot_sha256	words
+CM-0001	home	-	-	-	Home (Santosh Kumar Adhikari)	https://santoshkumaradhikari.com.np/	2026-08-29	fetched			Self-describes '118-chapter' book.
+CM-0002	index	-	-	-	The Investor's Canon - Contents (4 volumes, Part 0 + 18 parts, 121 chapter pages)	https://santoshkumaradhikari.com.np/investors-canon/	2026-08-29	fetched			Source of this inventory. '118 chapters' self-count vs 121 pages -> CON-0006.
+CM-0003	framework	-	-	-	The Canon Framework (visual overview; hemispheres; rubric)	https://santoshkumaradhikari.com.np/investors-canon/framework.html	2026-08-29	fetched			Primary structural control (CLM-0001/0002/0003/0012).
+CM-0004	research	-	-	-	Company Analysis (index: Nabil Bank 71/100, Chilime 62/100)	https://santoshkumaradhikari.com.np/research/	2026-08-29	fetched			Chilime flood notice (CON-0004); band labels (CON-0005).
+CM-0005	research	-	-	-	Nabil Bank Limited - 71/100 analysis	https://santoshkumaradhikari.com.np/research/nabil-bank/		pending		Dimension sub-scores needed for CALC check on CLM-0006.
+CM-0006	research	-	-	-	Chilime Hydropower - 62/100 analysis (flood notice)	https://santoshkumaradhikari.com.np/research/chilime-hydropower/		pending		Flood notice details; rescore commitment.
+CM-0007	chapter	0.1	0	1	Nepal's Credit Cycle: The Hidden Equity Cycle	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-0-1-credit-cycle.html		pending		PRIORITY 1: home of the 6-18 month lead claim (CLM-0010; EXH-001).
+CM-0008	chapter	0.2	0	1	NRB Policy - Equity Price Transmission: The Central Causal Chain	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-0-2-nrb-transmission.html		pending		PRIORITY 1: transmission claim wording (CLM-0010).
+CM-0009	chapter	0.3	0	1	Liquidity Regimes in Nepal: The Four-Phase Framework	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-0-3-liquidity-regimes.html		pending		PRIORITY 1: four-phase regime criteria (09 T3; EXH-002).
+CM-0010	chapter	1	I	1	NRB's Monetary Policy Framework	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-01-nrb-monetary-policy.html		pending			Regulatory inputs -> vintage registry (Phase 2).
+CM-0011	chapter	2	I	1	Credit Policy and Its Direct Impact on NEPSE	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-02-credit-policy-impact.html		pending			Regulatory inputs -> vintage registry.
+CM-0012	chapter	3	I	1	NRB Policy Transmission - From Announcement to Share Price	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-03-nrb-policy-transmission.html		pending			PRIORITY 2: transmission/timing claims.
+CM-0013	chapter	4	I	1	Nepal's External Sector and NEPSE Implications	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-04-external-sector.html		pending			.
+CM-0014	chapter	5	I	1	How India's Economy Affects NEPSE	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-05-india-economy.html		pending			.
+CM-0015	chapter	6	I	1	Global Macro and Event-Driven Risk	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-06-global-macro-risk.html		pending			.
+CM-0016	chapter	7	II	1	What Is NEPSE and Why It Behaves Differently	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-07-nepse-reality.html		pending			.
+CM-0017	chapter	8	II	1	Regulatory Architecture of the Nepal Capital Market	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-08-regulatory-architecture.html		pending			L1 source inventory (Phase 7).
+CM-0018	chapter	9	II	1	Market Participants in NEPSE	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-09-market-participants.html		pending			.
+CM-0019	chapter	10	II	1	Trading Mechanics in NEPSE	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-10-trading-mechanics.html		pending			Regulatory inputs (lot sizes, circuits) -> vintage registry.
+CM-0020	chapter	11	II	1	The Liquidity Problem - NEPSE's Most Critical Structural Characteristic	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-11-liquidity-problem.html		pending			.
+CM-0021	chapter	12	II	1	Market Microstructure Failures in NEPSE	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-12-microstructure-failures.html		pending			.
+CM-0022	chapter	13	III	1	Ordinary Shares	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-13-ordinary-shares.html		pending			.
+CM-0023	chapter	14	III	1	IPOs and the Primary Market	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-14-ipos.html		pending			.
+CM-0024	chapter	15	III	1	Rights Issues and FPOs	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-15-rights-issues-fpos.html		pending			.
+CM-0025	chapter	16	III	1	Mutual Funds in Nepal	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-16-mutual-funds.html		pending			.
+CM-0026	chapter	17	III	1	Debentures and Bonds in Nepal	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-17-debentures-bonds.html		pending			.
+CM-0027	chapter	18	III	1	What Does Not Yet Exist in Nepal	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-18-what-doesnt-exist.html		pending			.
+CM-0028	chapter	19	IV	1	The Governance Landscape in Nepal	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-19-governance-landscape.html		pending			.
+CM-0029	chapter	20	IV	1	Promoter Behaviour - The Most Underanalysed Risk in NEPSE	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-20-promoter-behaviour.html		pending			.
+CM-0030	chapter	21	IV	1	Insider Trading and Information Asymmetry in Nepal	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-21-insider-trading.html		pending			.
+CM-0031	chapter	22	IV	1	Conglomerate Cross-Holdings and Promoter Webs	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-22-conglomerate-crossholdings.html		pending			.
+CM-0032	chapter	23	IV	1	Governance Scoring for NEPSE Companies	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-23-governance-scoring.html		pending			PRIORITY 2: possible hemisphere-scoring occurrences (CON-0001).
+CM-0033	chapter	24	V	2	Reading Financial Statements Under Nepal Standards	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-24-reading-financial-statements.html		pending			.
+CM-0034	chapter	25	V	2	The Balance Sheet - Deep Reading	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-25-balance-sheet.html		pending			.
+CM-0035	chapter	26	V	2	The Income Statement - Deep Reading	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-26-income-statement.html		pending			.
+CM-0036	chapter	27	V	2	The Cash Flow Statement - The Truth Teller	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-27-cash-flow-statement.html		pending			.
+CM-0037	chapter	28	V	2	Red Flags in Nepali Financial Statements	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-28-red-flags.html		pending			.
+CM-0038	chapter	29	VI	2	Banking Sector Accounting Logic	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-29-banking-accounting.html		pending			.
+CM-0039	chapter	30	VI	2	Development Bank and Finance Company Accounting	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-30-development-bank-finance.html		pending			.
+CM-0040	chapter	31	VI	2	Microfinance (MFI) Accounting Logic	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-31-microfinance-accounting.html		pending			.
+CM-0041	chapter	32	VI	2	Hydropower Project Accounting Logic	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-32-hydropower-accounting.html		pending			.
+CM-0042	chapter	33	VI	2	Insurance Sector Accounting	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-33-insurance-accounting.html		pending			.
+CM-0043	chapter	34	VI	2	Manufacturing, Trading & Hotel Sector Accounting	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-34-manufacturing-trading-hotel.html		pending			.
+CM-0044	chapter	35	VII	2	Capital Gains Tax in Nepal	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-35-capital-gains-tax.html		pending			Tax rules -> vintage registry (regulations change).
+CM-0045	chapter	36	VII	2	Dividend and Interest Taxation	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-36-dividend-interest-taxation.html		pending			Tax rules -> vintage registry.
+CM-0046	chapter	37	VII	2	Tax Treatment of Rights and Bonus Shares	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-37-rights-bonus-tax.html		pending			Tax rules -> vintage registry.
+CM-0047	chapter	38	VII	2	Tax Planning for the Long-Term NEPSE Investor	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-38-tax-planning.html		pending			.
+CM-0048	chapter	39	VII	2	Valuation Ratios in the NEPSE Context	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-39-valuation-ratios.html		pending			.
+CM-0049	chapter	40	VII	2	Profitability Ratios - Sector by Sector	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-40-profitability-ratios.html		pending			.
+CM-0050	chapter	41	VII	2	Asset Quality, Capital, Solvency & Efficiency Ratios	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-41-asset-quality-ratios.html		pending			.
+CM-0051	chapter	42	VIII	2	Understanding Project Finance	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-42-project-finance.html		pending			.
+CM-0052	chapter	43	VIII	2	The Hydropower Financial Model	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-43-hydropower-financial-model.html		pending			.
+CM-0053	chapter	44	VIII	2	Evaluating a Hydropower Stock on NEPSE	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-44-evaluating-hydropower-stock.html		pending			.
+CM-0054	chapter	45	IX	2	The Philosophy of Valuation	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-45-philosophy-valuation.html		pending			.
+CM-0055	chapter	46	IX	2	Discounted Cash Flow (DCF) Valuation	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-46-dcf-valuation.html		pending			.
+CM-0056	chapter	47	IX	2	Relative Valuation (Comps)	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-47-relative-valuation-comps.html		pending			.
+CM-0057	chapter	48	IX	2	Dividend Discount Model (DDM)	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-48-dividend-discount-model.html		pending			.
+CM-0058	chapter	49	IX	2	Book Value and Net Asset Value Approaches	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-49-book-value-nav.html		pending			.
+CM-0059	chapter	50	X	3	Why Nepali Investors Systematically Lose Money	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-50-why-nepali-investors-lose.html		pending			.
+CM-0060	chapter	51	X	3	Core Behavioural Biases for the NEPSE Investor	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-51-core-behavioural-biases.html		pending			.
+CM-0061	chapter	52	X	3	Building Investor Temperament	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-52-building-investor-temperament.html		pending			.
+CM-0062	chapter	53	X	3	Behavioural Training Exercises	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-53-behavioural-training-exercises.html		pending			.
+CM-0063	chapter	54	XI	3	Liquidity as a First-Order Investment Risk in NEPSE	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-54-liquidity-first-order-risk.html		pending			.
+CM-0064	chapter	55	XI	3	Exit Risk in NEPSE	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-55-exit-risk.html		pending			.
+CM-0065	chapter	56	XI	3	Position Size vs. ADV Rule: The Governing Law for NEPSE	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-56-adv-rule.html		pending		PRIORITY 2: ADV Rule (audit F2 item) - confidence language audit.
+CM-0066	chapter	57	XI	3	Free Float-Based Allocation Limits	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-57-free-float-allocation-limits.html		pending			.
+CM-0067	chapter	58	XI	3	Circuit Trap Exit Modelling	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-58-circuit-trap-exit-modelling.html		pending			.
+CM-0068	chapter	59	XII	3	Asset Allocation Within Nepal's Investment Universe	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-59-asset-allocation.html		pending			.
+CM-0069	chapter	60	XII	3	Equity Portfolio Construction for NEPSE	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-60-equity-portfolio-construction.html		pending			.
+CM-0070	chapter	61	XII	3	Portfolio Risk Management	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-61-portfolio-risk-management.html		pending			T1 rule material (09).
+CM-0071	chapter	62	XII	3	Systematic and Disciplined Investing	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-62-systematic-disciplined-investing.html		pending		PRIORITY 1: candidate location of the 56-59 'investable' side (CON-0002; RUL-0002; T5).
+CM-0072	chapter	63	XIII	3	Philosophy of the Canon Scoring System	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-63-canon-scoring-philosophy.html		pending		Canon v1.0 status disclosure target (07 §4).
+CM-0073	chapter	64	XIII	3	The Seven-Dimension Company Quality Score (0-100)	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-64-seven-dimension-score.html	2026-08-29	fetched-partial		Chunks 1/4 fetched (rubric table + ROE anchors). Remaining chunks pending.
+CM-0074	chapter	65	XIII	3	Sector-Specific Sub-Score Adjustments	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-65-sector-subscore-adjustments.html		pending		Band table owner candidate (CON-0005); sector adjustments for Nabil/Chilime.
+CM-0075	chapter	66	XIII	3	Using the Canon Score in Portfolio Decisions	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-66-using-canon-score-portfolio.html	2026-08-29	fetched-partial		Chunk 1/6 fetched (Lesson 66.1 bands). Remaining lessons (66.2-66.5) pending.
+CM-0076	chapter	67	XIV	3	Long-Term Value Investing on NEPSE	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-67-long-term-value-investing.html		pending		PRIORITY 1: candidate location of the 56-59 'investable' side (CON-0002).
+CM-0077	chapter	68	XIV	3	Dividend Income Strategy	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-68-dividend-income-strategy.html		pending			.
+CM-0078	chapter	69	XIV	3	IPO, Rights Issue & Sector Rotation Strategies	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-69-ipo-rights-sector-rotation.html		pending			.
+CM-0079	chapter	70	XIV	3	Research and Tracking Systems for the Nepali Investor	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-70-research-tracking-systems.html		pending			.
+CM-0080	chapter	71	XIV	3	The Banking Sector Playbook	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-71-banking-sector-playbook.html		pending			T6 rule material.
+CM-0081	chapter	72	XIV	3	The Hydropower Sector Playbook	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-72-hydropower-sector-playbook.html		pending			T6 rule material; connects to Chilime exhibit.
+CM-0082	chapter	73	XIV	3	The Microfinance Sector Playbook	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-73-microfinance-sector-playbook.html		pending			.
+CM-0083	chapter	74	XIV	3	The Insurance Sector Playbook	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-74-insurance-sector-playbook.html		pending			.
+CM-0084	chapter	75	XIV	3	The Manufacturing & Hotel Sector Playbook	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-75-manufacturing-hotel-playbook.html		pending			.
+CM-0085	chapter	76	XIV	3	The Liquidity-Based Entry and Exit Playbook	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-76-liquidity-entry-exit-playbook.html		pending			.
+CM-0086	chapter	77	XIV	3	The IPO Playbook	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-77-ipo-playbook.html		pending			.
+CM-0087	chapter	78	XIV	3	The Rights Issue Playbook	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-78-rights-issue-playbook.html		pending			.
+CM-0088	chapter	79	XV	3	The Backtesting Mindset	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-79-backtesting-mindset.html		pending		Phase 5: transcribe calibrations into tests.tsv.
+CM-0089	chapter	80	XV	3	Calibrating Your Scoring Model Against NEPSE History	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-80-calibrating-scoring-model.html		pending		Phase 5: core calibration record (CLM-0009 context).
+CM-0090	chapter	81	XV	3	Testing and Refining Exit Rules	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-81-testing-refining-exit-rules.html		pending		Phase 5.
+CM-0091	chapter	82	XV	3	Measuring and Managing Model Drift	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-82-measuring-managing-model-drift.html		pending		Phase 5.
+CM-0092	chapter	83	XVI	4	Case Study 1 - A Commercial Bank	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-83-case-study-commercial-bank.html		pending		PRIORITY 2: hemisphere scoring pattern (CON-0001); Nabil 71/100 working.
+CM-0093	chapter	84	XVI	4	Case Study 2 - A Hydropower Plant	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-84-case-study-hydropower-plant.html		pending		PRIORITY 2: hemisphere scoring pattern (CON-0001); Chilime 62/100 working; flood tie-in.
+CM-0094	chapter	85	XVI	4	Case Study 3 - A Microfinance Institution	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-85-case-study-microfinance-institution.html		pending			.
+CM-0095	chapter	86	XVI	4	Case Study 4 - A Manufacturing Company	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-86-case-study-manufacturing-company.html		pending			.
+CM-0096	chapter	87	XVI	4	Case Study 5 - A Rights Issue Decision	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-87-case-study-rights-issue.html		pending			.
+CM-0097	chapter	88	XVI	4	Case Study 6 - An IPO Analysis	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-88-case-study-ipo-analysis.html		pending			.
+CM-0098	chapter	89	XVI	4	Case Study 7 - A Bank Failure or Near-Failure	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-89-case-study-bank-failure.html		pending		Survivorship evidence base (08 §3).
+CM-0099	chapter	90	XVI	4	Case Study 8 - The 2021 NEPSE Mania	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-90-case-study-nepse-mania.html		pending		Regime evidence (EXH-002 subsample).
+CM-0100	chapter	91	XVI	4	Case Study 9 - A Hydropower Overrun and Delay	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-91-case-study-hydropower-overrun.html		pending			.
+CM-0101	chapter	92	XVI	4	Case Study 10 - An Insurance Company	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-92-case-study-insurance-company.html		pending			.
+CM-0102	chapter	93	XVI	4	Case Study 11 - A Hotel Sector Investment	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-93-case-study-hotel-investment.html		pending			.
+CM-0103	chapter	94	XVII	4	The Daily, Weekly, Monthly, Quarterly & Annual Routines	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-94-daily-weekly-monthly-annual-routines.html		pending			.
+CM-0104	chapter	95	XVII	4	Writing Your Personal Investment Constitution	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-95-investment-constitution.html		pending		09 §2 alignment (reader's constitution downstream of book constitution).
+CM-0105	chapter	96	XVII	4	Rules for Overriding the Model	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-96-overriding-the-model.html		pending		09 §2: override rules must align with tier law.
+CM-0106	chapter	97	XVII	4	Maximum Drawdown and Loss Rules	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-97-drawdown-loss-rules.html		pending		T1 rule material (09).
+CM-0107	chapter	98	XVII	4	The Constitution Review and Update Protocol	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-98-constitution-review-protocol.html		pending		09 §2: review protocol alignment.
+CM-0108	chapter	99	XVII	4	The Full Investment Memo - A Complete Worked Example	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-99-full-investment-memo.html		pending		Dense rule-usage site: G5/G6 spot-check target.
+CM-0109	chapter	100	XVII	4	The Full Portfolio Construction Walkthrough	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-100-portfolio-construction-walkthrough.html		pending		Dense rule-usage site.
+CM-0110	chapter	101	XVIII	4	Pre-Buy Checklists	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-101-pre-buy-checklists.html		pending			.
+CM-0111	chapter	102	XVIII	4	Financial Model Templates	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-102-financial-model-templates.html		pending			.
+CM-0112	chapter	103	XVIII	4	Position Sizing and Portfolio Management Tools	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-103-position-sizing-portfolio-tools.html		pending			.
+CM-0113	chapter	104	XVIII	4	Performance Monitoring Tools	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-104-performance-monitoring-tools.html		pending			.
+CM-0114	chapter	105	XVIII	4	The Canon Data Pipeline	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-105-canon-data-pipeline.html		pending		EXH-001 data plumbing; DATA VINTAGE mechanics.
+CM-0115	chapter	106	XVIII	4	The NEPSE Data Handbook - Historical Almanac	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-106-nepse-data-handbook-almanac.html		pending		EXH-001 candidate source (NEPSE history as compiled in-book; needs L3 verification).
+CM-0116	chapter	107	XVIII	4	Keeping the Canon Current	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-107-keeping-canon-current.html		pending		DATA VINTAGE home chapter; rewrite to point at the ledger system (12 §2).
+CM-0117	chapter	108	XVIII	4	Adapting to Market Evolution	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-108-adapting-to-market-evolution.html		pending			.
+CM-0118	chapter	109	XVIII	4	The Lifelong Investor's Mindset	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-109-lifelong-investor-mindset.html		pending			.
+CM-0119	chapter	110	XVIII	4	The NEPSE Regulatory Change Tracker	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-110-nepse-regulatory-change-tracker.html		pending		Regulatory change log -> vintage registry (Phase 2).
+CM-0120	chapter	111	XVIII	4	Building Your Personal Research Library	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-111-personal-research-library.html		pending			.
+CM-0121	chapter	112	XVIII	4	Technology Tools for the NEPSE Investor	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-112-technology-tools-nepse-investor.html		pending			.
+CM-0122	chapter	113	XVIII	4	The Annual Financial Calendar for NEPSE	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-113-annual-financial-calendar.html		pending			.
+CM-0123	chapter	114	XVIII	4	Communication Protocols - Broker, AGM, SEBON	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-114-communication-protocols.html		pending			.
+CM-0124	chapter	115	XVIII	4	Multi-Generational Wealth Building Through NEPSE	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-115-multigenerational-wealth-building.html		pending			.
+CM-0125	chapter	116	XVIII	4	Teaching the Canon - Sharing Knowledge Responsibly	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-116-teaching-the-canon.html		pending			.
+CM-0126	chapter	117	XVIII	4	The Canon Audit - Annual Self-Assessment	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-117-canon-audit.html		pending		Rewrite to point at the Canon 13.0 governance system (12 §2).
+CM-0127	chapter	118	XVIII	4	Final Synthesis - The Complete Canon Investor	https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-118-final-synthesis.html		pending		.

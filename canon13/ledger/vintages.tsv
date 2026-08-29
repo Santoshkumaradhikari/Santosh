@@ -1,0 +1,4 @@
+id	qkey	value	unit	as_of	effective_from	superseded_by	source_id	notes
+VTG-0001	canon_score_chilime	62	/100	2026-08-25			SRC-0005	Analysis completed 2026-08-25 (flood of 2026-08-26 was 'one day after this analysis was completed' per research index). Supersession PENDING rescore (CON-0004). Old row stays until rescore lands; then this row becomes SUPERSEDED by the new VTG (R5).
+VTG-0002	canon_weight_vector_v1	20/15/10/15/15/15/10	weights (sum 100)	edition 12.x (public edition observed 2026-08)			SRC-0003	Versioned quantity (07 §2). v1.0 -> v1.1 only via diff table + registered test + SUPERSEDED row. Never a silent edit.
+VTG-0003	nrb_bank_roe_q3_fy2425	7.73	%	9 months to Q3 FY2024/25 (book-stated period)			SRC-0002	as-of per the book's own text. External verification against NRB pending (SRC-0006; B3). On confirmation: CLM-0008 -> FACT—VINTAGE-SENSITIVE with NRB as source.

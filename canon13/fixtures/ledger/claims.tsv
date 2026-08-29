@@ -1,0 +1,4 @@
+id	status	qkey	statement	value	unit	as_of	superseded_by	source_id	calc_id	rule_refs	xrefs	first_seen	audit_ref	notes
+CLM-9001	UNREVIEWED	fixture_h2_fraction	Fixture: Hemisphere-2 sub-score printed as 15/40	15/40	score				fixtures/corpus/ch01-market-structure.md:6			deliberate defect (demo)
+CLM-9002	UNREVIEWED	fixture_h2_fraction	Fixture: canonical Hemisphere-2 denominator is 60	60	points				fixtures/corpus/ch01-market-structure.md:6			deliberate defect (demo)
+CLM-9003	FACT—VERIFIED	fixture_score_max	Fixture: score ceiling 100	100	points	2026-08-29		SRC-9001						deliberate defect: missing xrefs (demo)

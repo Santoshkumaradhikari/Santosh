@@ -1,0 +1,117 @@
+{
+  "version": "0.1",
+  "note": "Machine-readable field spec for canon_tools validate. Canonical status tokens use the em-dash (U+2014). Comparisons are dash/case-normalized.",
+  "tables": {
+    "claims": {
+      "id_pattern": "CLM-\\d{4}",
+      "fields": [
+        {"name": "id", "required": true},
+        {"name": "status", "required": true},
+        {"name": "qkey", "required": false},
+        {"name": "statement", "required": true},
+        {"name": "value", "required": false},
+        {"name": "unit", "required": false},
+        {"name": "as_of", "required_if": {"field": "status", "in": ["FACT\u2014VERIFIED", "FACT\u2014VINTAGE-SENSITIVE"]}},
+        {"name": "superseded_by", "required_if": {"field": "status", "in": ["SUPERSEDED"]}},
+        {"name": "source_id", "required_if": {"field": "status", "in": ["FACT\u2014VERIFIED", "FACT\u2014VINTAGE-SENSITIVE"]}},
+        {"name": "calc_id", "required_if": {"field": "status", "in": ["DERIVED\u2014CALCULATED"]}},
+        {"name": "rule_refs", "required": false},
+        {"name": "xrefs", "required_if": {"field": "status", "in": ["FACT\u2014VERIFIED"]}, "required_note": "FACT\u2014VERIFIED rows must list every corpus occurrence"},
+        {"name": "first_seen", "required": false},
+        {"name": "audit_ref", "required": false},
+        {"name": "notes", "required": false}
+      ]
+    },
+    "vintages": {
+      "id_pattern": "VTG-\\d{4}",
+      "fields": [
+        {"name": "id", "required": true},
+        {"name": "qkey", "required": true},
+        {"name": "value", "required": true},
+        {"name": "unit", "required": false},
+        {"name": "as_of", "required": true},
+        {"name": "effective_from", "required": false},
+        {"name": "superseded_by", "required": false},
+        {"name": "source_id", "required": false},
+        {"name": "notes", "required": false}
+      ]
+    },
+    "rules": {
+      "id_pattern": "RUL-\\d{4}",
+      "fields": [
+        {"name": "id", "required": true},
+        {"name": "statement", "required": true},
+        {"name": "domain", "required": true},
+        {"name": "tier", "required": true},
+        {"name": "conflicts_with", "required": false},
+        {"name": "resolution", "required_if": {"field": "status", "in": ["closed", "active-with-scope"]}},
+        {"name": "status", "required": true},
+        {"name": "xrefs", "required": false},
+        {"name": "notes", "required": false}
+      ]
+    },
+    "sources": {
+      "id_pattern": "SRC-\\d{4}",
+      "fields": [
+        {"name": "id", "required": true},
+        {"name": "class", "required": true},
+        {"name": "issuer", "required": true},
+        {"name": "title", "required": true},
+        {"name": "doc_no", "required": false},
+        {"name": "date", "required": false},
+        {"name": "url", "required": false},
+        {"name": "snapshot_sha256", "required": false},
+        {"name": "accessed", "required": false},
+        {"name": "notes", "required": false}
+      ]
+    },
+    "calculations": {
+      "id_pattern": "CALC-\\d{4}",
+      "fields": [
+        {"name": "id", "required": true},
+        {"name": "output_claim", "required": true},
+        {"name": "formula", "required": true},
+        {"name": "notes", "required": false}
+      ]
+    },
+    "conlog": {
+      "id_pattern": "CON-\\d{4}",
+      "fields": [
+        {"name": "id", "required": true},
+        {"name": "type", "required": true},
+        {"name": "item_refs", "required": true},
+        {"name": "description", "required": true},
+        {"name": "winner", "required_if": {"field": "status", "in": ["closed"]}},
+        {"name": "loser", "required": false},
+        {"name": "printed_resolution", "required_if": {"field": "status", "in": ["closed"]}},
+        {"name": "status", "required": true},
+        {"name": "notes", "required": false}
+      ]
+    },
+    "tests": {
+      "id_pattern": "TEST-\\d{4}",
+      "fields": [
+        {"name": "id", "required": true},
+        {"name": "hypothesis_ref", "required": true},
+        {"name": "data_window", "required": false},
+        {"name": "method", "required": false},
+        {"name": "criteria", "required": false},
+        {"name": "registered_at", "required": false},
+        {"name": "result_at", "required": false},
+        {"name": "verdict", "required": false},
+        {"name": "limitations", "required": false},
+        {"name": "notes", "required": false}
+      ]
+    },
+    "characters": {
+      "id_pattern": "CHAR-\\d{4}",
+      "fields": [
+        {"name": "id", "required": true},
+        {"name": "name", "required": true},
+        {"name": "aliases", "required": false},
+        {"name": "first_appearance", "required": false},
+        {"name": "continuity_notes", "required": false}
+      ]
+    }
+  }
+}

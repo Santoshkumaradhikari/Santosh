@@ -1,0 +1,9 @@
+candidate_id	status	file	line	qkey	statement	value	unit	markers	notes
+CAND-0001	UNREVIEWED	ch01-market-structure.md	5		The NRB base rate stood at 6.25% as of 31 March 2025, per the NRB Monetary Review.	6.25%		percent|word_date	auto-extracted; assign qkey + status in triage (03)
+CAND-0002	UNREVIEWED	ch01-market-structure.md	6		Total broad credit grew 14.5% year-on-year while the NEPSE index rose 8.7% over the same quarter.	14.5%		percent|nepse	auto-extracted; assign qkey + status in triage (03)
+CAND-0003	UNREVIEWED	ch01-market-structure.md	7		Hemisphere 2 of the Canon Score scored 15/40 against a stated maximum of 60.	15/40		fraction	auto-extracted; assign qkey + status in triage (03)
+CAND-0004	UNREVIEWED	ch01-market-structure.md	8		A portfolio scoring 56–59 is investable under the accumulation protocol in Chapter 4.	56–59		score_band	auto-extracted; assign qkey + status in triage (03)
+CAND-0005	UNREVIEWED	ch01-market-structure.md	9		SIP subscriptions may continue at 2,50,000 NPR per month; the minimum trading quantity is 50 shares.	2,50,000 NPR		amount	auto-extracted; assign qkey + status in triage (03)
+CAND-0006	UNREVIEWED	ch05-regime-response.md	3		Under the distribution regime, any Canon Score below 60 is barred from fresh capital, including the 56–59 band.	56–59		score_band	auto-extracted; assign qkey + status in triage (03)
+CAND-0007	UNREVIEWED	ch05-regime-response.md	4		Credit growth has historically allowed investors to read the NEPSE 6–18 months ahead; this is the core timing edge.	6–18		score_band|nepse	auto-extracted; assign qkey + status in triage (03)
+CAND-0008	UNREVIEWED	ch05-regime-response.md	5		Weighting vector v1.0: 20/15/10/15/15/15/10.	20/15		fraction|weight_vector	auto-extracted; assign qkey + status in triage (03)
