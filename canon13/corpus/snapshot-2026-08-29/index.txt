@@ -1,0 +1,165 @@
+# SNAPSHOT 2026-08-29
+# url: https://santoshkumaradhikari.com.np/investors-canon/
+# raw_html_sha256: 92e7388593e9a46a24472269eea1478cf6efc9da520514a4080a6d7f241947fe
+# text_sha256: b8e529794dec5728fcd118fcf98a2f3b93a3b4eee7aeaa66a4d29d68ab1a1bbb
+# words: 1191
+
+Nepal Edition · A Book, Written in the Open
+# The Investor's Canon
+A no-gap, execution-safe, 10-year investing operating system for the Nepali
+investor — from Nepal Rastra Bank's credit cycle down to the mechanics of a
+single NEPSE trade. 4 volumes, Part 0 plus 18 parts and 118 chapters.
+By Santosh Adhikari
+New here? See the Framework first→
+A 3-diagram map of the whole system, before the 118 chapters.
+✓ Complete — all 118 chapters drafted and published
+This is the complete Canon, published in the open chapter by chapter rather
+than held back for a single release. Every chapter is explained the way you'd
+explain it to a curious friend over tea: no term used before it's defined, and
+every idea grounded in things a Nepali reader already knows — NRB policy,
+NEPSE, remittances, the local sabzi mandi. Every chapter is
+live and linked below.
+## Volume 1: FOUNDATIONS
+Part 0THE FOUNDATIONAL FRAMEWORKS (READ BEFORE PART I)
+0.1Nepal’s Credit Cycle: The Hidden Equity CycleRead now →
+0.2NRB Policy → Equity Price Transmission: The Central Causal ChainRead now →
+0.3Liquidity Regimes in Nepal: The Four-Phase FrameworkRead now →
+Part ITHE MASTER VARIABLE: CREDIT, LIQUIDITY & POLICY TRANSMISSION
+1NRB’s Monetary Policy FrameworkRead now →
+2Credit Policy and Its Direct Impact on NEPSERead now →
+3NRB Policy Transmission — From Announcement to Share PriceRead now →
+4Nepal’s External Sector and NEPSE ImplicationsRead now →
+5How India’s Economy Affects NEPSERead now →
+6Global Macro and Event-Driven RiskRead now →
+Part IIMARKET STRUCTURE (NEPSE REALITY FIRST)
+7What Is NEPSE and Why It Behaves DifferentlyRead now →
+8Regulatory Architecture of the Nepal Capital MarketRead now →
+9Market Participants in NEPSERead now →
+10Trading Mechanics in NEPSERead now →
+11The Liquidity Problem — NEPSE’s Most Critical Structural CharacteristicRead now →
+12Market Microstructure Failures in NEPSERead now →
+Part IIIINSTRUMENTS ACTUALLY AVAILABLE IN NEPAL
+13Ordinary SharesRead now →
+14IPOs and the Primary MarketRead now →
+15Rights Issues and FPOsRead now →
+16Mutual Funds in NepalRead now →
+17Debentures and Bonds in NepalRead now →
+18What Does Not Yet Exist in NepalRead now →
+Part IVCORPORATE GOVERNANCE AND PROMOTER BEHAVIOUR
+19The Governance Landscape in NepalRead now →
+20Promoter Behaviour — The Most Underanalysed Risk in NEPSERead now →
+21Insider Trading and Information Asymmetry in NepalRead now →
+22Conglomerate Cross-Holdings and Promoter Webs in NepalRead now →
+23Governance Scoring for NEPSE CompaniesRead now →
+## Volume 2: ANALYSIS
+Part VFINANCIAL STATEMENTS & REPORTING STANDARDS
+24Reading Financial Statements Under Nepal StandardsRead now →
+25The Balance Sheet — Deep ReadingRead now →
+26The Income Statement — Deep ReadingRead now →
+27The Cash Flow Statement — The Truth TellerRead now →
+28Red Flags in Nepali Financial StatementsRead now →
+Part VISECTOR ACCOUNTING LOGIC
+29Banking Sector Accounting LogicRead now →
+30Development Bank and Finance Company AccountingRead now →
+31Microfinance (MFI) Accounting LogicRead now →
+32Hydropower Project Accounting LogicRead now →
+33Insurance Sector AccountingRead now →
+34Manufacturing, Trading & Hotel Sector AccountingRead now →
+Part VIITAXATION & RATIOS
+35Capital Gains Tax in NepalRead now →
+36Dividend and Interest TaxationRead now →
+37Tax Treatment of Rights and Bonus SharesRead now →
+38Tax Planning for the Long-Term NEPSE InvestorRead now →
+39Valuation Ratios in the NEPSE ContextRead now →
+40Profitability Ratios — Sector by SectorRead now →
+41Asset Quality, Capital, Solvency & Efficiency RatiosRead now →
+Part VIIIPROJECT FINANCE & HYDROPOWER MODELLING
+42Understanding Project FinanceRead now →
+43The Hydropower Financial ModelRead now →
+44Evaluating a Hydropower Stock on NEPSERead now →
+Part IXVALUATION
+45The Philosophy of ValuationRead now →
+46Discounted Cash Flow (DCF) ValuationRead now →
+47Relative Valuation (Comps)Read now →
+48Dividend Discount Model (DDM)Read now →
+49Book Value and Net Asset Value ApproachesRead now →
+## Volume 3: EXECUTION
+Part XBEHAVIOUR AND INVESTOR PSYCHOLOGY
+50Why Nepali Investors Systematically Lose MoneyRead now →
+51Core Behavioural Biases for the NEPSE InvestorRead now →
+52Building Investor TemperamentRead now →
+53Behavioural Training ExercisesRead now →
+Part XILIQUIDITY ENGINEERING & POSITION SIZING
+54Liquidity as a First-Order Investment Risk in NEPSERead now →
+55Exit Risk in NEPSERead now →
+56Position Size vs. ADV Rule: The Governing Law for NEPSERead now →
+57Free Float-Based Allocation LimitsRead now →
+58Circuit Trap Exit ModellingRead now →
+Part XIIPORTFOLIO CONSTRUCTION
+59Asset Allocation Within Nepal’s Investment UniverseRead now →
+60Equity Portfolio Construction for NEPSERead now →
+61Portfolio Risk ManagementRead now →
+62Systematic and Disciplined InvestingRead now →
+Part XIIITHE CANON SCORING SYSTEM
+63Philosophy of the Canon Scoring SystemRead now →
+64The Seven-Dimension Company Quality Score (0–100)Read now →
+65Sector-Specific Sub-Score AdjustmentsRead now →
+66Using the Canon Score in Portfolio DecisionsRead now →
+Part XIVSTRATEGIES, PLAYBOOKS & DECISION FRAMEWORKS
+67Long-Term Value Investing on NEPSERead now →
+68Dividend Income StrategyRead now →
+69IPO, Rights Issue & Sector Rotation StrategiesRead now →
+70Research and Tracking Systems for the Nepali InvestorRead now →
+71The Banking Sector PlaybookRead now →
+72The Hydropower Sector PlaybookRead now →
+73The Microfinance Sector PlaybookRead now →
+74The Insurance Sector PlaybookRead now →
+75The Manufacturing & Hotel Sector PlaybookRead now →
+76The Liquidity-Based Entry and Exit PlaybookRead now →
+77The IPO PlaybookRead now →
+78The Rights Issue PlaybookRead now →
+Part XVCALIBRATION & BACKTESTING
+79The Backtesting MindsetRead now →
+80Calibrating Your Scoring Model Against NEPSE HistoryRead now →
+81Testing and Refining Exit RulesRead now →
+82Measuring and Managing Model DriftRead now →
+## Volume 4: MASTERY
+Part XVIFULL CASE STUDIES (WORKED END-TO-END)
+83Case Study 1 — A Commercial BankRead now →
+84Case Study 2 — A Hydropower PlantRead now →
+85Case Study 3 — A Microfinance InstitutionRead now →
+86Case Study 4 — A Manufacturing CompanyRead now →
+87Case Study 5 — A Rights Issue DecisionRead now →
+88Case Study 6 — An IPO AnalysisRead now →
+89Case Study 7 — A Bank Failure or Near-FailureRead now →
+90Case Study 8 — The 2021 NEPSE ManiaRead now →
+91Case Study 9 — A Hydropower Overrun and DelayRead now →
+92Case Study 10 — An Insurance CompanyRead now →
+93Case Study 11 — A Hotel Sector InvestmentRead now →
+Part XVIITHE INVESTMENT CONSTITUTION & PERSONAL OPERATING SYSTEM
+94The Daily, Weekly, Monthly, Quarterly & Annual RoutinesRead now →
+95Writing Your Personal Investment ConstitutionRead now →
+96Rules for Overriding the ModelRead now →
+97Maximum Drawdown and Loss RulesRead now →
+98The Constitution Review and Update ProtocolRead now →
+99The Full Investment Memo — A Complete Worked ExampleRead now →
+100The Full Portfolio Construction WalkthroughRead now →
+Part XVIIIOPERATIONAL TOOLS, DATA REFERENCE & ALMANAC
+101Pre-Buy ChecklistsRead now →
+102Financial Model TemplatesRead now →
+103Position Sizing and Portfolio Management ToolsRead now →
+104Performance Monitoring ToolsRead now →
+105The Canon Data PipelineRead now →
+106The NEPSE Data Handbook — Historical AlmanacRead now →
+107Keeping the Canon CurrentRead now →
+108Adapting to Market EvolutionRead now →
+109The Lifelong Investor’s MindsetRead now →
+110The NEPSE Regulatory Change TrackerRead now →
+111Building Your Personal Research LibraryRead now →
+112Technology Tools for the NEPSE InvestorRead now →
+113The Annual Financial Calendar for NEPSERead now →
+114Communication Protocols — Broker, AGM, SEBONRead now →
+115Multi-Generational Wealth Building Through NEPSERead now →
+116Teaching the Canon — Sharing Knowledge ResponsiblyRead now →
+117The Canon Audit — Annual Self-AssessmentRead now →
+118Final Synthesis — The Complete Canon InvestorRead now →

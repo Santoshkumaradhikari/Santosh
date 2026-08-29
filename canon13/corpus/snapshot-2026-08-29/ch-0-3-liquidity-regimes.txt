@@ -1,0 +1,231 @@
+# SNAPSHOT 2026-08-29
+# url: https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-0-3-liquidity-regimes.html
+# raw_html_sha256: 95ee34a089e0daea113fe541369ab28207ebcd40e6a95ab81e18f7a68b2aff38
+# text_sha256: b63c4969455376cdda23a5dc9c2109a5a46c272c79537c40f1bd0e2bfc984abe
+# words: 3846
+
+Part 0 · Chapter 0.3
+# Liquidity Regimes in Nepal: The Four-Phase Framework
+The credit cycle and the policy transmission channels described in Chapters 0.1 and 0.2 do not exist on a continuous spectrum. In Nepal's market, these forces cluster into discrete phases — liquidity regimes — in which the dominant market dynamic is clearly identifiable and relatively stable for months to years at a time.
+This chapter formalises those regimes into a four-phase framework that the investor can use as a positioning map: not to predict the future with certainty, but to know which regime they are currently in, what the dominant risks are in that regime, and how portfolio construction should change accordingly.
+Framework Philosophy
+Regime-based investing is not market timing. It is the disciplined recognition that different environments reward different behaviours. The investor who behaves identically across all four regimes will be correct only 25% of the time in the most important dimension of their decision-making.
+## 0.3.1 — Defining Regime: Why Discrete Phases Outperform Continuous Indicators for Investment Positioning
+A regime is a stable configuration of market conditions — credit availability, liquidity levels, risk appetite, policy direction — that persists for a meaningful period and produces predictable patterns in asset prices. The regime concept is more practically useful than continuous indicators for several reasons:
+1\. It forces threshold thinking: Rather than asking 'is credit growth slightly better or slightly worse this month', regime analysis asks 'has the system crossed from one qualitative state to another'. Threshold crossings are more actionable than marginal changes.
+2\. It anchors strategy: Within a regime, the dominant risks and opportunities are known. The investor does not need to re-evaluate their entire portfolio framework every month — they need to execute the regime-appropriate strategy consistently until the regime changes.
+3\. It prevents overtrading: Continuous indicator monitoring leads to constant small portfolio adjustments that increase transaction costs and reduce conviction. Regime investing involves infrequent, high-conviction strategic shifts.
+4\. It accommodates uncertainty: Regime identification is not perfect. There are transition periods of 2–4 months when the regime is ambiguous. The four-phase framework handles this explicitly — the transition phase has its own positioning rules.
+### The Four-Regime Map Overview
+RegimeDuration (Typical)Dominant NRB StanceNEPSE TendencyPrimary Risk
+Phase 1: Expansion18–36 monthsAccommodative to neutralUptrend, volume growthLate-phase over-leverage
+Phase 2: Compression6–18 monthsTighteningCorrection, high volatilityMargin call cascade
+Phase 3: Balance Sheet Repair12–24 monthsTight to neutralSideways to weakNPL normalisation lag
+Phase 4: Recovery6–18 monthsNeutral to accommodativeRe-rating uptrend beginsFalse recovery signal
+Table 0.3.1 — The Four-Phase Liquidity Regime Framework Overview
+Historical context: Nepal has experienced approximately two full cycles of this framework since 2010 — the 2016–2017 bull market and subsequent correction was a compressed cycle, and the 2019–2022 expansion and 2022–2023 correction was a more extreme version. Each cycle exhibited the four phases in the sequence described, with durations consistent with the ranges above.
+## 0.3.2 — Phase 1 — Expansion Regime: High Deposits, Credit Growth Above 20%, Loose Margin Lending
+### Defining Characteristics
+IndicatorPhase 1 LevelInterpretation
+Private sector credit growth (YoY)\>15%, often reaching 20–30%+Active credit expansion underway
+System-wide CD ratio\<85% (ample capacity)Banks have room to grow loan books
+Interbank rateLow, stable (near policy rate floor)System liquidity comfortable
+Banking system deposit growthStrong (\>15% YoY)Remittance inflows healthy
+NRB policy stanceAccommodative to neutralNo tightening signals
+Margin loan balancesGrowing, often faster than loan bookRetail leverage accumulating
+NPL ratio (system-wide)Stable to decliningPrevious cycle's NPLs resolved
+NEPSE index trajectoryUptrend, rising volumeBull market conditions
+Table 0.3.2A — Phase 1 Expansion Regime Diagnostic Indicators
+### What Is Happening in the Economy
+Remittance inflows are strong. Deposit growth is feeding credit expansion. Banks are competing aggressively for loan customers. Interest rates are relatively low — both lending rates and fixed deposit rates. The cost of capital for businesses is manageable. Hydropower projects are drawing construction loans. Microfinance institutions are expanding their borrower bases. Retail investors, seeing rising share prices, are borrowing against those shares to buy more.
+Earnings across the market are growing. P/E and P/B multiples are expanding because the market is forward-pricing continued earnings growth. IPO activity is high, and listing day premiums are large.
+### The Late-Phase Warning Signs
+The expansion regime contains within it the seeds of its own termination. The investor who fails to recognise the late-phase warning signs will give back a significant portion of the gains accumulated during the expansion:
+• Credit growth exceeds 20% for two or more consecutive quarters — lending standards are deteriorating
+• CD ratio approaches 85–88% — the system is approaching maximum capacity
+• Margin loan balances are growing faster than the general loan book — retail leverage is at peak
+• NEPSE price-to-book for the banking sector exceeds 2.5–3.0x — historical valuation ceiling approaching
+• NRB begins issuing informal guidance or warnings about credit quality — pre-announcement signal
+• IPO oversubscription rates reach extreme levels (100x+) — sentiment euphoria signal
+### Phase 1 Portfolio Positioning
+Phase 1: Expansion Regime — Portfolio Rules
+Equity allocation: 70–85% (overweight relative to strategic baseline)
+Banking sector: Overweight. Prioritise high-CASA banks with room for NIM expansion.
+Hydropower: Moderate weight. Post-COD operators are preferred; under-construction carries COD risk.
+Microfinance: Selective. High-quality MFIs benefit from credit expansion but late-cycle NPL risk is rising.
+Cash: Minimum (10–15%) maintained for opportunistic additions and liquidity buffer.
+Late-phase trigger (reduce equity): Credit growth \>20% for 2+ quarters AND CD ratio \>87%.
+IPO strategy: Active participation. Listing day premiums are high in expansion regimes.
+## 0.3.3 — Phase 2 — Compression Regime: CD Ratio Binding, Remittance Slowdown, NRB Tightening Active
+### Defining Characteristics
+IndicatorPhase 2 LevelInterpretation
+Private sector credit growth (YoY)Decelerating from peak; often 10–15% and fallingCredit expansion slowing or stopping
+System-wide CD ratio\>87%, some banks at ceilingBinding constraint on lending
+Interbank rateRising, often elevated (above policy rate)Liquidity tightening in system
+NRB policy stanceActively tighteningPolicy rate hikes, CD ratio actions, margin loan restrictions
+Margin loan balancesFalling or static — forced deleveraging underwayMargin calls being issued
+NPL ratio (system-wide)Stable but with early warning signs of deteriorationLagged signal — NPL rise comes in Phase 3
+NEPSE index trajectoryCorrection underway; high volatility; volume spikes on sell daysBear market conditions beginning
+FX reservesUnder pressure if remittances declining simultaneouslyAmplifies NRB tightening urgency
+Table 0.3.3A — Phase 2 Compression Regime Diagnostic Indicators
+### The Dynamics of the Compression Phase
+The compression phase begins when NRB decides that credit growth is excessive and monetary conditions need tightening. The trigger is typically some combination of: credit growth exceeding the monetary policy target, FX reserves falling below comfortable levels, inflationary pressure, or banking system vulnerability indicators rising.
+The critical investor insight about the compression phase is its non-linearity. The market does not fall proportionally to the degree of tightening. It falls sharply early (driven by the margin loan cascade), then stabilises temporarily (as the initial deleveraging works through), then resumes declining as the earnings impact of credit tightening materialises in quarterly reports.
+This two-step pattern traps investors: the initial stabilisation looks like a recovery, drawing buying interest. The second leg down then produces larger losses for those who re-entered prematurely.
+### Phase 2 Portfolio Positioning
+Phase 2: Compression Regime — Portfolio Rules
+Equity allocation: 30–50% (underweight; decline begins before earnings data confirms)
+Priority action 1: Exit illiquid positions first (small-cap, low-float stocks). These cannot be sold in a cascade.
+Priority action 2: Reduce margin-collateral-heavy stocks — these are first targets of forced selling.
+Banking sector: Reduce to underweight. Avoid banks with high CD ratios and thin capital cushions.
+Hydropower under construction: Reduce. COD delays during credit tightening are highly probable.
+Microfinance: Exit or significantly reduce. Rate cap + rising funding costs = earnings compression.
+Cash: Build to 40–60%. Capital preservation is the primary objective in Phase 2.
+Do NOT: Buy on 'cheap' valuations during Phase 2 — the earnings denominator is still falling.
+Exit trigger from Phase 2 monitoring: Two consecutive months of declining CD ratio AND falling interbank rates.
+## 0.3.4 — Phase 3 — Balance Sheet Repair Phase: NPL Rising, Provisioning Heavy, Earnings Depressed
+### Defining Characteristics
+Phase 3 is the most psychologically difficult phase for investors because it is when valuations look most statistically attractive — and yet the risk of further earnings deterioration remains real. Understanding that Phase 3 is distinct from Phase 4 (recovery) is critical for avoiding the most common mistake of this cycle: premature re-entry on value signals before the balance sheet repair is complete.
+IndicatorPhase 3 LevelInterpretation
+NPL ratio (system-wide)Rising — often 3–8%+ in severe cyclesLoan quality deteriorating; legacy of Phase 1 over-lending
+Provisioning chargesElevated — suppressing net profit significantlyBanks setting aside income against bad loans
+Credit growthLow (5–10%) but stabilisingBanks not tightening further — but not expanding
+NRB policy stanceTight to neutral — holding, not easing yetWaiting for NPL cycle to turn
+Bank ROA / ROECompressed — often below historical averageEarnings quality weak; capital under pressure
+NEPSE index trajectorySideways to weak; low volume; occasional relief ralliesNo new trend; range-bound deterioration
+IPO marketQuiet — few quality issuances; listing day premiums minimalSentiment depressed
+FD ratesStill elevated — deposit competition ongoingBanking system NIM still pressured
+Table 0.3.4A — Phase 3 Balance Sheet Repair Regime Indicators
+### Why Phase 3 Looks Like a Buying Opportunity (But Often Is Not Yet)
+By Phase 3, banking stocks may be trading at P/B ratios of 0.8–1.2x — below historical averages. The temptation to buy 'cheap' banks is strong. But the P/B ratio is calculated on book value that has not yet fully absorbed the coming provisioning charges. The earnings denominator in P/E ratios is also not yet at its cycle trough — NPLs are still rising and provisioning is still accelerating.
+The patient investor waits for evidence that the NPL cycle has peaked — specifically, two consecutive quarters of declining gross NPL ratios at the system level — before treating low valuations as genuinely attractive rather than as a value trap.
+### Phase 3 Portfolio Positioning
+Phase 3: Balance Sheet Repair — Portfolio Rules
+Equity allocation: 30–45% (low; begin building selectively toward the end of Phase 3)
+Banking sector: Highly selective. Favour banks with: NPL below sector median, CAR well above minimum, strong CASA (not dependent on high-cost deposits), and conservative management.
+Hydropower post-COD: Accumulate selectively if DSCR is healthy and NEA payments current. These have earnings independent of the credit cycle.
+Microfinance: Avoid unless PAR30 is demonstrably stabilising. MFIs in Phase 3 carry compounding risk.
+Cash: 45–60%. Preserve capital; position for Phase 4 entry.
+Active work: Use Phase 3 to do deep analysis on target companies. Build conviction lists for Phase 4 deployment.
+Phase 3 → Phase 4 signal: System-wide NPL ratio shows two consecutive quarterly declines AND NRB issues first easing signal.
+## 0.3.5 — Phase 4 — Recovery Regime: NRB Easing, Credit Unlocking, Equity Re-Rating
+### Defining Characteristics
+Phase 4 is the regime the disciplined investor has been preparing for throughout Phases 2 and 3. It is when the credit system clears, NRB pivots to easing, bank balance sheets stabilise, and the equity market begins a re-rating process as forward earnings visibility returns.
+Phase 4 is the highest expected-return regime for equities — but only for investors who enter with conviction built on fundamental analysis conducted during Phase 3, rather than for those who chase performance after the recovery is already underway.
+IndicatorPhase 4 LevelInterpretation
+NRB policy stancePivoting to accommodativeFirst easing signal — most important Phase 4 indicator
+System-wide NPL ratioPeaked and beginning to declineBalance sheet repair substantially complete
+Credit growthBeginning to recover — 8–12% and risingCredit channel reopening
+CD ratioBelow 83% — capacity availableBanks can expand lending again
+Banking sector provisioningDeclining as share of incomeEarnings recovery beginning
+Interbank rateDeclining toward policy rate floorSystem liquidity normalising
+NEPSE index trajectoryBase formation complete; early uptrendRe-rating underway for first movers
+Investor sentimentStill bearish (consensus lagging reality)Contrarian entry window open
+Table 0.3.5A — Phase 4 Recovery Regime Indicators
+### The Contrarian Opportunity
+Phase 4 entry is inherently contrarian because sentiment remains negative when the fundamentals have already turned. The investor who waited for three consecutive months of rising NEPSE prices before buying will be entering at 15–25% higher prices than the early Phase 4 entrant. The investor who read NRB data and identified the NPL trough and policy pivot 2–3 months before consensus recognition is the one who captures the most powerful part of the re-rating.
+The emotional difficulty of Phase 4 entry should not be underestimated. The most common behavioural error is paralysis — the investor has been hurt in Phase 2 and disappointed in Phase 3, and hesitates in Phase 4 because they are anchored to the trauma of the correction. The Investment Constitution (Part XXIII) is specifically designed to override this hesitation with pre-committed rules.
+### Phase 4 Portfolio Positioning
+Phase 4: Recovery Regime — Portfolio Rules
+Equity allocation: 65–80% (build aggressively as Phase 4 signals accumulate)
+Banking sector: Strong overweight. Buy high-CASA banks with healthy CAR first; expand to tier-2 banks as credit recovery broadens.
+Hydropower post-COD: Accumulate. Earnings stability + re-rating = highest Sharpe ratio in Phase 4.
+Microfinance: Re-enter selectively when PAR30 has declined for two consecutive quarters.
+Under-construction hydro: Begin small positions as banking credit availability improves.
+IPO strategy: Resume. Listing day premiums recover as retail sentiment improves.
+Cash: Reduce to 15–25% strategically. Deploy in tranches as Phase 4 signals accumulate, not all at once.
+Phase 4 → Phase 1 transition: Credit growth exceeds 15% for two consecutive quarters = Phase 1 confirmed.
+## 0.3.6 — Government Capex Cycle Overlay: How Budget Spending Interacts With NRB Liquidity
+The four-phase NRB-driven liquidity cycle is Nepal's dominant market force — but it interacts with a second cycle that can meaningfully amplify or moderate its effects: the government capital expenditure cycle.
+### Nepal's Budget Execution Pattern
+Nepal's fiscal year runs from mid-July (Shrawan) to mid-July. The government routinely underspends its capital budget in the first half of the fiscal year and rushes to spend in the fourth quarter (April–July). This creates a predictable liquidity dynamic:
+• Q1–Q2 of fiscal year (mid-July to mid-January): Government spending is slow. Government deposits at NRB and commercial banks are high. These deposits sterilise liquidity — the money exists in the system but is not circulating. Banking system liquidity is often tighter than credit growth data suggests.
+• Q3–Q4 of fiscal year (mid-January to mid-July): Government expenditure accelerates. Large transfers to contractors, employees, and suppliers inject liquidity into the banking system. System liquidity improves. Interbank rates fall. CD ratio pressure may ease temporarily.
+The investor who understands this seasonal pattern will not confuse the Q1–Q2 liquidity tightness (a fiscal pattern) with the credit cycle compression (a monetary pattern). They are distinct forces that can coincide or offset each other.
+### Infrastructure Spending and Cement, Steel, and Construction Stocks
+Government capex acceleration also has sector-specific implications. When the government is actively spending on roads, hydropower transmission lines, and public buildings, companies supplying construction materials, equipment, and services benefit — regardless of the monetary cycle phase. Nepal's listed manufacturing and trading sector includes some companies with direct exposure to government infrastructure spending.
+Budget PhaseTypical MonthsLiquidity EffectNEPSE Implication
+Budget announcement + initial allocationMay–JulyMarket anticipates spendingPositive sentiment, especially infrastructure
+Q1 — slow executionAugust–OctoberGovernment deposits sterilising liquiditySystem tighter than it appears
+Q2 — still slowNovember–JanuaryContinued fiscal drag on liquidityCD ratio may appear tight; partially fiscal
+Q3 — spending accelerationFebruary–MarchLiquidity injection from government paymentsPositive for credit availability
+Q4 — year-end rushApril–JulyLarge government outflows into private sectorLiquidity improves; overlaps with Dashain build-up
+Table 0.3.6 — Government Capex Cycle and Liquidity Implications by Month
+## 0.3.7 — Regime Identification Checklist: The Six Data Points That Confirm Which Phase You Are In
+The regime identification process should be executed monthly, immediately after the NRB Banking and Financial Statistics bulletin is released (typically mid-month for the prior month's data). The checklist below converts the qualitative phase descriptions into objective, scoreable criteria.
+The Six-Point Monthly Regime Identification Checklist
+DATA POINT 1: Private sector credit growth (YoY %) — Source: NRB Banking Stats
+\>20%: Phase 1 late / approaching Phase 2
+15–20%: Phase 1 mid
+10–15%: Phase 1 early / Phase 4 late
+5–10%: Phase 2 / Phase 3
+\<5%: Phase 3 / Phase 2 extreme
+DATA POINT 2: System-wide CD ratio (%) — Source: NRB Banking Stats
+\<80%: Phase 1 early / Phase 4 — ample capacity
+80–85%: Phase 1 mid — moderate
+85–90%: Phase 1 late / Phase 2 beginning — constrained
+\>90%: Phase 2 active — binding
+DATA POINT 3: Weighted average interbank rate (%) — Source: NRB daily OMO data
+Near policy rate floor: Accommodative
+1–2% above floor: Neutral to mildly tight
+\>2% above floor sustained: Tightening / Phase 2
+DATA POINT 4: System-wide gross NPL ratio (%) — Source: NRB Banking Supervision Report
+Stable / declining: Phase 1 or Phase 4
+Rising: Phase 2 or Phase 3
+Peaked and reversing for 2+ quarters: Phase 4 entry signal
+DATA POINT 5: NRB policy stance — Source: Monetary Policy Statement / Mid-Year Review
+Explicit easing actions: Phase 4 confirmed
+Neutral / holding: Phase 1 early or Phase 3 late
+Tightening actions taken: Phase 2 confirmed
+DATA POINT 6: Margin loan balance growth (YoY %) — Source: NRB Banking Stats
+Growing faster than loan book: Phase 1 late — leverage accumulating
+Falling / negative: Phase 2 — deleveraging underway
+Stable at normal levels: Phase 1 early / Phase 4
+### The Regime Score
+Assign each of the six data points a phase designation (1, 2, 3, or 4) based on the criteria above. The modal phase across the six data points is the current regime. If there is no clear modal phase (three indicators pointing to Phase 1 and three to Phase 2), the system is in a transition period — treat it as the more conservative of the two phases for portfolio positioning purposes.
+Document this score every month in your investment journal. The historical record will allow you to calibrate your own regime identification accuracy over time.
+## 0.3.8 — Portfolio Positioning by Regime: How Your Sector Weights and Cash Level Must Change With Each Phase
+The regime framework is analytically valuable only if it changes investment behaviour. This lesson translates the four-phase framework directly into a portfolio positioning map — specific sector weights, cash levels, and instrument preferences for each regime.
+Asset / SectorPhase 1: ExpansionPhase 2: CompressionPhase 3: RepairPhase 4: Recovery
+Total equity allocation70–85%30–50%30–45%65–80%
+Cash & near-cash (FD)10–15%40–60%45–60%15–25%
+Commercial banksOverweight (25–35%)Underweight (8–15%)Selective (10–15%)Overweight (25–35%)
+Development banksModerate (5–10%)Exit or minimal (0–3%)Minimal (0–5%)Moderate (5–8%)
+Finance companiesMinimal (0–3%)Exit (0%)Exit (0%)Re-enter selectively (0–3%)
+Microfinance (MFI)Moderate / selective (5–10%)Reduce / exit (0–3%)Avoid (0%)Selective re-entry (3–7%)
+Hydro — post CODModerate (10–15%)Moderate / reduce (7–12%)Accumulate (10–15%)Overweight (12–18%)
+Hydro — under constructionSmall / selective (3–7%)Exit or minimal (0–3%)Minimal (0–3%)Build selectively (3–7%)
+InsuranceModerate (5–8%)Reduce (3–5%)Hold (4–6%)Moderate (5–8%)
+Manufacturing / TradingSelective (2–5%)Minimal (0–2%)Minimal (0–2%)Selective (2–4%)
+IPO participationActiveMinimal — quality onlySelectiveResume — increasing
+Rights issue strategySubscribe selectivelyEvaluate carefully — dilution likelyDefer unless essentialSubscribe selectively
+Table 0.3.8 — Portfolio Positioning Matrix by Liquidity Regime
+### Implementation Principles
+The weights are ranges, not targets: The precise allocation within each range should be set by the Canon Score of individual holdings (Part XVI). Regime determines the envelope; individual stock quality determines where within the envelope each allocation falls.
+Transitions are gradual: Do not execute the full portfolio rotation on the day you identify a regime change. Transition over 4–8 weeks for Phase 1 to Phase 2 (where speed matters), and over 8–16 weeks for Phase 3 to Phase 4 (where confirmation accumulates slowly).
+Liquidity governs transition order: When moving from a high-equity to a low-equity allocation, always exit illiquid positions first (small cap, low-ADV stocks), then reduce mid-tier positions, and maintain the most liquid holdings longest. This is the exit engineering principle from Part X-A applied to regime transitions.
+Cash is not idle during Phase 3: Use Phase 3 cash holdings to earn FD rates (which are often elevated in Phase 3 due to banking competition for deposits) and to fund deep analytical work on Phase 4 entry candidates. Phase 3 is when investment theses should be built — not when Phase 4 has already begun.
+The Regime Investor's Advantage
+The majority of NEPSE investors have a single de facto portfolio stance regardless of regime — they are always mostly invested, always reacting to price rather than positioning ahead of it. The regime investor is not trying to time the market day by day. They are making three to four major portfolio adjustments per cycle — each one anchored in observable, publicly available data. That is the edge.
+### Chapter recap
+### What This Part Has Established
+Part 0 has provided three foundational frameworks that underpin every analytical chapter that follows:
+The Credit Cycle Framework (Chapter 0.1): Nepal's equity market is primarily a credit market in equity form. The dominant direction of NEPSE is set by NRB's private sector credit growth, not by the earnings of individual companies in the short-to-medium term. An investor who monitors NRB's monthly credit data has a structural informational advantage over the majority of NEPSE retail participants.
+The Transmission Map (Chapter 0.2): NRB policy translates to equity prices through four channels — interest rate, credit, margin loan, and project finance — each operating at different speeds and affecting different sectors with different magnitudes. The investor who maps their portfolio exposures against these four channels can anticipate both the direction and the timing of policy-driven market movements.
+The Regime Framework (Chapter 0.3): Nepal's credit and policy environment clusters into four discrete regimes. Each regime has characteristic conditions, dominant risks, and appropriate portfolio positioning. The regime framework converts continuous data monitoring into discrete, high-conviction strategic decisions — the most important and most underutilised skill in NEPSE investing.
+### How This Part Connects to What Follows
+Part 0 FrameworkForward Integration Point
+Credit cycle phasesPart I (Market Structure): interpret NEPSE volume patterns by credit phase
+NRB transmission chainPart IV (Sector Accounting): banking NIM, MFI rate cap, hydro project finance all depend on transmission understanding
+Regime positioning matrixPart XI (Portfolio Construction): asset allocation targets are regime-adjusted, not static
+CD ratio and credit growth dataPart XIII (NRB Policy): the specific policy instruments and their effects are built on Part 0's framework
+Phase identification checklistPart XXI (Playbooks): every sector playbook's entry conditions are regime-gated
+Regime portfolio weightsPart XXII (Operating System): the monthly data review in Ch. 104 is the regime identification execution
+Transmission speed tablePart XXIII (Constitution): position sizing and exit rules reference instrument-specific transmission speeds
+Table — Part 0 Forward Integration Map
+### The Investor's Commitment
+Part 0 is not difficult to understand. It is difficult to execute consistently — because it requires the investor to look at macroeconomic data when the natural impulse is to look at stock prices, and to act on data trends when the natural impulse is to act on price movements.
+The investor who reads the NRB Banking and Financial Statistics every month, extracts the three key numbers, updates their regime identification checklist, and adjusts their portfolio accordingly has an analytical and behavioural advantage that cannot be replicated by investors who ignore this data.
+That advantage is available to every reader of this Canon. The question is which readers will use it.
+← NRB Policy → Equity Price Transmission: The Central Causal Chain
+NRB's Monetary Policy Framework →

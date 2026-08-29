@@ -174,6 +174,9 @@ def detect(T, edition_date=None):
             if pair in seen_pairs:
                 continue
             seen_pairs.add(pair)
+            if (r.get("status") or "").strip().lower() == "superseded" \
+                    or (other.get("status") or "").strip().lower() == "superseded":
+                continue  # superseded rules keep their audit trail but are not open conflicts
             if not (r.get("resolution") and other.get("resolution")):
                 rule.append({"ids": list(pair), "domain": r.get("domain", "")})
     temporal = []

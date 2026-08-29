@@ -1,6 +1,13 @@
 id	name	aliases	first_appearance	continuity_notes
-CHAR-0001	Keshav		corpus:pending (named in audit AUD-05)	Audit: arc/continuity check open. First verified occurrence pending crawl (Phase 9).
-CHAR-0002	Bimal		corpus:pending (named in audit AUD-05)	Audit: arc/continuity check open. First verified occurrence pending crawl (Phase 9).
-CHAR-0003	Rukmini		corpus:pending (named in audit AUD-05)	Audit: arc/continuity check open. First verified occurrence pending crawl (Phase 9).
-CHAR-0004	Kavita		ch-64 opening (report-card frame; Falgun; Biratnagar)	Framing device for the seven-dimension rubric. Check reuse consistency across chapters.
-CHAR-0005	Suman		ch-64 opening (Kavita's father; taxi driver; Biratnagar)	As CHAR-0004.
+CHAR-0001	Keshav Raj Pyakurel	—	ch-79:9 (Part XV, backtesting)	NRB supervision officer (31 years), retired mid-2021. Bio near-identical to Rukmini Thapa (CHAR-0003): both 'thirty-one years' at NRB reviewing bank balance sheets - Phase 9 continuity check (deliberate resonance or reuse).
+CHAR-0002	Bimala Tamang	Bimal (audit)	ch-59:9 (Part XI, asset allocation)	Remittance household, Damauli (husband in Qatar); dhukuti / land / gold story. Recurs in ch-80 and ch-85 - recurring character or name reuse: Phase 9 check.
+CHAR-0003	Rukmini Thapa	—	ch-82:9 (Part XV, model drift - closing chapter)	NRB reviewer (31 years). See CHAR-0001 bio parallel.
+CHAR-0004	Kavita	—	ch-64:9 (Part XIII, rubric frame)	Mother in the ch-64 frame (taxi-driver household, Biratnagar). Spelling near-collision with 'Kabita' (CHAR-0009) - Phase 9 check.
+CHAR-0005	Suman	—	ch-64:9 (Part XIII, rubric frame)	Taxi driver, Biratnagar (Kavita's spouse). Name collision: 'Suman Gurung' (CHAR-0011, ch-87) is a different person sharing the first name - Phase 9 check.
+CHAR-0006	Sushmita	—	ch-83:10 (Part XVI, commercial-bank case study)	Analyst-narrator.
+CHAR-0007	Sabina	—	ch-66:93 (Part XIII); case study ch-84 (Part XVI)	Analyst-narrator of the hydropower case study. First mention in ch-66, before her case-study chapter - intentional forward reference? Phase 9 note.
+CHAR-0008	Anjana	—	ch-85:9 (Part XVI, microfinance case study)	Analyst-narrator.
+CHAR-0009	Kabita	—	ch-86:21 (Part XVI, manufacturing case study); also ch-102	Analyst-narrator. See CHAR-0004 spelling note.
+CHAR-0010	Sunita	—	ch-100:10 (Part XVII); 12 chapters	Constitution / audit walkthrough character; the book's longest-running character.
+CHAR-0011	Suman Gurung	—	ch-87:122 (Part XVI, rights-issue case study)	Retail shareholder. See CHAR-0005 collision note.
+CHAR-0012	Rajendra Koirala	—	ch-88:91 (Part XVI); 4 chapters	The book's persona investor; owner of the ch-77 IPO scorecard.

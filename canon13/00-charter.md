@@ -84,17 +84,19 @@ Never remediate a B with an A-fix. Never remediate a C with an A-fix. Spec + dec
 Verified against the public edition on the day of this charter:
 
 1. **F1 live instance:** two band vocabularies for one score (CON-0005).
-2. **F3 live instance (one side verified):** Ch. 66 Lesson 66.1 — "45 to 59: Watch list only … you commit no fresh capital" (exact quote in `corpus/evidence/`). Other side (56–59 investable) pending crawl — candidates: Ch. 62 (SIP), Ch. 67 (long-term value), case studies 83–93.
+2. **F3 live instance (BOTH SIDES VERIFIED, 2026-08-29 full-corpus sweep):** Ch. 66 Lesson 66.1 — "45 to 59: Watch list only … you commit no fresh capital" vs. **Ch. 64 band table (ch-64:136-140) — "55 – 69: Adequate — investable, but size the position carefully and watch the weak dimensions"**. Overlap 55–59 is where the book contradicts itself (CON-0002; RUL-0001 ↔ RUL-0003). Case studies ch-87/88 and both research pages follow ch-64's bands.
 3. **F2 live instance (candidate):** Ch. 64 ROE anchors ("13% Q3 FY2022/23 → under 8% Q3 FY2024/25"; "7.73% system-wide, 15.8% to under 1%") — book-stated, externally unverified; triage path to FACT—VINTAGE-SENSITIVE via NRB.
 4. **D live instance:** Chilime 62/100 (analysis complete 25 Aug 2026) vs. flood damage 26 Aug 2026; "not yet been rescored" (CON-0004, open).
 5. **Vagueness instance:** Ch. 66 REGULATORY DETAIL states SEBON filing deadlines as "a set number of days" — a verifiable specific exists in the regulation; the corpus must state the number + source or stay non-specific.
 6. **Provenance instance:** Ch. 66 cites MSCI quality-factor index construction by name — L5 academic/framework provenance; must be cited or marked "informed by".
-7. **Count instance:** site self-describes "118 chapters" while the TOC contains 121 chapter pages (Part 0 + 1–118) (CON-0006).
+7. **Count instance (VERIFIED, 2026-08-29):** "118 chapters" self-references found at ch-117:105, ch-118:75/85/87, framework:37-38, home:11; TOC has 121 chapter pages (Part 0 + 1–118). Convention coherent but undeclared (CON-0006).
+8. **Class-A instance (audit's "15/40" LOCATED, 2026-08-29):** Hemisphere 2 denominator printed as 40 in **three** case studies: ch-91:70 ("15 out of 40"), ch-92:82 ("20 out of 40"), ch-93:82 ("29 out of 40") vs. canonical 60 (CON-0001; CLM-0014/0015/0016; the audit quoted the ch-91 line). Sums themselves are arithmetically correct (CALC-0004…0006).
+9. **C-class instance (WORDING PINNED, 2026-08-29):** credit lead claim at ch-0-1:23 ("reading the equity market six to eighteen months in advance"), :44 ("causal, not merely correlated"), :47 ("consistently predictive of NEPSE direction 3–12 months forward"), lag table :87-91, 2021 example :119 (CON-0003; CLM-0010; EXH-001 target defined).
 
 The audit's remaining items (CON-0007…CON-0012) are seeded once the full 12-item audit text is supplied.
 
 ## 8. Blockers
 
-- **B1.** No local snapshot of the full corpus in this repo. Public pages are crawlable one at a time (proxy-verified: 6 of 127 pages fetched as of this charter; full inventory in `ledger/corpus-map.tsv`). Full Phase 1 population needs either (a) a local export of the site (print PDF / HTML dump), (b) a scheduled crawl of all 126 pages, or (c) the private 12.x manuscript (2,475 pp.) if it diverges from the public edition.
+- **B1. RESOLVED (2026-08-29):** Full corpus captured via the user's site-source repo (`santoshkumaradhikari.github.io`, cloned to `canon-corpus-src/` outside the repo): **126 pages, 721,294 words**, sha-256-pinned text snapshot at `corpus/snapshot-2026-08-29/` with manifest; `ledger/corpus-map.tsv` fully populated (CM-0001…0126). The private 12.x manuscript (2,475 pp.) is still unknown — if it diverges from the public edition, a second snapshot supersedes this one.
 - **B2.** Full 12-item audit text not yet in the repo (3 exemplar findings + summary received in session).
 - **B3.** NRB/SEBON/NEPSE/CDSC primary data for EXH-001 and ROE verification not yet collected.

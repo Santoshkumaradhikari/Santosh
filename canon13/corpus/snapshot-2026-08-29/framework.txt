@@ -1,0 +1,70 @@
+# SNAPSHOT 2026-08-29
+# url: https://santoshkumaradhikari.com.np/investors-canon/framework.html
+# raw_html_sha256: a6fcbd3a979070dac8094db17e7ffe6fe72c9ad1737f2fcbd76664f6d5980aae
+# text_sha256: d2e7ff17b8c37c1c264977cf94ccea189ed8742bcdcad71c8baab697afbc1dd0
+# words: 392
+
+Nepal Edition · Visual Overview
+# The Canon Framework
+Before the chapters, here is the whole system in three pictures. Think of it like a map of
+a city before you walk its streets: the 118 chapters are the streets and buildings, but
+these three diagrams show how everything connects — the four volumes, Part 0 and eighteen parts
+you'll move through, the two angles the Canon Score judges every company from, and the
+100-point rubric itself, dimension by dimension.
+Vol. 1Foundations
+0The Foundational Frameworks0.1–0.3
+IThe Master Variable: Credit, Liquidity & Policy Transmission1–6
+IIMarket Structure7–12
+IIIInstruments Available in Nepal13–18
+IVCorporate Governance & Promoter Behaviour19–23
+Vol. 2Analysis
+VFinancial Statements & Reporting Standards24–28
+VISector Accounting Logic29–34
+VIITaxation & Ratios35–41
+VIIIProject Finance & Hydropower Modelling42–44
+IXValuation45–49
+Vol. 3Execution
+XBehaviour & Investor Psychology50–53
+XILiquidity Engineering & Position Sizing54–58
+XIIPortfolio Construction59–62
+XIIIThe Canon Scoring System63–66
+XIVStrategies, Playbooks & Decision Frameworks67–78
+XVCalibration & Backtesting79–82
+Vol. 4Mastery
+XVIFull Case Studies83–93
+XVIIInvestment Constitution & Personal OS94–100
+XVIIIOperational Tools, Data Reference & Almanac101–118
+118 chapters, cover to cover
+The roadmap. Four volumes, Part 0 plus eighteen parts, 118 chapters — Foundations
+teaches the rules of the arena, Analysis builds the forensic toolkit, Execution turns
+analysis into decisions and a scoring system, and Mastery applies all of it to real,
+worked companies and a lifelong routine.
+Hemisphere 1 — Qualitative Defence
+Can you trust this company, and can you actually trade it?
+Governance & Promoter Behaviour15
+Liquidity & Tradability10
+Sector & Business Model Durability15
+40 points
++
+Hemisphere 2 — Quantitative Forensics
+Setting trust aside, what do the numbers actually say?
+Financial Strength & Profitability20
+Valuation Reasonableness15
+Growth Trajectory15
+Dividend & Capital Return Discipline10
+60 points
+Two angles, one score. Hemisphere 1 screens out companies you can't trust
+or can't trade, regardless of how good the numbers look. Hemisphere 2 does the financial
+statement work. Chapters 63–66 combine both sides into a single Canon Score out of 100.
+Financial Strength & Profitability20
+Governance & Promoter Behaviour15
+Liquidity & Tradability10
+Valuation Reasonableness15
+Sector & Business Model Durability15
+Growth Trajectory15
+Dividend & Capital Return Discipline10
+= 100 points total
+The rubric. Seven dimensions, added together — never averaged — so the
+ceiling is always exactly 100. Financial Strength carries the most weight because a company
+that can't make safe money eventually fails at everything else; full rubric in Chapter 64.
+← Back to Contents

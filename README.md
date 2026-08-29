@@ -40,13 +40,18 @@ python3 canon13/tools/canon_tools.py extract --corpus canon13/corpus/evidence --
 python3 canon13/tools/canon_tools.py validate --dir canon13/fixtures/ledger
 ```
 
-## Baseline state (2026-08-29)
+## State (2026-08-29, after full-corpus capture)
 
-- `validate`: **PASS** (schema, referential integrity, status rules, arithmetic identities 40+60=100 and 20+15+10+15+15+15+10=100).
-- `contradictions`: **FAIL by design** — 2 open real collisions: the 56–59 band (VALUE + RULE; the prohibitive side verified verbatim in Ch. 66) and its rule pair RUL-0001↔RUL-0002.
-- `conlog`: 6 open items (CON-0001…0006), including two findings *beyond* the audit's 12 items (band-vocabulary duplication; the 118-vs-121 chapter count) and one live class-D supersession (Chilime 62/100 vs. the 26 Aug 2026 flood, "not yet been rescored").
-- Corpus crawl: 6 of 127 pages fetched (direct network is blocked in this environment; pages are fetched one at a time through the review proxy). PRIORITY 1 targets are marked in `ledger/corpus-map.tsv`.
+**Corpus: fully captured.** The user's site-source repo was cloned and every page is now a sha-256-pinned text snapshot: **126 pages, 721,294 words** in `canon13/corpus/snapshot-2026-08-29/` (manifest alongside). Blocker B1 is resolved.
+
+- `validate`: **PASS** (19 claims, 3 rules, 13 sources, 6 calculations, 12 characters; arithmetic identities 40+60=100, 20+15+10+15+15+15+10=100, plus Nabil 12+11+10+6+13+10+9=71 and the three H2 sums).
+- `contradictions`: **FAIL by design** — 3 open VALUE/RULE clusters + 1 temporal:
+  - the 55–59 band: ch-64 "Adequate — investable" (ch-64:139) vs. ch-66 "45–59 no fresh capital" (RUL-0001 ↔ RUL-0003);
+  - the Hemisphere-2 denominator: canonical 60 vs. "out of 40" printed in ch-91:70, ch-92:82, ch-93:82 (the audit's "15/40");
+  - CLM-0007 as-of 2026-08-25 (pre-flood Chilime 62/100) vs. edition date.
+- All six conlog items (CON-0001…0006) are now **located** with exact `file:line` in the snapshot; every ledger claim carries `first_seen`/`xrefs` into the snapshot.
+- New findings beyond the audit's 12: band-system duplication (ch-64 bands vs. ch-66 tiers), the 118-vs-121 chapter count, and character-register flags (Keshav↔Rukmini bio parallel; Suman/Suman Gurung and Kavita/Kabita name collisions; Bimala recurring in ch-59/80/85).
 
 ## Status
 
-Phase 0 (control system) **complete**. Phases 1–3 (ledger population, vintage control, contradiction resolution) are proceeding against the public web edition and are blocked on fuller corpus access — see `canon13/00-charter.md` §8.
+Phase 0 (control system) **complete**. Phase 1 (evidence ledger) **in progress and unblocked** — full corpus is in; remaining blockers are B2 (full 12-item audit text) and B3 (NRB/NEPSE primary data for EXH-001 and ROE verification). Next: populate remaining audit items, then Phase 3 remediation of the class-A denominator errors.

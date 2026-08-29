@@ -1,0 +1,74 @@
+# SNAPSHOT 2026-08-29
+# url: https://santoshkumaradhikari.com.np/research/nabil-bank/
+# raw_html_sha256: 0d6ca0d201405143b8584c1c3c89156922a988d82e531ca6f43794bb3d470b83
+# text_sha256: 9cccaa8ec350ea487def35f07bb1f3074df82fe7b2a9d789d4d9318afebd4c72
+# words: 620
+
+Research · Commercial Banking
+# Nabil Bank Limited (NABIL)
+A full Canon Score walkthrough of Nepal’s oldest continuously operating private
+commercial bank — net interest margin, credit-to-deposit ratio, capital adequacy
+and non-performing loans read together, then scored dimension by dimension against
+sector peers.
+Scope and data vintage
+Figures are Nabil’s publicly reported numbers as of mid-2025 and the first half
+of fiscal year 2082/83. Ratios move between disclosures, so treat every number here as
+correct at that date and re-derive it from current filings before acting. This is
+published research, not investment advice.
+## Canon Score: 71 / 100
+The Canon Score grades a company across seven dimensions and adds them — never
+averages them — so the ceiling is always exactly 100. Nabil lands in the
+Strong band (70–84): a solid long-term holding candidate worth
+owning with normal monitoring, one rung below Exceptional.
+DimensionPossibleAwarded
+Financial Strength & Profitability2012
+Governance & Promoter Behaviour1511
+Liquidity & Tradability1010
+Valuation Reasonableness156
+Sector & Business Model Durability1513
+Growth Trajectory1510
+Dividend & Capital Return Discipline109
+Canon Quality Score10071
+## What the score is saying
+### Liquidity is the standout — 10 out of 10
+Nabil is one of the more easily tradeable names on the exchange. Average daily turnover
+of roughly Rs 2.5–2.8 crore clears the rubric’s top volume band comfortably,
+and a free float near 41.56 percent clears the 40 percent threshold for full marks. For
+a NEPSE investor this matters more than it would in a deeper market: a company you
+cannot exit at a fair price when you need to has failed you specifically, however good
+its fundamentals look.
+### Valuation is the weakest dimension — 6 out of 15
+This is the honest tension in the case. Nabil trades around 19.5–20.5 times
+trailing earnings against a sector median near 15.5 times, and at a price-to-book of
+about 2.19 times against a sector median near 1.5 times. Both sit at roughly 1.3–1.5
+times the sector, which lands in the rubric’s middle band rather than its top one.
+A good bank is not automatically a good purchase at today’s price — quality
+and price are separate questions, and the Canon Score deliberately scores them
+separately.
+### Governance is strong but not spotless — 11 out of 15
+On the positive side: the oldest continuously operating private commercial bank in
+Nepal, four decades of political and economic cycles survived, a complex merger
+completed without a depositor-facing crisis, and a fresh issuer rating commissioned from
+CARE Ratings Nepal — the kind of voluntary external scrutiny a bank hiding
+something usually avoids inviting. Set against that: an audited-versus-unaudited revision
+pattern, an unresolved promoter-share transfer under litigation, and board-independence
+detail that could not be verified from public filings.
+Why the promoter dispute matters
+A planned transfer of roughly 17.7 million promoter shares from IFIC Bank of
+Bangladesh to the Chaudhary Group was sitting under a court stay order at the time of
+analysis. That is not share pledging — the specific risk the rubric’s first
+governance check asks about — but it is real uncertainty at the top of the
+shareholding table, and it costs a point.
+## Read the full analysis
+This page summarises the conclusion. The complete six-lesson walkthrough — every
+ratio derived, every sub-score justified, and the drift adjustment applied — is
+Chapter 83 of The Investor’s Canon.
+Read Chapter 83 in full
+How the Canon Score works
+All research
+Disclaimer
+Independent research published for educational purposes. Not investment advice, not a
+recommendation to buy or sell, and not a price target. The Canon Score measures
+business quality and governance — it is explicitly not a prediction of where a
+share price is headed. Verify every figure against current filings before making any
+decision.

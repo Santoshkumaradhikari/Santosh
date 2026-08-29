@@ -1,3 +1,7 @@
 id	output_claim	formula	notes
 CALC-0001	CLM-0012	40+60	Hemisphere identity: H1 (40) + H2 (60) = 100. Verified against framework.html (2026-08-29) and ch-64 dimension sums. Any printed Hemisphere-2 fraction over 40 (the audit's '15/40') breaks this identity — tracked as CON-0001.
 CALC-0002	CLM-0012	20+15+10+15+15+15+10	Dimension identity: FS20+Gov15+Liq10+Val15+Sector15+Growth15+Div10 = 100 (ch-64 Lesson 64.1; framework.html). Also verified by the weight-sum check in validate (unit contains 'sum 100').
+CALC-0003	CLM-0006	12+11+10+6+13+10+9	Nabil research page sub-scores (FS12 Gov11 Liq10 Val6 Sector13 Growth10 Div9) sum to the stated 71/100; each within dimension maximum. PASS.
+CALC-0004	CLM-0017	5+4+5+1	Ch.91 H2 sum 5+4+5+1 = 15 (arithmetically correct); defect is the printed denominator 'out of 40' vs canonical 60 - CON-0001.
+CALC-0005	CLM-0018	4+2+8+6	Ch.92 H2 sum 4+2+8+6 = 20 (correct); denominator 'out of 40' is the defect - CON-0001.
+CALC-0006	CLM-0019	13+3+6+7	Ch.93 H2 sum 13+3+6+7 = 29 (correct); denominator 'out of 40' is the defect - CON-0001.

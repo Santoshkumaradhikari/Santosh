@@ -1,0 +1,149 @@
+# SNAPSHOT 2026-08-29
+# url: https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-0-1-credit-cycle.html
+# raw_html_sha256: 812af3430ccae73389190822b1f17053f26e131ef126be31c91e3cd9dd74fd8d
+# text_sha256: 791672b594c0ebed2b42e028cd8df2b51be6602394c4177671876f0117651f5c
+# words: 3167
+
+Part 0 · Chapter 0.1
+# Nepal’s Credit Cycle: The Hidden Equity Cycle
+Part 0: Why This Part Exists Before Part I
+Every other investing textbook begins with the market. This one begins with what drives the market — because in Nepal, the relationship between underlying economic forces and equity prices is unusually direct, unusually mechanical, and unusually exploitable once understood.
+Most markets have enough depth, participant diversity, and instrument variety that prices reflect many competing signals simultaneously. Fundamental analysis, momentum, flows, sentiment, and macro all interact. No single force dominates.
+NEPSE is not that market.
+NEPSE is a market in which one institution — Nepal Rastra Bank — and one variable — the availability of credit — explain the majority of index movement over any meaningful time horizon. The 2016–17 bull run was a credit expansion cycle. The 2021 boom was a liquidity flood catalysed by COVID-era monetary easing. The 2022 crash was a policy tightening episode. In each case, the direction and magnitude of market movement was more accurately predicted by NRB's credit and monetary instruments than by the earnings reports of individual companies.
+This is not an accident of history. It is a structural feature of Nepal's financial architecture:
+• Banking stocks constitute approximately 60–70% of NEPSE market capitalisation. When bank earnings move, the index moves. Bank earnings are almost entirely a function of credit growth, NIM, and NPL — all directly controlled or heavily influenced by NRB policy.
+• There are no short sellers, no derivatives, no ETF arbitrageurs. Price discovery is dominated by retail investors responding to credit availability — when loans are cheap and easy, they invest; when credit tightens, they withdraw.
+• Nepal's real economy is heavily import-dependent and remittance-financed. The monetary transmission mechanism is short: NRB instrument → bank behaviour → economic activity → corporate earnings → market prices.
+• Margin lending — the direct use of bank credit to buy equities — amplifies both the upswing and the correction in ways that are unique in scale to Nepal's market structure.
+Part 0 does not replace Parts I through XVIII. It provides the gravitational framework within which all other analysis operates. A reader who understands Nepal's credit cycle, NRB's transmission mechanisms, and the four liquidity regimes will interpret every ratio, every financial statement, and every valuation in this Canon with a level of contextual depth that a reader who skips this Part will never fully achieve.
+Core Thesis
+Price is downstream of liquidity. Liquidity is downstream of credit. Credit is controlled by NRB. To understand why NEPSE does what it does, begin here.
+Chapter 0.1 Nepal's Credit Cycle: The Hidden Equity Cycle
+The credit cycle is the master cycle in Nepal's economy. Every other cycle — the earnings cycle, the valuation cycle, the liquidity cycle — is a derivative of it. An investor who can read Nepal's credit cycle accurately is, in effect, reading the equity market six to eighteen months in advance.
+This chapter builds the empirical and conceptual foundation. It establishes the correlation, explains the mechanism, quantifies the lag, and shows the investor exactly where to find the data.
+## 0.1.1 — Bank Lending Growth vs. NEPSE Index: The Empirical Correlation and Why It Holds
+The single most important chart any Nepali investor can study is the overlay of NRB's annual private-sector credit growth data against the NEPSE composite index. The correlation is not merely suggestive — it is structurally explanatory.
+### The Observed Pattern
+Over every major market cycle since NEPSE's formalisation, the following pattern holds with remarkable consistency:
+Market PhaseCredit Growth (YoY)NEPSE Index BehaviourLag
+Early expansion15–20%Flat to mild uptrend0–3 months
+Peak expansion20–30%+Strong bull run3–9 months
+Credit deceleration10–15%Market stalls, rotation beginsContemporaneous
+Credit tighteningBelow 10%Correction begins0–6 months
+Credit contractionNegative or near zeroSharp drawdownContemporaneous
+Credit re-expansion10–15% (recovering)Base formation, early recovery3–12 months
+Table 0.1.1 — Credit Growth and NEPSE Index Relationship (Illustrative Pattern Based on Historical Cycles)
+Why the Correlation Holds: The Structural Explanation
+The credit-equity correlation in Nepal is not the loose, noise-filled relationship seen in more diversified markets. It holds because of a chain of structural dependencies:
+1\. Banking sector dominance: Commercial banks and financial institutions comprise the majority of NEPSE's market capitalisation and trading volume. When credit growth accelerates, bank earnings grow directly through NIM expansion and fee income growth. When credit contracts, bank earnings compress. Because banks are NEPSE, the index is effectively a leveraged tracker of credit growth.
+2\. The margin lending amplification: NRB permits commercial banks to lend against listed securities. When credit is expanding, margin loan limits are generous and interest rates are low. This creates a self-reinforcing loop: cheap credit → investors borrow to buy shares → share prices rise → collateral values increase → more borrowing capacity → more buying. The reverse is equally mechanical.
+3\. Retail investor behaviour: The majority of NEPSE's trading volume comes from retail investors whose financial health tracks the broader credit environment. When banks are lending freely, household incomes are rising, businesses are expanding, and retail investors have surplus capital and confidence. When credit tightens, the reverse occurs simultaneously across hundreds of thousands of retail accounts.
+4\. Corporate earnings transmission: Non-banking companies listed on NEPSE — hydropower, microfinance, insurance — depend on bank credit for project finance, working capital, and growth. Credit tightening hits them through higher borrowing costs, reduced project financing availability, and weaker consumer demand.
+A Note on Causality vs. Correlation
+The relationship between credit growth and NEPSE performance is causal, not merely correlated. Credit growth is an input that directly determines the earnings, liquidity, and risk appetite of the dominant participants in Nepal's equity market. An investor who monitors credit growth data from NRB is not reading a coincident indicator — they are reading a leading indicator of market conditions.
+This is a structural advantage available to every Nepali investor who takes the time to read NRB's monthly publications. It is systematically underutilised because most retail investors focus on price charts rather than credit data.
+Investor Edge
+NRB publishes monthly banking system statistics including private sector credit growth. This data is free, public, and consistently predictive of NEPSE direction 3–12 months forward. Reading it takes 15 minutes per month.
+## 0.1.2 — Remittance → Deposit → Lending Multiplier: How External Inflows Become Domestic Credit
+Nepal's credit cycle is, at its origin, a remittance cycle. This is the fact that most institutional frameworks imported from India or the West fail to account for — and it is the reason those frameworks systematically misread Nepal's monetary environment.
+### Nepal's Economic Architecture
+Nepal receives remittances equivalent to approximately 25–30% of GDP annually — one of the highest ratios in the world. This is not a minor economic variable. It is the primary driver of Nepal's foreign exchange reserves, the banking system's deposit base, and consequently the entire credit cycle.
+The transmission mechanism works as follows:
+Migrant Workers Abroad
+Foreign Remittance Inflows (USD/INR) Exchange to NPR via Banks Bank Deposit Growth CD Ratio Headroom Opens Lending Capacity Expands Credit Growth Accelerates NEPSE Rises
+Figure 0.1.2 — The Remittance-to-Credit Transmission Chain
+### The Multiplier Mechanics
+When a remittance payment arrives in Nepal, it enters the banking system as a deposit. Under NRB's regulatory framework, banks must hold a portion of deposits as Cash Reserve Ratio (CRR) and maintain certain liquid assets as Statutory Liquidity Ratio (SLR). The remainder — the loanable funds — is available for credit creation.
+The simplified mechanics: If the CRR is 4% and SLR is 12%, a bank receiving NPR 100 in fresh deposits can lend approximately NPR 80–84. That NPR 80–84 will eventually be redeposited in the banking system, creating further lending capacity. This is the classic money multiplier, but in Nepal's case, the base is disproportionately supplied by remittances rather than domestic savings.
+VariableApproximate Level (Recent Years)Investment Implication
+Annual remittance inflowsNPR 1.0–1.2 trillion+Primary driver of deposit growth
+Remittances as % of GDP25–30%External dependency and fragility
+Banking system deposit growth tied to remittancesHigh correlationMonitor Gulf/Malaysia employment data
+CRR (Cash Reserve Ratio)\~4% (NRB-set)Changes directly alter loanable funds
+SLR (Statutory Liquidity Ratio)\~12% (NRB-set)Changes constrain credit capacity
+Practical lending ratio per deposit NPR\~0.78–0.82 NPRBasis of credit multiplier calculation
+Table 0.1.2 — Remittance and Credit Multiplier Key Variables
+### The Seasonality Dimension
+Remittances are not uniform across the year. They spike before Dashain and Tihar (October–November), as migrant workers send money home for Nepal's major festivals. This creates a predictable seasonal pattern in bank deposit growth, system liquidity, and NEPSE trading volume.
+An investor who understands this seasonality can anticipate:
+• September–October: deposit growth accelerating, system liquidity improving, typically positive for equity sentiment
+• December–January: post-festival lull, deposit growth decelerating, volume and price momentum often softening
+• March–May: pre-monsoon period, typically quieter remittance flows, lower credit expansion momentum
+Remittance Risk: The External Fragility
+The mirror image of remittance-driven credit expansion is remittance-driven credit contraction. When Gulf employment markets contract (as in 2020 with COVID-19 and intermittently due to oil price cycles), or when major destination countries impose travel restrictions, remittance inflows fall. Deposit growth slows. Banking system liquidity tightens. NRB may be forced into restrictive monetary policy to manage forex reserve levels. Credit contracts. NEPSE corrects.
+This external fragility is a risk that does not appear in any individual company's financial statements, but manifests simultaneously across the entire market. A portfolio that appears diversified across sectors can still be devastated by a single external shock if the underlying mechanism is remittance decline driving system-wide credit contraction.
+Risk Monitor
+Watch: Gulf Cooperation Council (GCC) employment announcements, Qatar and UAE construction sector activity, Malaysia manufacturing employment — these are leading indicators for Nepal's remittance cycle 3–6 months forward.
+## 0.1.3 — Credit Expansion Lag to EPS Growth: Why Bank Earnings Follow the Credit Cycle by 6–12 Months
+Understanding that credit growth leads equity performance is necessary but not sufficient. To trade on this insight, an investor must understand the specific lag structure — the time it takes for changes in credit growth to appear in reported earnings.
+### Why the Lag Exists
+The lag between credit growth acceleration and bank EPS improvement is a structural feature of how bank income is recognised, not a random statistical artefact. Three mechanisms create it:
+1\. Loan disbursement to first interest receipt (\~1–3 months): When a bank increases lending, it takes time for new loans to be fully disbursed and for the first interest payments to be received. New loan pipelines are built through credit committees, documentation, and disbursement cycles that take weeks to months.
+2\. Quarterly reporting delay (\~3 months): NEPSE-listed banks report quarterly. A credit surge that begins in Q1 will first appear visibly in Q2 results, and will be fully reflected in the market's understanding only after Q2 results are published and analysed.
+3\. NIM realisation lag (\~3–6 months): Net Interest Margin improvement from higher lending volumes takes time to accumulate in the income statement. Banks fund much of their lending with time deposits (fixed deposits with 3–6 month terms). As the deposit book rolls over at higher rates during a tightening cycle (or lower rates during an easing cycle), the funding cost lags the lending rate change, creating a NIM compression or expansion that builds over multiple quarters.
+### The Practical Lag Calendar
+NRB Credit SignalTime to Loan Book GrowthTime to NIM ImprovementTime to Reported EPS GrowthTime to NEPSE Reaction
+Policy rate cut1–3 months2–5 months3–6 monthsPartial front-running; full in 6–9 months
+CD ratio ceiling raised1–2 months2–4 months3–5 months4–8 months
+Credit growth target increased2–4 months3–5 months4–7 months6–10 months
+Policy rate hike2–4 months3–6 months4–8 monthsPartial immediate; full in 6–12 months
+CD ratio ceiling lowered1–3 months2–5 months3–7 months3–9 months
+Margin loan cap tightenedImmediate (forced selling)N/A2–4 quarters0–4 weeks (direct)
+Table 0.1.3 — NRB Policy Signal to EPS and Market Impact Lag Calendar
+Investment Application: The Lead-Lag Strategy
+The practical implication of this lag structure is that a well-calibrated investor can position ahead of earnings improvements that the broader retail market has not yet priced. The sequence for the banking sector entry trade is:
+• Step 1: NRB signals easing (monetary policy announcement, CD ratio relaxation, policy rate cut)
+• Step 2: Monitor monthly NRB credit data for 2–3 months to confirm credit growth is accelerating
+• Step 3: Begin building positions in commercial banks with strong CASA ratios and low NPL levels
+• Step 4: Hold through the first 1–2 quarterly reports that begin to show NIM and EPS improvement
+• Step 5: Reassess when credit growth peaks and signs of tightening emerge
+This is not market timing in the speculative sense. It is fundamental analysis with temporal precision — using credit cycle data to identify the phase of the earnings cycle before the earnings are reported.
+Implementation Note
+The lead-lag advantage narrows as more investors adopt this framework. The current advantage exists because the majority of NEPSE retail participants do not read NRB data — they read price charts and follow tips. This is a durable edge only so long as that behavioural pattern persists.
+## 0.1.4 — Credit Contraction and NPL Spike: The Inevitable Phase-Shift and Its Equity Consequences
+Every credit expansion cycle in Nepal has ended the same way: NPL ratios rise, provisioning charges increase, net profit falls, and banking stocks reprice downward. This is not a prediction — it is a documented pattern that has repeated across every major cycle in Nepal's banking history.
+Understanding the mechanism of the phase-shift from expansion to contraction is as important as understanding the expansion itself, because the contraction phase is where permanent capital losses are made.
+### Why NPLs Always Rise at the End of Credit Expansion
+Deteriorating loan quality during boom: During rapid credit expansion, lending standards weaken. Banks under competitive pressure to grow their loan books approve credits that would be declined in a more cautious environment. Borrowers who are marginally creditworthy in normal conditions take on excessive debt during expansion. These loans perform while the economy is growing and asset prices are rising — but they are structurally fragile.
+Margin loan unwinding: When NEPSE prices fall (triggered by the initial tightening signal), margin loan borrowers face collateral shortfalls. Banks issue margin calls. Borrowers cannot top up collateral. Banks liquidate pledged shares. Share prices fall further. More margin calls are triggered. This self-reinforcing spiral can cause NPLs related to share-collateralised lending to spike sharply in a compressed time period.
+Real economy lag: As credit tightens, businesses that borrowed during the expansion phase struggle to refinance. Projects that were viable with 15% credit growth slow sharply when credit contracts to 5–8%. Working capital shortages emerge. Loan repayments fall behind. The NPL ratio rises with a 2–4 quarter lag to the credit contraction.
+The NPL → Earnings Compression Mechanism
+NPL Ratio Rises
+Provisioning Charge Increases Net Interest Income Eroded EPS Falls ROA / ROE Compress P/B Multiple De-Rates Banking Stock Price Falls NEPSE Corrects
+Figure 0.1.4 — The NPL-to-Market-Price Transmission Chain
+The key quantitative relationship: Every 1 percentage point increase in the banking sector NPL ratio requires approximately 0.25–0.50 percentage points of additional provisioning as a percentage of total loans (depending on the mix of NPL categories and existing provision coverage). For a bank with a net interest margin of 3–4%, a sudden 3–4 percentage point NPL spike can consume a full year's NIM — eliminating all net profit.
+Historical Reference: The 2022 Correction
+The 2022 NEPSE correction is the cleanest recent example of this cycle in operation. By late 2021, credit growth had exceeded 25% year-on-year. The banking system's CD ratio was near NRB's ceiling. Margin lending had expanded significantly. NRB began tightening in late 2021 — raising the policy rate, tightening the CD ratio ceiling, reducing margin loan limits.
+The market began falling in early 2022. As prices fell, margin calls were triggered across thousands of retail accounts. Forced selling accelerated the decline. By mid-2022, the NEPSE index had fallen more than 40% from its peak. Banks began reporting NPL increases in Q3 and Q4 2022 quarterly reports — exactly 2–4 quarters after the credit tightening began, consistent with the lag structure described above.
+An investor who had read the credit data in late 2021 — and understood that 25% credit growth with a near-binding CD ratio was an unsustainable terminal condition — had between 3 and 6 months of warning before the worst of the correction materialised.
+Risk Rule
+When NEPSE credit growth exceeds 20% YoY for two consecutive quarters AND the system-wide CD ratio is above 85% of the NRB ceiling AND margin loan balances are growing faster than the loan book: reduce equity exposure regardless of short-term price momentum. These conditions define the terminal phase of the credit expansion cycle.
+## 0.1.5 — Reading the NRB Credit Growth Data: Where to Find It and What Signal to Extract
+The analytical framework in this chapter is only useful if the investor can actually access and interpret the underlying data. This lesson provides a complete sourcing and interpretation guide.
+### Primary Data Sources
+Data SourcePublicationFrequencyKey Data AvailableURL
+NRB Banking and Financial StatisticsMonthly Statistical BulletinMonthlyPrivate sector credit growth, CD ratio, CRR, SLR, deposit growthwww.nrb.org.np
+NRB Monetary PolicyAnnual Monetary Policy StatementAnnual (July)Credit growth target, policy rate, reserve requirementswww.nrb.org.np
+NRB Quarterly Economic BulletinQuarterly ReviewQuarterlyMacro indicators, banking system health, credit qualitywww.nrb.org.np
+NRB Banking Supervision ReportAnnualAnnualSector-wide NPL, CAR, NIM, ROA by institution typewww.nrb.org.np
+NEPSE Market DataDaily/Monthly SummaryDailyIndex, turnover, sector returnswww.nepalstock.com.np
+Table 0.1.5A — NRB Data Sources for Credit Cycle Monitoring
+### The Three-Number Monthly Discipline
+The investor does not need to read every NRB publication in full. The monthly discipline requires extracting three numbers from the NRB Banking and Financial Statistics:
+The Three Monthly Credit Cycle Numbers
+1\. Private sector credit growth (YoY, %) — the headline credit cycle indicator. Above 20%: expansion phase. 10–20%: neutral. Below 10%: tightening phase.
+2\. CD ratio (system-wide average, %) — proximity to NRB ceiling (\~90%). Above 88%: binding constraint approaching. Below 80%: capacity available.
+3\. Interbank rate (%) — real-time indicator of system liquidity. Sustained high interbank rates signal liquidity stress before it appears in official credit data.
+Interpreting the Data: Decision Rules
+Signal CombinationCredit PhaseSuggested Portfolio Stance
+Credit growth \>20%, CD ratio \<85%, interbank rate lowPeak expansion — late stageReduce exposure. Risk/reward deteriorating.
+Credit growth 15–20%, CD ratio 80–85%, interbank stableMid-expansion — healthyMaintain or modestly increase banking exposure.
+Credit growth 10–15%, CD ratio \<80%, NRB easingEarly expansion / recoveryBuild positions. Best entry risk/reward.
+Credit growth slowing, CD ratio near ceiling, interbank risingTransition to compressionBegin reducing. Exit illiquid positions first.
+Credit growth \<10%, NPL reports rising, provisioning upCompression / repair phaseDefensive stance. Cash, bonds, low-NPL banks only.
+Credit growth stabilising, NRB signals easing, interbank fallingRecovery inflectionBegin selective re-entry. Validate with 2 monthly data points.
+Table 0.1.5B — Credit Data Signal Combinations and Portfolio Decision Rules
+The investor who executes this monthly data review discipline consistently will, over a two-to-three year period, develop an intuitive grasp of the credit cycle that translates directly into superior timing of NEPSE sector exposures. This is the most high-return-per-hour-invested analytical activity available to any Nepali investor.
+← Back to Contents
+NRB Policy → Equity Price Transmission: The Central Causal Chain →
