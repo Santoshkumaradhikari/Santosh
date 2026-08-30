@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Part III · Chapter 15 — Rights Issues and FPOs | The Investor's Canon</title>
+  <meta name="description" content="Part III · Chapter 15 of The Investor's Canon by Santosh Kumar Adhikari: Rights issues, TERP arithmetic, subscribe vs renounce decision matrix, FPO rules, and the ROE dilution problem.">
+  <meta name="author" content="Santosh Kumar Adhikari">
+  <link rel="canonical" href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-15-rights-issues-fpos.html">
+  <style>
+    :root {
+      --bg: #0f172a;
+      --text: #e2e8f0;
+      --text-muted: #94a3b8;
+      --card-bg: #1e293b;
+      --border: #334155;
+      --primary: #38bdf8;
+      --primary-hover: #0ea5e9;
+      --accent: #f59e0b;
+      --code-bg: #0b1120;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.7;
+      color: var(--text);
+      background-color: var(--bg);
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+    nav.breadcrumbs {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+    }
+    nav.breadcrumbs a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+    nav.breadcrumbs a:hover {
+      text-decoration: underline;
+    }
+    h1 {
+      font-size: 2.25rem;
+      line-height: 1.25;
+      color: #fff;
+      margin: 0.5rem 0 0.75rem;
+    }
+    .meta {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+    .toc {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin: 2rem 0;
+    }
+    .toc h3 {
+      margin-top: 0;
+      font-size: 1.1rem;
+      color: var(--primary);
+    }
+    .toc ol {
+      margin-bottom: 0;
+      padding-left: 1.25rem;
+    }
+    .toc li {
+      margin-bottom: 0.4rem;
+    }
+    .toc a {
+      color: var(--text);
+      text-decoration: none;
+    }
+    .toc a:hover {
+      color: var(--primary);
+      text-decoration: underline;
+    }
+    h2 {
+      font-size: 1.6rem;
+      color: #fff;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.5rem;
+      margin-top: 3rem;
+    }
+    h3 {
+      font-size: 1.25rem;
+      color: var(--primary);
+      margin-top: 1.75rem;
+    }
+    blockquote {
+      border-left: 4px solid var(--primary);
+      background: rgba(56, 189, 248, 0.08);
+      margin: 1.5rem 0;
+      padding: 0.75rem 1.25rem;
+      border-radius: 0 6px 6px 0;
+      font-style: italic;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0;
+      font-size: 0.95rem;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.75rem 1rem;
+      text-align: left;
+    }
+    th {
+      background-color: var(--card-bg);
+      color: var(--primary);
+    }
+    tr:nth-child(even) {
+      background-color: rgba(30, 41, 59, 0.4);
+    }
+    pre, code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.88rem;
+    }
+    pre {
+      background: var(--code-bg);
+      border: 1px solid var(--border);
+      padding: 1rem;
+      border-radius: 6px;
+      overflow-x: auto;
+      color: #38bdf8;
+    }
+    footer {
+      border-top: 1px solid var(--border);
+      padding-top: 2rem;
+      margin-top: 4rem;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<div class="container" id="main">
+  <header>
+    <nav class="breadcrumbs">
+      <a href="https://santoshkumaradhikari.com.np/investors-canon/index.html">The Investor's Canon</a> · 
+      <a href="https://santoshkumaradhikari.com.np/investors-canon/framework.html">Framework</a> · 
+      <a href="https://santoshkumaradhikari.com.np/investors-canon/study-guide.html">Study Guide</a> · 
+      <a href="https://santoshkumaradhikari.com.np/investors-canon/glossary.html">Glossary</a> · 
+      <a href="https://santoshkumaradhikari.com.np/">Santosh Adhikari →</a>
+    </nav>
+    <div class="meta">Part III · Chapter 15</div>
+    <h1>Rights Issues and FPOs</h1>
+    <div class="meta">First published 21 Aug 2026 · Last verified 30 Aug 2026</div>
+  </header>
+
+  <nav class="toc">
+    <h3>In this chapter</h3>
+    <ol>
+      <li><a href="#lesson-15-1">Lesson 15.1 — Why Rights Issues Are the Primary Capital-Raising Tool for NEPSE Companies</a></li>
+      <li><a href="#lesson-15-2">Lesson 15.2 — Rights Ratio, Rights Price, and Theoretical Ex-Rights Price (TERP)</a></li>
+      <li><a href="#lesson-15-3">Lesson 15.3 — Subscribe, Renounce, or Sell: A Disciplined Decision Matrix</a></li>
+      <li><a href="#lesson-15-4">Lesson 15.4 — FPOs in Nepal: Rules, Pricing, and When Companies Use Them</a></li>
+      <li><a href="#lesson-15-5">Lesson 15.5 — The Equity Dilution Problem: Why Frequent Rights Issues Hurt Minority Shareholders</a></li>
+    </ol>
+  </nav>
+
+  <blockquote>
+    When a company asks existing shareholders for more money, the question is never simply whether to give it — it is whether the terms are fair, the capital will be used wisely, and you are being treated as an owner or a source of funds.
+  </blockquote>
+
+  <h2 id="lesson-15-1">Lesson 15.1 — Why Rights Issues Dominate Capital Raising in Nepal</h2>
+  <p>Underdeveloped corporate bond markets, regulatory minimum capital directives (NRB's Rs. 8 Arba commercial bank mandate), and promoter control retention make Rights Issues the primary equity expansion tool on NEPSE. Shareholders who take no action suffer direct uncompensated dilution.</p>
+
+  <h2 id="lesson-15-2">Lesson 15.2 — Rights Ratio, Rights Price, and TERP</h2>
+  <p>The <strong>Theoretical Ex-Rights Price (TERP)</strong> calculates the rational post-rights baseline clearing price:</p>
+  <pre>TERP = [ (N × Cum-Rights Price) + (R × Rights Price) ] / (N + R)</pre>
+  <p>For a 1:2 issue at Rs. 100 with a pre-rights price of Rs. 400, TERP is <strong>Rs. 300</strong>, and the intrinsic value of the right is <strong>Rs. 100 per existing share</strong>.</p>
+
+  <h2 id="lesson-15-3">Lesson 15.3 — Subscribe, Renounce, or Sell</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Scenario</th>
+        <th>Recommended Action</th>
+        <th>Underlying Rational Logic</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>High ROE / Productive Capex</strong></td>
+        <td>Subscribe in Full</td>
+        <td>Incremental equity creates compounding returns above cost of capital.</td>
+      </tr>
+      <tr>
+        <td><strong>Stagnant ROE / High TERP</strong></td>
+        <td>Renounce / Sell Rights</td>
+        <td>Avoid pumping cash into low-yielding capital bases.</td>
+      </tr>
+      <tr>
+        <td><strong>Cash Constrained</strong></td>
+        <td>Partial Subscribe & Sell Balance</td>
+        <td>Monetize unexercised rights entitlement to avoid pure dilution loss.</td>
+      </tr>
+      <tr>
+        <td><strong>Unsubscribed Rights</strong></td>
+        <td>Sealed-Bid Public Auction</td>
+        <td>Remaining unsubscribed shares are auctioned via competitive bidding.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2 id="lesson-15-4">Lesson 15.4 — FPOs in Nepal</h2>
+  <p>Governed by the <em>Securities Registration and Issuance Regulation 2073</em>, Further Public Offerings (FPOs) invite the general public to subscribe to new equity at premium prices, broadening public float and reducing excess promoter concentrations.</p>
+
+  <h2 id="lesson-15-5">Lesson 15.5 — The Equity Dilution Problem</h2>
+  <p>When paid-up capital compounds at 20% while net earnings grow at 10%, Return on Equity (ROE) collapses. Dilution without proportionate profit expansion turns book value growth into a wealth-destroying trap for minority shareholders.</p>
+
+  <footer>
+    <p>Educational material only. Nothing on this site is investment advice, a solicitation, or a recommendation to buy or sell any security. Markets carry risk — always do your own research and consult a licensed professional before acting.</p>
+    <p>© 2026 Santosh Kumar Adhikari. All rights reserved.</p>
+  </footer>
+</div>
+</body>
+</html>
