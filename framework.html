@@ -3,207 +3,831 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Canon Framework — Visual Overview | The Investor's Canon</title>
-  <meta name="description" content="Visual overview of The Investor's Canon: 4 Volumes, 18 Parts, 118 Chapters, and the 100-Point Canon Scoring Rubric by Santosh Kumar Adhikari.">
+  <title>The Canon Framework — Visual Overview & System Architecture | The Investor's Canon</title>
+  <meta name="description" content="Visual overview and system architecture of The Investor's Canon: 4 Volumes, 18 Parts, 118 Chapters, and the Dual-Hemisphere 100-Point Scoring Rubric by Santosh Kumar Adhikari.">
   <meta name="author" content="Santosh Kumar Adhikari">
   <link rel="canonical" href="https://santoshkumaradhikari.com.np/investors-canon/framework.html">
   <style>
     :root {
-      --bg: #0f172a;
-      --text: #e2e8f0;
-      --text-muted: #94a3b8;
-      --card-bg: #1e293b;
-      --border: #334155;
+      --bg: #0b0f19;
+      --card-bg: #111827;
+      --card-border: #1f2937;
+      --card-hover-border: #374151;
+      --text: #f3f4f6;
+      --text-muted: #9ca3af;
       --primary: #38bdf8;
-      --primary-hover: #0ea5e9;
-      --accent: #f59e0b;
-      --code-bg: #0b1120;
+      --primary-glow: rgba(56, 189, 248, 0.15);
+      --emerald: #34d399;
+      --emerald-glow: rgba(52, 211, 153, 0.15);
+      --amber: #fbbf24;
+      --amber-glow: rgba(251, 191, 36, 0.15);
+      --purple: #a78bfa;
+      --purple-glow: rgba(167, 139, 250, 0.15);
+      --rose: #f43f5e;
     }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.7;
-      color: var(--text);
-      background-color: var(--bg);
+
+    * {
+      box-sizing: border-box;
       margin: 0;
       padding: 0;
     }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
     .container {
-      max-width: 860px;
+      max-width: 1040px;
       margin: 0 auto;
-      padding: 2.5rem 1.5rem;
+      padding: 3rem 1.5rem;
     }
-    header {
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 1.5rem;
-      margin-bottom: 2.5rem;
-    }
+
+    /* Top Nav */
     nav.breadcrumbs {
       font-size: 0.9rem;
       color: var(--text-muted);
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      align-items: center;
     }
+
     nav.breadcrumbs a {
       color: var(--primary);
       text-decoration: none;
+      transition: color 0.15s;
     }
+
     nav.breadcrumbs a:hover {
       text-decoration: underline;
     }
-    h1 {
-      font-size: 2.25rem;
-      line-height: 1.25;
-      color: #fff;
-      margin: 0.5rem 0 0.75rem;
+
+    /* Hero Header */
+    .hero {
+      text-align: center;
+      padding: 2.5rem 1rem 3.5rem;
+      border-bottom: 1px solid var(--card-border);
+      position: relative;
     }
-    .meta {
-      font-size: 0.9rem;
+
+    .badge {
+      display: inline-block;
+      padding: 0.35rem 0.85rem;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      background: rgba(56, 189, 248, 0.1);
+      color: var(--primary);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      margin-bottom: 1rem;
+    }
+
+    .hero h1 {
+      font-size: 2.75rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.15;
+      color: #fff;
+      margin-bottom: 1rem;
+      background: linear-gradient(135deg, #ffffff 0%, #94a3b8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      font-size: 1.15rem;
       color: var(--text-muted);
+      max-width: 720px;
+      margin: 0 auto 2.5rem;
     }
-    h2 {
-      font-size: 1.6rem;
+
+    /* Stats Banner */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      max-width: 880px;
+      margin: 0 auto;
+    }
+
+    .stat-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      padding: 1.25rem 1rem;
+      border-radius: 12px;
+      text-align: center;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+
+    .stat-card:hover {
+      transform: translateY(-2px);
+      border-color: var(--card-hover-border);
+    }
+
+    .stat-num {
+      font-size: 2rem;
+      font-weight: 800;
+      line-height: 1;
+      margin-bottom: 0.35rem;
+    }
+
+    .stat-label {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 600;
+    }
+
+    /* Section Headings */
+    .section-title-wrap {
+      margin: 4.5rem 0 2rem;
+      text-align: center;
+    }
+
+    .section-pill {
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+      display: block;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      font-weight: 700;
       color: #fff;
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 0.5rem;
-      margin-top: 3rem;
+      letter-spacing: -0.02em;
     }
+
+    .section-subtitle {
+      font-size: 1rem;
+      color: var(--text-muted);
+      max-width: 640px;
+      margin: 0.5rem auto 0;
+    }
+
+    /* 4 Volumes Grid */
+    .volumes-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.25rem;
+      margin-top: 2rem;
+    }
+
+    .volume-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      padding: 1.5rem;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: all 0.25s ease;
+    }
+
+    .volume-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 30px -10px rgba(0, 0, 0, 0.5);
+    }
+
+    .volume-card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+    }
+
+    .vol-1::before { background: var(--primary); }
+    .vol-2::before { background: var(--emerald); }
+    .vol-3::before { background: var(--amber); }
+    .vol-4::before { background: var(--purple); }
+
+    .vol-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 0.75rem;
+    }
+
+    .vol-tag {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .vol-1 .vol-tag { color: var(--primary); }
+    .vol-2 .vol-tag { color: var(--emerald); }
+    .vol-3 .vol-tag { color: var(--amber); }
+    .vol-4 .vol-tag { color: var(--purple); }
+
+    .vol-ch-count {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .vol-title {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 0.5rem;
+    }
+
+    .vol-desc {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      margin-bottom: 1.25rem;
+      line-height: 1.5;
+    }
+
+    .vol-parts-list {
+      list-style: none;
+      margin-top: auto;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+      padding-top: 1rem;
+      font-size: 0.82rem;
+    }
+
+    .vol-parts-list li {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.35rem 0;
+      color: #d1d5db;
+    }
+
+    .part-badge {
+      color: var(--text-muted);
+      font-family: ui-monospace, SFMono-Regular, monospace;
+      font-size: 0.75rem;
+    }
+
+    /* Hemispheres Visual Comparison */
+    .hemisphere-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 768px) {
+      .hemisphere-container {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .hemisphere-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 2rem;
+      position: relative;
+    }
+
+    .hemi-left {
+      border-left: 4px solid var(--primary);
+    }
+
+    .hemi-right {
+      border-left: 4px solid var(--emerald);
+    }
+
+    .hemi-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.5rem;
+    }
+
+    .hemi-left .hemi-badge { color: var(--primary); }
+    .hemi-right .hemi-badge { color: var(--emerald); }
+
+    .hemi-score {
+      font-size: 2.25rem;
+      font-weight: 800;
+      color: #fff;
+      line-height: 1.1;
+      margin-bottom: 0.25rem;
+    }
+
+    .hemi-question {
+      font-size: 0.95rem;
+      font-style: italic;
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 1rem;
+    }
+
+    .dimension-item {
+      margin-bottom: 1rem;
+    }
+
+    .dimension-header {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #e5e7eb;
+      margin-bottom: 0.35rem;
+    }
+
+    .progress-bar-bg {
+      height: 7px;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 9999px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      border-radius: 9999px;
+    }
+
+    .fill-primary { background: var(--primary); }
+    .fill-emerald { background: var(--emerald); }
+
+    /* Decision Tiers Grid */
+    .tier-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .tier-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 1.25rem;
+      transition: border-color 0.2s;
+    }
+
+    .tier-card:hover {
+      border-color: var(--card-hover-border);
+    }
+
+    .tier-score-pill {
+      display: inline-block;
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 0.2rem 0.6rem;
+      border-radius: 9999px;
+      margin-bottom: 0.75rem;
+    }
+
+    .tier-a { background: rgba(52, 211, 153, 0.15); color: var(--emerald); border: 1px solid rgba(52, 211, 153, 0.3); }
+    .tier-b { background: rgba(56, 189, 248, 0.15); color: var(--primary); border: 1px solid rgba(56, 189, 248, 0.3); }
+    .tier-c { background: rgba(251, 191, 36, 0.15); color: var(--amber); border: 1px solid rgba(251, 191, 36, 0.3); }
+    .tier-reject { background: rgba(244, 63, 94, 0.15); color: var(--rose); border: 1px solid rgba(244, 63, 94, 0.3); }
+
+    .tier-name {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 0.35rem;
+    }
+
+    .tier-desc {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      line-height: 1.45;
+    }
+
+    /* Master Table */
+    .table-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      overflow: hidden;
+      margin-top: 2rem;
+    }
+
     table {
       width: 100%;
       border-collapse: collapse;
-      margin: 1.5rem 0;
-      font-size: 0.95rem;
+      font-size: 0.88rem;
     }
+
     th, td {
-      border: 1px solid var(--border);
-      padding: 0.75rem 1rem;
+      padding: 0.85rem 1.25rem;
       text-align: left;
+      border-bottom: 1px solid var(--card-border);
     }
+
     th {
-      background-color: var(--card-bg);
+      background-color: rgba(255, 255, 255, 0.02);
       color: var(--primary);
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 0.75rem;
+      letter-spacing: 0.05em;
     }
-    tr:nth-child(even) {
-      background-color: rgba(30, 41, 59, 0.4);
+
+    tr:last-child td {
+      border-bottom: none;
     }
-    pre {
-      background: var(--code-bg);
-      border: 1px solid var(--border);
-      padding: 1rem;
+
+    tr:hover td {
+      background-color: rgba(255, 255, 255, 0.02);
+    }
+
+    .weight-badge {
+      display: inline-block;
+      font-family: ui-monospace, SFMono-Regular, monospace;
+      font-weight: 700;
+      color: #fff;
+      background: rgba(255, 255, 255, 0.08);
+      padding: 0.15rem 0.5rem;
       border-radius: 6px;
-      overflow-x: auto;
-      color: #38bdf8;
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-      font-size: 0.88rem;
     }
+
+    /* Footer */
     footer {
-      border-top: 1px solid var(--border);
-      padding-top: 2rem;
-      margin-top: 4rem;
-      font-size: 0.88rem;
+      border-top: 1px solid var(--card-border);
+      padding-top: 3rem;
+      margin-top: 5rem;
+      font-size: 0.85rem;
       color: var(--text-muted);
       text-align: center;
+    }
+
+    footer p {
+      margin-bottom: 0.5rem;
+    }
+
+    @media print {
+      body {
+        background: #fff;
+        color: #000;
+      }
+      .volume-card, .hemisphere-card, .stat-card, .table-card {
+        border: 1px solid #ccc;
+        background: #fff;
+        color: #000;
+      }
     }
   </style>
 </head>
 <body>
+
 <div class="container" id="main">
-  <header>
-    <nav class="breadcrumbs">
-      <a href="https://santoshkumaradhikari.com.np/investors-canon/index.html">The Investor's Canon</a> · 
-      <a href="https://santoshkumaradhikari.com.np/investors-canon/framework.html">Framework</a> · 
-      <a href="https://santoshkumaradhikari.com.np/investors-canon/study-guide.html">Study Guide</a> · 
-      <a href="https://santoshkumaradhikari.com.np/investors-canon/glossary.html">Glossary</a> · 
-      <a href="https://santoshkumaradhikari.com.np/">Santosh Adhikari →</a>
-    </nav>
-    <div class="meta">Nepal Edition · Visual Overview</div>
+  <!-- Nav -->
+  <nav class="breadcrumbs">
+    <a href="https://santoshkumaradhikari.com.np/investors-canon/index.html">The Investor's Canon</a> · 
+    <a href="https://santoshkumaradhikari.com.np/investors-canon/framework.html">Framework</a> · 
+    <a href="https://santoshkumaradhikari.com.np/investors-canon/study-guide.html">Study Guide</a> · 
+    <a href="https://santoshkumaradhikari.com.np/investors-canon/glossary.html">Glossary</a> · 
+    <a href="https://santoshkumaradhikari.com.np/investors-canon/book.html">Whole Book (~5 MB)</a> · 
+    <a href="https://santoshkumaradhikari.com.np/">Santosh Adhikari →</a>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero">
+    <span class="badge">Nepal Edition · Visual Architecture</span>
     <h1>The Canon Framework</h1>
-    <div class="meta">First published 21 Aug 2026 · Last verified 30 Aug 2026</div>
+    <p>A unified operating system for capital allocation in the Nepal Stock Exchange (NEPSE) — from macroeconomic liquidity transmission to forensic balance sheet analysis and execution.</p>
+
+    <!-- Stats -->
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-num" style="color: var(--primary);">4</div>
+        <div class="stat-label">Volumes</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num" style="color: var(--emerald);">18+1</div>
+        <div class="stat-label">Parts & Frameworks</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num" style="color: var(--amber);">118</div>
+        <div class="stat-label">Complete Chapters</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num" style="color: var(--purple);">100</div>
+        <div class="stat-label">Point Scoring Rubric</div>
+      </div>
+    </div>
   </header>
 
-  <h2>The 4 Volumes & 18 Parts Architecture</h2>
-  <pre>VOL. 1: FOUNDATIONS (Chapters 0.1 – 23)
-• Part 0: Foundational Frameworks (0.1–0.3)
-• Part I: Master Variable: Credit & Liquidity (1–6)
-• Part II: Market Structure (7–12)
-• Part III: Instruments Available in Nepal (13–18)
-• Part IV: Corporate Governance & Promoter Behaviour (19–23)
+  <!-- Section 1: The 4-Volume Roadmap -->
+  <section>
+    <div class="section-title-wrap">
+      <span class="section-pill">System Architecture</span>
+      <h2 class="section-title">The 4-Volume Learning Roadmap</h2>
+      <p class="section-subtitle">118 chapters structured progressively: from understanding market rules to forensic analysis, algorithmic execution, and lifelong mastery.</p>
+    </div>
 
-VOL. 2: FORENSIC ANALYSIS (Chapters 24 – 49)
-• Part V: Financial Statements & Reporting Standards (24–28)
-• Part VI: Sector Accounting Logic (29–34)
-• Part VII: Taxation & Ratios (35–41)
-• Part VIII: Project Finance & Hydropower Modelling (42–44)
-• Part IX: Valuation (45–49)
+    <div class="volumes-grid">
+      <!-- Vol 1 -->
+      <div class="volume-card vol-1">
+        <div class="vol-header">
+          <span class="vol-tag">Volume 1</span>
+          <span class="vol-ch-count">26 Chapters</span>
+        </div>
+        <h3 class="vol-title">Foundations</h3>
+        <p class="vol-desc">The rules of the arena: macroeconomic credit cycles, NEPSE microstructure, statutory instruments, and promoter governance.</p>
+        <ul class="vol-parts-list">
+          <li><span>Part 0: Foundations</span> <span class="part-badge">Ch 0.1–0.3</span></li>
+          <li><span>Part I: Credit & Liquidity</span> <span class="part-badge">Ch 1–6</span></li>
+          <li><span>Part II: Market Structure</span> <span class="part-badge">Ch 7–12</span></li>
+          <li><span>Part III: Listed Instruments</span> <span class="part-badge">Ch 13–18</span></li>
+          <li><span>Part IV: Governance & Promoters</span> <span class="part-badge">Ch 19–23</span></li>
+        </ul>
+      </div>
 
-VOL. 3: EXECUTION & PLAYBOOKS (Chapters 50 – 82)
-• Part X: Behaviour & Investor Psychology (50–53)
-• Part XI: Liquidity Engineering & Position Sizing (54–58)
-• Part XII: Portfolio Construction (59–62)
-• Part XIII: The Canon Scoring System (63–66)
-• Part XIV: Strategies, Playbooks & Decision Frameworks (67–78)
-• Part XV: Calibration & Backtesting (79–82)
+      <!-- Vol 2 -->
+      <div class="volume-card vol-2">
+        <div class="vol-header">
+          <span class="vol-tag">Volume 2</span>
+          <span class="vol-ch-count">26 Chapters</span>
+        </div>
+        <h3 class="vol-title">Forensic Analysis</h3>
+        <p class="vol-desc">The analytical toolkit: audited NFRS reporting, sector accounting logic, hydropower project finance models, and intrinsic valuation.</p>
+        <ul class="vol-parts-list">
+          <li><span>Part V: NFRS Financials</span> <span class="part-badge">Ch 24–28</span></li>
+          <li><span>Part VI: Sector Accounting</span> <span class="part-badge">Ch 29–34</span></li>
+          <li><span>Part VII: Taxation & Ratios</span> <span class="part-badge">Ch 35–41</span></li>
+          <li><span>Part VIII: Hydropower DCF</span> <span class="part-badge">Ch 42–44</span></li>
+          <li><span>Part IX: Absolute Valuation</span> <span class="part-badge">Ch 45–49</span></li>
+        </ul>
+      </div>
 
-VOL. 4: MASTERY & TOOLS (Chapters 83 – 118)
-• Part XVI: Full Case Studies (83–93)
-• Part XVII: Investment Constitution & Personal OS (94–100)
-• Part XVIII: Operational Tools, Data Reference & Almanac (101–118)</pre>
+      <!-- Vol 3 -->
+      <div class="volume-card vol-3">
+        <div class="vol-header">
+          <span class="vol-tag">Volume 3</span>
+          <span class="vol-ch-count">33 Chapters</span>
+        </div>
+        <h3 class="vol-title">Execution & Rules</h3>
+        <p class="vol-desc">Turning analysis into decisions: investor psychology, liquidity engineering, portfolio sizing, the Canon Scoring rubric, and backtesting.</p>
+        <ul class="vol-parts-list">
+          <li><span>Part X: Investor Psychology</span> <span class="part-badge">Ch 50–53</span></li>
+          <li><span>Part XI: Liquidity & Sizing</span> <span class="part-badge">Ch 54–58</span></li>
+          <li><span>Part XII: Portfolio Design</span> <span class="part-badge">Ch 59–62</span></li>
+          <li><span>Part XIII: Canon Scoring</span> <span class="part-badge">Ch 63–66</span></li>
+          <li><span>Part XIV: Strategy Playbooks</span> <span class="part-badge">Ch 67–78</span></li>
+          <li><span>Part XV: Calibration</span> <span class="part-badge">Ch 79–82</span></li>
+        </ul>
+      </div>
 
-  <h2>The 100-Point Canon Scoring Rubric</h2>
-  <table>
-    <thead>
-      <tr>
-        <th>Dimension</th>
-        <th>Hemisphere</th>
-        <th>Weight</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><strong>Financial Strength & Profitability</strong></td>
-        <td>Quantitative Forensics</td>
-        <td>20 Points</td>
-      </tr>
-      <tr>
-        <td><strong>Governance & Promoter Behaviour</strong></td>
-        <td>Qualitative Defence</td>
-        <td>15 Points</td>
-      </tr>
-      <tr>
-        <td><strong>Valuation Reasonableness</strong></td>
-        <td>Quantitative Forensics</td>
-        <td>15 Points</td>
-      </tr>
-      <tr>
-        <td><strong>Sector & Business Model Durability</strong></td>
-        <td>Qualitative Defence</td>
-        <td>15 Points</td>
-      </tr>
-      <tr>
-        <td><strong>Growth Trajectory</strong></td>
-        <td>Quantitative Forensics</td>
-        <td>15 Points</td>
-      </tr>
-      <tr>
-        <td><strong>Liquidity & Tradability</strong></td>
-        <td>Qualitative Defence</td>
-        <td>10 Points</td>
-      </tr>
-      <tr>
-        <td><strong>Dividend & Capital Return Discipline</strong></td>
-        <td>Quantitative Forensics</td>
-        <td>10 Points</td>
-      </tr>
-      <tr>
-        <td><strong>TOTAL CANON SCORE</strong></td>
-        <td><strong>Complete System</strong></td>
-        <td><strong>100 Points</strong></td>
-      </tr>
-    </tbody>
-  </table>
+      <!-- Vol 4 -->
+      <div class="volume-card vol-4">
+        <div class="vol-header">
+          <span class="vol-tag">Volume 4</span>
+          <span class="vol-ch-count">36 Chapters</span>
+        </div>
+        <h3 class="vol-title">Mastery & Almanac</h3>
+        <p class="vol-desc">Practical application: comprehensive company case studies, an investment constitution, personal OS, and historical reference data.</p>
+        <ul class="vol-parts-list">
+          <li><span>Part XVI: Case Studies</span> <span class="part-badge">Ch 83–93</span></li>
+          <li><span>Part XVII: Personal OS</span> <span class="part-badge">Ch 94–100</span></li>
+          <li><span>Part XVIII: Tools & Almanac</span> <span class="part-badge">Ch 101–118</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
+  <!-- Section 2: The Two Hemispheres -->
+  <section>
+    <div class="section-title-wrap">
+      <span class="section-pill">Analytical Engine</span>
+      <h2 class="section-title">The Dual-Hemisphere Canon Score</h2>
+      <p class="section-subtitle">Every NEPSE security is judged from two complementary angles: Qualitative Defence (trust & tradability) and Quantitative Forensics (audited numbers).</p>
+    </div>
+
+    <div class="hemisphere-container">
+      <!-- Left Hemisphere -->
+      <div class="hemisphere-card hemi-left">
+        <div class="hemi-badge">Hemisphere 1 · Qualitative Defence</div>
+        <div class="hemi-score">40 Points</div>
+        <div class="hemi-question">"Can you trust management, and can you safely trade this scrip without liquidity traps?"</div>
+
+        <!-- Dim 1 -->
+        <div class="dimension-item">
+          <div class="dimension-header">
+            <span>Governance & Promoter Behaviour</span>
+            <span style="color: var(--primary);">15 pts</span>
+          </div>
+          <div class="progress-bar-bg">
+            <div class="progress-fill fill-primary" style="width: 75%;"></div>
+          </div>
+        </div>
+
+        <!-- Dim 2 -->
+        <div class="dimension-item">
+          <div class="dimension-header">
+            <span>Sector & Business Model Durability</span>
+            <span style="color: var(--primary);">15 pts</span>
+          </div>
+          <div class="progress-bar-bg">
+            <div class="progress-fill fill-primary" style="width: 75%;"></div>
+          </div>
+        </div>
+
+        <!-- Dim 3 -->
+        <div class="dimension-item">
+          <div class="dimension-header">
+            <span>Liquidity & Tradability</span>
+            <span style="color: var(--primary);">10 pts</span>
+          </div>
+          <div class="progress-bar-bg">
+            <div class="progress-fill fill-primary" style="width: 50%;"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Hemisphere -->
+      <div class="hemisphere-card hemi-right">
+        <div class="hemi-badge">Hemisphere 2 · Quantitative Forensics</div>
+        <div class="hemi-score">60 Points</div>
+        <div class="hemi-question">"Setting sentiment aside, what do the audited financial statements and cash flows prove?"</div>
+
+        <!-- Dim 4 -->
+        <div class="dimension-item">
+          <div class="dimension-header">
+            <span>Financial Strength & Profitability</span>
+            <span style="color: var(--emerald);">20 pts</span>
+          </div>
+          <div class="progress-bar-bg">
+            <div class="progress-fill fill-emerald" style="width: 100%;"></div>
+          </div>
+        </div>
+
+        <!-- Dim 5 -->
+        <div class="dimension-item">
+          <div class="dimension-header">
+            <span>Valuation Reasonableness</span>
+            <span style="color: var(--emerald);">15 pts</span>
+          </div>
+          <div class="progress-bar-bg">
+            <div class="progress-fill fill-emerald" style="width: 75%;"></div>
+          </div>
+        </div>
+
+        <!-- Dim 6 -->
+        <div class="dimension-item">
+          <div class="dimension-header">
+            <span>Growth Trajectory (CAGR vs. Dilution)</span>
+            <span style="color: var(--emerald);">15 pts</span>
+          </div>
+          <div class="progress-bar-bg">
+            <div class="progress-fill fill-emerald" style="width: 75%;"></div>
+          </div>
+        </div>
+
+        <!-- Dim 7 -->
+        <div class="dimension-item">
+          <div class="dimension-header">
+            <span>Dividend & Capital Return Discipline</span>
+            <span style="color: var(--emerald);">10 pts</span>
+          </div>
+          <div class="progress-bar-bg">
+            <div class="progress-fill fill-emerald" style="width: 50%;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: Decision Tiers -->
+  <section>
+    <div class="section-title-wrap">
+      <span class="section-pill">Decision Rules</span>
+      <h2 class="section-title">The 4 Canon Decision Tiers</h2>
+      <p class="section-subtitle">A composite score maps directly into portfolio allocation limits, preventing emotional capital misallocation.</p>
+    </div>
+
+    <div class="tier-grid">
+      <div class="tier-card">
+        <span class="tier-score-pill tier-a">80 – 100 Points</span>
+        <h4 class="tier-name">Tier 1: Prime Compounder</h4>
+        <p class="tier-desc">Unimpeachable governance, high sustainable ROE, robust liquidity. Eligible for maximum conviction portfolio weighting.</p>
+      </div>
+
+      <div class="tier-card">
+        <span class="tier-score-pill tier-b">65 – 79 Points</span>
+        <h4 class="tier-name">Tier 2: Tactical Quality</h4>
+        <p class="tier-desc">Solid business model with minor cyclical or valuation drags. Core secondary holding with active monitoring.</p>
+      </div>
+
+      <div class="tier-card">
+        <span class="tier-score-pill tier-c">50 – 64 Points</span>
+        <h4 class="tier-name">Tier 3: Speculative Buffer</h4>
+        <p class="tier-desc">Acceptable financials but challenged governance or thin liquidity. Strict 3% to 5% portfolio position ceiling.</p>
+      </div>
+
+      <div class="tier-card">
+        <span class="tier-score-pill tier-reject">&lt; 50 Points</span>
+        <h4 class="tier-name">Tier 4: Auto-Disqualification</h4>
+        <p class="tier-desc">Chronic equity dilution, negative operating cash flow, or compromised promoter integrity. Zero capital permitted.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 4: Master Rubric Table -->
+  <section>
+    <div class="section-title-wrap">
+      <span class="section-pill">Complete Rubric</span>
+      <h2 class="section-title">The 100-Point Scoring Specification</h2>
+      <p class="section-subtitle">Seven dimensions, summed additively — never averaged — ensuring that the ceiling is always exactly 100.</p>
+    </div>
+
+    <div class="table-card">
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Dimension</th>
+            <th>Hemisphere</th>
+            <th>Weight</th>
+            <th>Diagnostic Focus</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>01</strong></td>
+            <td><strong>Financial Strength & Profitability</strong></td>
+            <td>Quantitative Forensics</td>
+            <td><span class="weight-badge">20 pts</span></td>
+            <td>Real cash conversion, loan-loss provisioning, interest coverage, sustainable ROE.</td>
+          </tr>
+          <tr>
+            <td><strong>02</strong></td>
+            <td><strong>Governance & Promoter Behaviour</strong></td>
+            <td>Qualitative Defence</td>
+            <td><span class="weight-badge">15 pts</span></td>
+            <td>Promoter integrity, related-party transactions, share pledging, regulatory track record.</td>
+          </tr>
+          <tr>
+            <td><strong>03</strong></td>
+            <td><strong>Valuation Reasonableness</strong></td>
+            <td>Quantitative Forensics</td>
+            <td><span class="weight-badge">15 pts</span></td>
+            <td>P/E, P/B, and EV/EBITDA anchored against the risk-free 364-day Treasury Bill rate.</td>
+          </tr>
+          <tr>
+            <td><strong>04</strong></td>
+            <td><strong>Sector & Business Model Durability</strong></td>
+            <td>Qualitative Defence</td>
+            <td><span class="weight-badge">15 pts</span></td>
+            <td>Competitive moats, PPA tariff structures, regulatory barriers to entry.</td>
+          </tr>
+          <tr>
+            <td><strong>05</strong></td>
+            <td><strong>Growth Trajectory</strong></td>
+            <td>Quantitative Forensics</td>
+            <td><span class="weight-badge">15 pts</span></td>
+            <td>5-year EPS CAGR outperforming the company's paid-up capital dilution rate.</td>
+          </tr>
+          <tr>
+            <td><strong>06</strong></td>
+            <td><strong>Liquidity & Tradability</strong></td>
+            <td>Qualitative Defence</td>
+            <td><span class="weight-badge">10 pts</span></td>
+            <td>Free float percentage, daily NEPSE turnover, order book depth, impact cost.</td>
+          </tr>
+          <tr>
+            <td><strong>07</strong></td>
+            <td><strong>Dividend & Capital Return Discipline</strong></td>
+            <td>Quantitative Forensics</td>
+            <td><span class="weight-badge">10 pts</span></td>
+            <td>Cash dividend consistency, bonus shares backed by real free reserves.</td>
+          </tr>
+          <tr style="background: rgba(56, 189, 248, 0.05); font-weight: 700;">
+            <td>—</td>
+            <td><strong>TOTAL CANON SCORE</strong></td>
+            <td><strong>Unified System</strong></td>
+            <td><span class="weight-badge" style="background: var(--primary); color: #000;">100 pts</span></td>
+            <td><strong>Complete 100-Point Composite Evaluation</strong></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Footer -->
   <footer>
-    <p>Educational material only. Nothing on this site is investment advice, a solicitation, or a recommendation to buy or sell any security. Markets carry risk — always do your own research and consult a licensed professional before acting.</p>
+    <p>Educational material only. Nothing on this site constitutes investment advice, a solicitation, or a recommendation to buy or sell securities. Consult a licensed financial professional before acting.</p>
     <p>© 2026 Santosh Kumar Adhikari. All rights reserved.</p>
   </footer>
 </div>
+
 </body>
 </html>
