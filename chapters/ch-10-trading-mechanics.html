@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Part II · Chapter 10 — Trading Mechanics in NEPSE | The Investor's Canon</title>
+  <meta name="description" content="Part II · Chapter 10 of The Investor's Canon by Santosh Kumar Adhikari: NATS, NOTS, TMS, pre-open sessions, circuit breakers, T+2 settlement, 20% close-out penalty, and corporate actions.">
+  <meta name="author" content="Santosh Kumar Adhikari">
+  <link rel="canonical" href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-10-trading-mechanics.html">
+  <style>
+    :root {
+      --bg: #0f172a;
+      --text: #e2e8f0;
+      --text-muted: #94a3b8;
+      --card-bg: #1e293b;
+      --border: #334155;
+      --primary: #38bdf8;
+      --primary-hover: #0ea5e9;
+      --accent: #f59e0b;
+      --code-bg: #0b1120;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.7;
+      color: var(--text);
+      background-color: var(--bg);
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+    nav.breadcrumbs {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+    }
+    nav.breadcrumbs a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+    nav.breadcrumbs a:hover {
+      text-decoration: underline;
+    }
+    h1 {
+      font-size: 2.25rem;
+      line-height: 1.25;
+      color: #fff;
+      margin: 0.5rem 0 0.75rem;
+    }
+    .meta {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+    .toc {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin: 2rem 0;
+    }
+    .toc h3 {
+      margin-top: 0;
+      font-size: 1.1rem;
+      color: var(--primary);
+    }
+    .toc ol {
+      margin-bottom: 0;
+      padding-left: 1.25rem;
+    }
+    .toc li {
+      margin-bottom: 0.4rem;
+    }
+    .toc a {
+      color: var(--text);
+      text-decoration: none;
+    }
+    .toc a:hover {
+      color: var(--primary);
+      text-decoration: underline;
+    }
+    h2 {
+      font-size: 1.6rem;
+      color: #fff;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.5rem;
+      margin-top: 3rem;
+    }
+    h3 {
+      font-size: 1.25rem;
+      color: var(--primary);
+      margin-top: 1.75rem;
+    }
+    blockquote {
+      border-left: 4px solid var(--primary);
+      background: rgba(56, 189, 248, 0.08);
+      margin: 1.5rem 0;
+      padding: 0.75rem 1.25rem;
+      border-radius: 0 6px 6px 0;
+      font-style: italic;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0;
+      font-size: 0.95rem;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.75rem 1rem;
+      text-align: left;
+    }
+    th {
+      background-color: var(--card-bg);
+      color: var(--primary);
+    }
+    tr:nth-child(even) {
+      background-color: rgba(30, 41, 59, 0.4);
+    }
+    pre, code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.88rem;
+    }
+    pre {
+      background: var(--code-bg);
+      border: 1px solid var(--border);
+      padding: 1rem;
+      border-radius: 6px;
+      overflow-x: auto;
+      color: #38bdf8;
+    }
+    footer {
+      border-top: 1px solid var(--border);
+      padding-top: 2rem;
+      margin-top: 4rem;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<div class="container" id="main">
+  <header>
+    <nav class="breadcrumbs">
+      <a href="https://santoshkumaradhikari.com.np/investors-canon/index.html">The Investor's Canon</a> · 
+      <a href="https://santoshkumaradhikari.com.np/investors-canon/framework.html">Framework</a> · 
+      <a href="https://santoshkumaradhikari.com.np/investors-canon/study-guide.html">Study Guide</a> · 
+      <a href="https://santoshkumaradhikari.com.np/investors-canon/glossary.html">Glossary</a> · 
+      <a href="https://santoshkumaradhikari.com.np/">Santosh Adhikari →</a>
+    </nav>
+    <div class="meta">Part II · Chapter 10</div>
+    <h1>Trading Mechanics in NEPSE</h1>
+    <div class="meta">First published 21 Aug 2026 · Last verified 30 Aug 2026</div>
+  </header>
+
+  <nav class="toc">
+    <h3>In this chapter</h3>
+    <ol>
+      <li><a href="#lesson-10-1">Lesson 10.1 — The NEPSE Trading Engine: NATS, NOTS, and the TMS Portal</a></li>
+      <li><a href="#lesson-10-2">Lesson 10.2 — Trading Hours, Pre-Open Session, and Market Timing</a></li>
+      <li><a href="#lesson-10-3">Lesson 10.3 — Order Types Available: Market Orders, Limit Orders — What Exists and What Does Not</a></li>
+      <li><a href="#lesson-10-4">Lesson 10.4 — The Order Book: Bids, Asks, Spreads, Price Ticks, and Market Depth</a></li>
+      <li><a href="#lesson-10-5">Lesson 10.5 — Price Circuit Limits: Daily Price Bands and Market-Wide Circuit Breakers</a></li>
+      <li><a href="#lesson-10-6">Lesson 10.6 — T+2 Settlement Cycle, Fund Transfers, and the 20% Close-Out Penalty</a></li>
+      <li><a href="#lesson-10-7">Lesson 10.7 — MEROSHARE: Demat System, EDIS Transfer, C-ASBA, and Portfolio Verification</a></li>
+      <li><a href="#lesson-10-8">Lesson 10.8 — Broker-Assisted Trading vs. Self-Directed Trading via TMS</a></li>
+      <li><a href="#lesson-10-9">Lesson 10.9 — Short Selling: Why It Does Not Exist on NEPSE and the Consequences for Price Discovery</a></li>
+      <li><a href="#lesson-10-10">Lesson 10.10 — Dividends, Bonus Shares, and Rights: Timelines, Book Closure, and Ex-Dates</a></li>
+    </ol>
+  </nav>
+
+  <blockquote>
+    The way orders are placed, matched, and settled defines the boundary between theoretical analysis and real investment performance.
+  </blockquote>
+
+  <h2 id="lesson-10-1">Lesson 10.1 — The NEPSE Trading Engine: NATS, NOTS, and the TMS Portal</h2>
+  <p>NEPSE operates as a fully automated, <strong>order-driven electronic market</strong> powered by the central <strong>NEPSE Automated Trading System (NATS)</strong> and <strong>NEPSE Online Trading System (NOTS)</strong> matching engine. Orders are entered via broker <strong>Trade Management Systems (TMS)</strong> and matched strictly on <strong>Price-Time Priority</strong> without designated market makers.</p>
+
+  <h2 id="lesson-10-2">Lesson 10.2 — Trading Hours, Pre-Open Session, and Market Timing</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Session</th>
+        <th>Time Window (NST)</th>
+        <th>Functional Rules</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Pre-Open Session</strong></td>
+        <td>10:30 AM – 10:45 AM</td>
+        <td>Order entry within ±5% band; continuous calculation of Indicative Equilibrium Price (IEP).</td>
+      </tr>
+      <tr>
+        <td><strong>Pre-Open Auction</strong></td>
+        <td>10:45 AM – 11:00 AM</td>
+        <td>Orders match simultaneously at single clearing IEP.</td>
+      </tr>
+      <tr>
+        <td><strong>Continuous Trading</strong></td>
+        <td>11:00 AM – 3:00 PM</td>
+        <td>Real-time continuous order matching on price-time priority.</td>
+      </tr>
+      <tr>
+        <td><strong>Market Close</strong></td>
+        <td>3:00 PM</td>
+        <td>Market closes; trade files generated for CDSC settlement.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2 id="lesson-10-3">Lesson 10.3 — Order Types Available: Market Orders and Limit Orders</h2>
+  <p>NEPSE supports <strong>Limit Orders</strong> (price-guaranteed execution) and <strong>Market Orders</strong> (immediate execution with high slippage risk). Advanced order types like <strong>Stop-Loss, Good-Till-Cancelled (GTC), and Bracket Orders</strong> do not natively exist in the exchange engine and must be managed manually as Day Orders.</p>
+
+  <h2 id="lesson-10-4">Lesson 10.4 — The Order Book: Bids, Asks, Spreads, and Depth</h2>
+  <p>NEPSE provides a live Top-5 Market Depth view. The minimum price tick is <strong>Rs. 0.10 (10 Paisa)</strong>, and intraday orders during continuous trading are restricted to within <strong>±2%</strong> of the Last Traded Price (LTP).</p>
+
+  <h2 id="lesson-10-5">Lesson 10.5 — Price Circuit Limits: Daily Bands and Market-Wide Halts</h2>
+  <p>Individual listed ordinary shares are subject to a <strong>±10% daily price band</strong> relative to the previous day's close. Market-wide index circuit breakers trigger standardized cooling-off halts:</p>
+  <ul>
+    <li><strong>4% index movement in 1st hour:</strong> 20-minute market halt.</li>
+    <li><strong>5% index movement in 2nd hour:</strong> 40-minute market halt.</li>
+    <li><strong>6% index movement at any time:</strong> Trading closed for the remainder of the day.</li>
+  </ul>
+
+  <h2 id="lesson-10-6">Lesson 10.6 — T+2 Settlement Cycle and the 20% Close-Out Penalty</h2>
+  <p>Trades settle on a standard <strong>T+2 business day cycle</strong>. If a seller fails to transfer sold shares via <strong>EDIS on MeroShare</strong> before the settlement deadline, CDSC levies a mandatory <strong>20% Close-Out Penalty</strong> on the total trade value, credited directly to the buyer as compensation.</p>
+
+  <h2 id="lesson-10-7">Lesson 10.7 — MEROSHARE: Demat, EDIS, and C-ASBA</h2>
+  <p>MeroShare is CDSC's digital backbone for managing 16-digit BOID demat accounts, calculating Weighted Average Cost of Capital (WACC), approving EDIS transfers, and applying for IPOs/Rights via the <strong>C-ASBA system</strong> using a Bank-linked <strong>CRN (C-ASBA Registration Number)</strong>.</p>
+
+  <h2 id="lesson-10-8">Lesson 10.8 — Broker-Assisted vs. Self-Directed TMS Trading</h2>
+  <p>While broker terminals assist high-net-worth clients, self-directed web/mobile TMS trading eliminates communication latency, provides direct order book depth visibility, and ensures instant execution.</p>
+
+  <h2 id="lesson-10-9">Lesson 10.9 — Absence of Short Selling</h2>
+  <p>NEPSE does not permit short selling. Because investors cannot borrow shares to profit from overvaluation, negative views cannot be directly expressed through trading, creating a systematic upward bias and allowing speculative bubbles to persist longer than in developed markets.</p>
+
+  <h2 id="lesson-10-10">Lesson 10.10 — Dividends, Bonus Shares, and Rights Issues</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Corporate Action</th>
+        <th>Taxation / Pricing Adjustment</th>
+        <th>Critical Investor Rule</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Cash Dividend</strong></td>
+        <td>5% TDS withheld at source for individual investors.</td>
+        <td>Must hold shares on or before the <strong>Book Closure Date</strong>.</td>
+      </tr>
+      <tr>
+        <td><strong>Bonus Shares</strong></td>
+        <td>Price adjusts automatically on Ex-Date based on bonus ratio.</td>
+        <td>Additional units credited directly to Demat BOID post-AGM.</td>
+      </tr>
+      <tr>
+        <td><strong>Rights Issues</strong></td>
+        <td>Priced typically at Rs. 100 face value; dilutes non-subscribers.</td>
+        <td>Apply via MeroShare C-ASBA during the subscription period.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    <p>Educational material only. Nothing on this site is investment advice, a solicitation, or a recommendation to buy or sell any security. Markets carry risk — always do your own research and consult a licensed professional before acting.</p>
+    <p>© 2026 Santosh Kumar Adhikari. All rights reserved.</p>
+  </footer>
+</div>
+</body>
+</html>
