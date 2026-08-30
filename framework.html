@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Canon Framework — Visual Overview & System Architecture | The Investor's Canon</title>
-  <meta name="description" content="Visual overview and system architecture of The Investor's Canon: 4 Volumes, 18 Parts, 118 Chapters, and the Dual-Hemisphere 100-Point Scoring Rubric by Santosh Kumar Adhikari.">
+  <title>The Canon Framework — Visual Overview & Complete Chapter Directory | The Investor's Canon</title>
+  <meta name="description" content="Visual architecture and deep-detail directory of all 121 chapters across 4 Volumes, 18 Parts, and the 100-Point Canon Scoring Engine by Santosh Kumar Adhikari.">
   <meta name="author" content="Santosh Kumar Adhikari">
   <link rel="canonical" href="https://santoshkumaradhikari.com.np/investors-canon/framework.html">
   <style>
@@ -41,7 +41,7 @@
     }
 
     .container {
-      max-width: 1040px;
+      max-width: 1060px;
       margin: 0 auto;
       padding: 3rem 1.5rem;
     }
@@ -104,7 +104,7 @@
     .hero p {
       font-size: 1.15rem;
       color: var(--text-muted);
-      max-width: 720px;
+      max-width: 760px;
       margin: 0 auto 2.5rem;
     }
 
@@ -113,7 +113,7 @@
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       gap: 1rem;
-      max-width: 880px;
+      max-width: 900px;
       margin: 0 auto;
     }
 
@@ -146,6 +146,35 @@
       font-weight: 600;
     }
 
+    /* Jump Nav */
+    .jump-nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin: 2.5rem 0 1rem;
+    }
+
+    .jump-btn {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.45rem 0.9rem;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-decoration: none;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--card-border);
+      color: var(--text);
+      transition: all 0.2s;
+    }
+
+    .jump-btn:hover {
+      background: rgba(255, 255, 255, 0.08);
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+
     /* Section Headings */
     .section-title-wrap {
       margin: 4.5rem 0 2rem;
@@ -172,7 +201,7 @@
     .section-subtitle {
       font-size: 1rem;
       color: var(--text-muted);
-      max-width: 640px;
+      max-width: 680px;
       margin: 0.5rem auto 0;
     }
 
@@ -254,27 +283,6 @@
       line-height: 1.5;
     }
 
-    .vol-parts-list {
-      list-style: none;
-      margin-top: auto;
-      border-top: 1px solid rgba(255, 255, 255, 0.06);
-      padding-top: 1rem;
-      font-size: 0.82rem;
-    }
-
-    .vol-parts-list li {
-      display: flex;
-      justify-content: space-between;
-      padding: 0.35rem 0;
-      color: #d1d5db;
-    }
-
-    .part-badge {
-      color: var(--text-muted);
-      font-family: ui-monospace, SFMono-Regular, monospace;
-      font-size: 0.75rem;
-    }
-
     /* Hemispheres Visual Comparison */
     .hemisphere-container {
       display: grid;
@@ -297,13 +305,8 @@
       position: relative;
     }
 
-    .hemi-left {
-      border-left: 4px solid var(--primary);
-    }
-
-    .hemi-right {
-      border-left: 4px solid var(--emerald);
-    }
+    .hemi-left { border-left: 4px solid var(--primary); }
+    .hemi-right { border-left: 4px solid var(--emerald); }
 
     .hemi-badge {
       display: inline-flex;
@@ -411,6 +414,143 @@
       line-height: 1.45;
     }
 
+    /* DEEP DETAIL DIRECTORY STYLES */
+    .deep-directory {
+      margin-top: 4rem;
+    }
+
+    .vol-section {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 2.25rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .vol-sec-header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.75rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--card-border);
+    }
+
+    .vol-sec-badge {
+      font-size: 0.8rem;
+      font-weight: 700;
+      padding: 0.3rem 0.75rem;
+      border-radius: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .vol-1-badge { background: rgba(56, 189, 248, 0.15); color: var(--primary); border: 1px solid rgba(56, 189, 248, 0.3); }
+    .vol-2-badge { background: rgba(52, 211, 153, 0.15); color: var(--emerald); border: 1px solid rgba(52, 211, 153, 0.3); }
+    .vol-3-badge { background: rgba(251, 191, 36, 0.15); color: var(--amber); border: 1px solid rgba(251, 191, 36, 0.3); }
+    .vol-4-badge { background: rgba(167, 139, 250, 0.15); color: var(--purple); border: 1px solid rgba(167, 139, 250, 0.3); }
+
+    .vol-sec-title {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .part-block {
+      margin-bottom: 2rem;
+    }
+
+    .part-header {
+      display: flex;
+      align-items: baseline;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+    }
+
+    .part-num {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .part-title {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: #e5e7eb;
+    }
+
+    .chapters-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 0.75rem;
+    }
+
+    .chapter-link-card {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      padding: 0.85rem 1rem;
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 10px;
+      text-decoration: none;
+      color: var(--text);
+      transition: all 0.2s ease;
+    }
+
+    .chapter-link-card:hover {
+      background: rgba(255, 255, 255, 0.05);
+      border-color: var(--primary);
+      transform: translateY(-2px);
+    }
+
+    .ch-num-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 38px;
+      height: 32px;
+      background: rgba(255, 255, 255, 0.06);
+      border-radius: 6px;
+      font-family: ui-monospace, SFMono-Regular, monospace;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    .ch-info {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      overflow: hidden;
+    }
+
+    .ch-title-text {
+      font-size: 0.88rem;
+      font-weight: 500;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      color: #f3f4f6;
+    }
+
+    .chapter-link-card:hover .ch-title-text {
+      color: var(--primary);
+    }
+
+    .ch-arrow {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      transition: transform 0.2s;
+    }
+
+    .chapter-link-card:hover .ch-arrow {
+      color: var(--primary);
+      transform: translateX(3px);
+    }
+
     /* Master Table */
     .table-card {
       background: var(--card-bg);
@@ -478,7 +618,7 @@
         background: #fff;
         color: #000;
       }
-      .volume-card, .hemisphere-card, .stat-card, .table-card {
+      .volume-card, .hemisphere-card, .stat-card, .table-card, .vol-section {
         border: 1px solid #ccc;
         background: #fff;
         color: #000;
@@ -505,8 +645,17 @@
     <h1>The Canon Framework</h1>
     <p>A unified operating system for capital allocation in the Nepal Stock Exchange (NEPSE) — from macroeconomic liquidity transmission to forensic balance sheet analysis and execution.</p>
 
+    <!-- Quick Jump Buttons -->
+    <div class="jump-nav">
+      <a href="#vol-1-sec" class="jump-btn">Vol. 1: Foundations (0.1–23)</a>
+      <a href="#vol-2-sec" class="jump-btn">Vol. 2: Forensic Analysis (24–49)</a>
+      <a href="#vol-3-sec" class="jump-btn">Vol. 3: Execution (50–82)</a>
+      <a href="#vol-4-sec" class="jump-btn">Vol. 4: Mastery (83–118)</a>
+      <a href="#scoring-rubric" class="jump-btn">100-Point Scoring Engine</a>
+    </div>
+
     <!-- Stats -->
-    <div class="stats-grid">
+    <div class="stats-grid" style="margin-top: 2rem;">
       <div class="stat-card">
         <div class="stat-num" style="color: var(--primary);">4</div>
         <div class="stat-label">Volumes</div>
@@ -516,8 +665,8 @@
         <div class="stat-label">Parts & Frameworks</div>
       </div>
       <div class="stat-card">
-        <div class="stat-num" style="color: var(--amber);">118</div>
-        <div class="stat-label">Complete Chapters</div>
+        <div class="stat-num" style="color: var(--amber);">121</div>
+        <div class="stat-label">Total Chapters (0.1–118)</div>
       </div>
       <div class="stat-card">
         <div class="stat-num" style="color: var(--purple);">100</div>
@@ -526,86 +675,8 @@
     </div>
   </header>
 
-  <!-- Section 1: The 4-Volume Roadmap -->
-  <section>
-    <div class="section-title-wrap">
-      <span class="section-pill">System Architecture</span>
-      <h2 class="section-title">The 4-Volume Learning Roadmap</h2>
-      <p class="section-subtitle">118 chapters structured progressively: from understanding market rules to forensic analysis, algorithmic execution, and lifelong mastery.</p>
-    </div>
-
-    <div class="volumes-grid">
-      <!-- Vol 1 -->
-      <div class="volume-card vol-1">
-        <div class="vol-header">
-          <span class="vol-tag">Volume 1</span>
-          <span class="vol-ch-count">26 Chapters</span>
-        </div>
-        <h3 class="vol-title">Foundations</h3>
-        <p class="vol-desc">The rules of the arena: macroeconomic credit cycles, NEPSE microstructure, statutory instruments, and promoter governance.</p>
-        <ul class="vol-parts-list">
-          <li><span>Part 0: Foundations</span> <span class="part-badge">Ch 0.1–0.3</span></li>
-          <li><span>Part I: Credit & Liquidity</span> <span class="part-badge">Ch 1–6</span></li>
-          <li><span>Part II: Market Structure</span> <span class="part-badge">Ch 7–12</span></li>
-          <li><span>Part III: Listed Instruments</span> <span class="part-badge">Ch 13–18</span></li>
-          <li><span>Part IV: Governance & Promoters</span> <span class="part-badge">Ch 19–23</span></li>
-        </ul>
-      </div>
-
-      <!-- Vol 2 -->
-      <div class="volume-card vol-2">
-        <div class="vol-header">
-          <span class="vol-tag">Volume 2</span>
-          <span class="vol-ch-count">26 Chapters</span>
-        </div>
-        <h3 class="vol-title">Forensic Analysis</h3>
-        <p class="vol-desc">The analytical toolkit: audited NFRS reporting, sector accounting logic, hydropower project finance models, and intrinsic valuation.</p>
-        <ul class="vol-parts-list">
-          <li><span>Part V: NFRS Financials</span> <span class="part-badge">Ch 24–28</span></li>
-          <li><span>Part VI: Sector Accounting</span> <span class="part-badge">Ch 29–34</span></li>
-          <li><span>Part VII: Taxation & Ratios</span> <span class="part-badge">Ch 35–41</span></li>
-          <li><span>Part VIII: Hydropower DCF</span> <span class="part-badge">Ch 42–44</span></li>
-          <li><span>Part IX: Absolute Valuation</span> <span class="part-badge">Ch 45–49</span></li>
-        </ul>
-      </div>
-
-      <!-- Vol 3 -->
-      <div class="volume-card vol-3">
-        <div class="vol-header">
-          <span class="vol-tag">Volume 3</span>
-          <span class="vol-ch-count">33 Chapters</span>
-        </div>
-        <h3 class="vol-title">Execution & Rules</h3>
-        <p class="vol-desc">Turning analysis into decisions: investor psychology, liquidity engineering, portfolio sizing, the Canon Scoring rubric, and backtesting.</p>
-        <ul class="vol-parts-list">
-          <li><span>Part X: Investor Psychology</span> <span class="part-badge">Ch 50–53</span></li>
-          <li><span>Part XI: Liquidity & Sizing</span> <span class="part-badge">Ch 54–58</span></li>
-          <li><span>Part XII: Portfolio Design</span> <span class="part-badge">Ch 59–62</span></li>
-          <li><span>Part XIII: Canon Scoring</span> <span class="part-badge">Ch 63–66</span></li>
-          <li><span>Part XIV: Strategy Playbooks</span> <span class="part-badge">Ch 67–78</span></li>
-          <li><span>Part XV: Calibration</span> <span class="part-badge">Ch 79–82</span></li>
-        </ul>
-      </div>
-
-      <!-- Vol 4 -->
-      <div class="volume-card vol-4">
-        <div class="vol-header">
-          <span class="vol-tag">Volume 4</span>
-          <span class="vol-ch-count">36 Chapters</span>
-        </div>
-        <h3 class="vol-title">Mastery & Almanac</h3>
-        <p class="vol-desc">Practical application: comprehensive company case studies, an investment constitution, personal OS, and historical reference data.</p>
-        <ul class="vol-parts-list">
-          <li><span>Part XVI: Case Studies</span> <span class="part-badge">Ch 83–93</span></li>
-          <li><span>Part XVII: Personal OS</span> <span class="part-badge">Ch 94–100</span></li>
-          <li><span>Part XVIII: Tools & Almanac</span> <span class="part-badge">Ch 101–118</span></li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- Section 2: The Two Hemispheres -->
-  <section>
+  <!-- Section: Dual Hemispheres -->
+  <section id="scoring-rubric">
     <div class="section-title-wrap">
       <span class="section-pill">Analytical Engine</span>
       <h2 class="section-title">The Dual-Hemisphere Canon Score</h2>
@@ -706,7 +777,7 @@
     </div>
   </section>
 
-  <!-- Section 3: Decision Tiers -->
+  <!-- Section: Decision Tiers -->
   <section>
     <div class="section-title-wrap">
       <span class="section-pill">Decision Rules</span>
@@ -741,84 +812,845 @@
     </div>
   </section>
 
-  <!-- Section 4: Master Rubric Table -->
-  <section>
+  <!-- DEEP DETAIL CHAPTER DIRECTORY -->
+  <section class="deep-directory">
     <div class="section-title-wrap">
-      <span class="section-pill">Complete Rubric</span>
-      <h2 class="section-title">The 100-Point Scoring Specification</h2>
-      <p class="section-subtitle">Seven dimensions, summed additively — never averaged — ensuring that the ceiling is always exactly 100.</p>
+      <span class="section-pill">Complete Architecture</span>
+      <h2 class="section-title">Deep Detail Chapter Directory (0.1 to 118)</h2>
+      <p class="section-subtitle">Direct, hyperlinked access to every single chapter in The Investor's Canon, organized across 4 Volumes and 18 Parts.</p>
     </div>
 
-    <div class="table-card">
-      <table>
-        <thead>
-          <tr>
-            <th>#</th>
-            <th>Dimension</th>
-            <th>Hemisphere</th>
-            <th>Weight</th>
-            <th>Diagnostic Focus</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><strong>01</strong></td>
-            <td><strong>Financial Strength & Profitability</strong></td>
-            <td>Quantitative Forensics</td>
-            <td><span class="weight-badge">20 pts</span></td>
-            <td>Real cash conversion, loan-loss provisioning, interest coverage, sustainable ROE.</td>
-          </tr>
-          <tr>
-            <td><strong>02</strong></td>
-            <td><strong>Governance & Promoter Behaviour</strong></td>
-            <td>Qualitative Defence</td>
-            <td><span class="weight-badge">15 pts</span></td>
-            <td>Promoter integrity, related-party transactions, share pledging, regulatory track record.</td>
-          </tr>
-          <tr>
-            <td><strong>03</strong></td>
-            <td><strong>Valuation Reasonableness</strong></td>
-            <td>Quantitative Forensics</td>
-            <td><span class="weight-badge">15 pts</span></td>
-            <td>P/E, P/B, and EV/EBITDA anchored against the risk-free 364-day Treasury Bill rate.</td>
-          </tr>
-          <tr>
-            <td><strong>04</strong></td>
-            <td><strong>Sector & Business Model Durability</strong></td>
-            <td>Qualitative Defence</td>
-            <td><span class="weight-badge">15 pts</span></td>
-            <td>Competitive moats, PPA tariff structures, regulatory barriers to entry.</td>
-          </tr>
-          <tr>
-            <td><strong>05</strong></td>
-            <td><strong>Growth Trajectory</strong></td>
-            <td>Quantitative Forensics</td>
-            <td><span class="weight-badge">15 pts</span></td>
-            <td>5-year EPS CAGR outperforming the company's paid-up capital dilution rate.</td>
-          </tr>
-          <tr>
-            <td><strong>06</strong></td>
-            <td><strong>Liquidity & Tradability</strong></td>
-            <td>Qualitative Defence</td>
-            <td><span class="weight-badge">10 pts</span></td>
-            <td>Free float percentage, daily NEPSE turnover, order book depth, impact cost.</td>
-          </tr>
-          <tr>
-            <td><strong>07</strong></td>
-            <td><strong>Dividend & Capital Return Discipline</strong></td>
-            <td>Quantitative Forensics</td>
-            <td><span class="weight-badge">10 pts</span></td>
-            <td>Cash dividend consistency, bonus shares backed by real free reserves.</td>
-          </tr>
-          <tr style="background: rgba(56, 189, 248, 0.05); font-weight: 700;">
-            <td>—</td>
-            <td><strong>TOTAL CANON SCORE</strong></td>
-            <td><strong>Unified System</strong></td>
-            <td><span class="weight-badge" style="background: var(--primary); color: #000;">100 pts</span></td>
-            <td><strong>Complete 100-Point Composite Evaluation</strong></td>
-          </tr>
-        </tbody>
-      </table>
+    <!-- VOLUME 1 -->
+    <div class="vol-section" id="vol-1-sec">
+      <div class="vol-sec-header">
+        <span class="vol-sec-badge vol-1-badge">Volume 1</span>
+        <h3 class="vol-sec-title">Foundations · Chapters 0.1 to 23</h3>
+      </div>
+
+      <!-- Part 0 -->
+      <div class="part-block">
+        <div class="part-header">
+          <span class="part-num">Part 0</span>
+          <h4 class="part-title">The Foundational Frameworks</h4>
+        </div>
+        <div class="chapters-grid">
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-0-1-credit-cycle.html" class="chapter-link-card">
+            <span class="ch-num-badge">0.1</span>
+            <div class="ch-info">
+              <span class="ch-title-text">Nepal’s Credit Cycle: The Hidden Equity Cycle</span>
+            </div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-0-2-nrb-transmission.html" class="chapter-link-card">
+            <span class="ch-num-badge">0.2</span>
+            <div class="ch-info">
+              <span class="ch-title-text">NRB Policy → Equity Price Transmission</span>
+            </div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-0-3-liquidity-regimes.html" class="chapter-link-card">
+            <span class="ch-num-badge">0.3</span>
+            <div class="ch-info">
+              <span class="ch-title-text">Liquidity Regimes in Nepal: The 4-Phase Framework</span>
+            </div>
+            <span class="ch-arrow">→</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Part I -->
+      <div class="part-block">
+        <div class="part-header">
+          <span class="part-num">Part I</span>
+          <h4 class="part-title">The Master Variable: Credit, Liquidity & Policy Transmission</h4>
+        </div>
+        <div class="chapters-grid">
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-01-nrb-monetary-policy.html" class="chapter-link-card">
+            <span class="ch-num-badge">1</span>
+            <div class="ch-info"><span class="ch-title-text">NRB’s Monetary Policy Framework</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-02-credit-policy-impact.html" class="chapter-link-card">
+            <span class="ch-num-badge">2</span>
+            <div class="ch-info"><span class="ch-title-text">Credit Policy and Its Direct Impact on NEPSE</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-03-nrb-policy-transmission.html" class="chapter-link-card">
+            <span class="ch-num-badge">3</span>
+            <div class="ch-info"><span class="ch-title-text">NRB Policy Transmission to Share Price</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-04-external-sector.html" class="chapter-link-card">
+            <span class="ch-num-badge">4</span>
+            <div class="ch-info"><span class="ch-title-text">Nepal’s External Sector and NEPSE</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-05-india-economy.html" class="chapter-link-card">
+            <span class="ch-num-badge">5</span>
+            <div class="ch-info"><span class="ch-title-text">How India’s Economy Affects NEPSE</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-06-global-macro-risk.html" class="chapter-link-card">
+            <span class="ch-num-badge">6</span>
+            <div class="ch-info"><span class="ch-title-text">Global Macro and Event-Driven Risk</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Part II -->
+      <div class="part-block">
+        <div class="part-header">
+          <span class="part-num">Part II</span>
+          <h4 class="part-title">Market Structure (NEPSE Reality First)</h4>
+        </div>
+        <div class="chapters-grid">
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-07-nepse-reality.html" class="chapter-link-card">
+            <span class="ch-num-badge">7</span>
+            <div class="ch-info"><span class="ch-title-text">What Is NEPSE and Why It Behaves Differently</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-08-regulatory-architecture.html" class="chapter-link-card">
+            <span class="ch-num-badge">8</span>
+            <div class="ch-info"><span class="ch-title-text">Regulatory Architecture of Nepal Capital Market</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-09-market-participants.html" class="chapter-link-card">
+            <span class="ch-num-badge">9</span>
+            <div class="ch-info"><span class="ch-title-text">Market Participants in NEPSE</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-10-trading-mechanics.html" class="chapter-link-card">
+            <span class="ch-num-badge">10</span>
+            <div class="ch-info"><span class="ch-title-text">Trading Mechanics in NEPSE</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-11-liquidity-problem.html" class="chapter-link-card">
+            <span class="ch-num-badge">11</span>
+            <div class="ch-info"><span class="ch-title-text">The Liquidity Problem in NEPSE</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-12-microstructure-failures.html" class="chapter-link-card">
+            <span class="ch-num-badge">12</span>
+            <div class="ch-info"><span class="ch-title-text">Market Microstructure Failures in NEPSE</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Part III -->
+      <div class="part-block">
+        <div class="part-header">
+          <span class="part-num">Part III</span>
+          <h4 class="part-title">Instruments Actually Available in Nepal</h4>
+        </div>
+        <div class="chapters-grid">
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-13-ordinary-shares.html" class="chapter-link-card">
+            <span class="ch-num-badge">13</span>
+            <div class="ch-info"><span class="ch-title-text">Ordinary Shares (Public & Promoter Tranches)</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-14-ipos.html" class="chapter-link-card">
+            <span class="ch-num-badge">14</span>
+            <div class="ch-info"><span class="ch-title-text">IPOs and the Primary Market</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-15-rights-issues-fpos.html" class="chapter-link-card">
+            <span class="ch-num-badge">15</span>
+            <div class="ch-info"><span class="ch-title-text">Rights Issues and FPOs</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-16-mutual-funds.html" class="chapter-link-card">
+            <span class="ch-num-badge">16</span>
+            <div class="ch-info"><span class="ch-title-text">Mutual Funds in Nepal</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-17-debentures-bonds.html" class="chapter-link-card">
+            <span class="ch-num-badge">17</span>
+            <div class="ch-info"><span class="ch-title-text">Debentures and Bonds in Nepal</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-18-what-doesnt-exist.html" class="chapter-link-card">
+            <span class="ch-num-badge">18</span>
+            <div class="ch-info"><span class="ch-title-text">What Does Not Yet Exist in Nepal</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Part IV -->
+      <div class="part-block">
+        <div class="part-header">
+          <span class="part-num">Part IV</span>
+          <h4 class="part-title">Corporate Governance and Promoter Behaviour</h4>
+        </div>
+        <div class="chapters-grid">
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-19-governance-landscape.html" class="chapter-link-card">
+            <span class="ch-num-badge">19</span>
+            <div class="ch-info"><span class="ch-title-text">The Governance Landscape in Nepal</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-20-promoter-behaviour.html" class="chapter-link-card">
+            <span class="ch-num-badge">20</span>
+            <div class="ch-info"><span class="ch-title-text">Promoter Behaviour — Underanalysed Risk</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-21-insider-trading.html" class="chapter-link-card">
+            <span class="ch-num-badge">21</span>
+            <div class="ch-info"><span class="ch-title-text">Insider Trading & Information Asymmetry</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-22-conglomerate-crossholdings.html" class="chapter-link-card">
+            <span class="ch-num-badge">22</span>
+            <div class="ch-info"><span class="ch-title-text">Conglomerate Cross-Holdings & Promoter Webs</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-23-governance-scoring.html" class="chapter-link-card">
+            <span class="ch-num-badge">23</span>
+            <div class="ch-info"><span class="ch-title-text">Governance Scoring for NEPSE Companies</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- VOLUME 2 -->
+    <div class="vol-section" id="vol-2-sec">
+      <div class="vol-sec-header">
+        <span class="vol-sec-badge vol-2-badge">Volume 2</span>
+        <h3 class="vol-sec-title">Forensic Analysis · Chapters 24 to 49</h3>
+      </div>
+
+      <!-- Part V -->
+      <div class="part-block">
+        <div class="part-header">
+          <span class="part-num">Part V</span>
+          <h4 class="part-title">Financial Statements & Reporting Standards</h4>
+        </div>
+        <div class="chapters-grid">
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-24-reading-financial-statements.html" class="chapter-link-card">
+            <span class="ch-num-badge">24</span>
+            <div class="ch-info"><span class="ch-title-text">Reading Financial Statements Under Nepal Standards</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-25-balance-sheet.html" class="chapter-link-card">
+            <span class="ch-num-badge">25</span>
+            <div class="ch-info"><span class="ch-title-text">The Balance Sheet — Deep Reading</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-26-income-statement.html" class="chapter-link-card">
+            <span class="ch-num-badge">26</span>
+            <div class="ch-info"><span class="ch-title-text">The Income Statement — Deep Reading</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-27-cash-flow-statement.html" class="chapter-link-card">
+            <span class="ch-num-badge">27</span>
+            <div class="ch-info"><span class="ch-title-text">The Cash Flow Statement — Truth Teller</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-28-red-flags.html" class="chapter-link-card">
+            <span class="ch-num-badge">28</span>
+            <div class="ch-info"><span class="ch-title-text">Red Flags in Nepali Financial Statements</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Part VI -->
+      <div class="part-block">
+        <div class="part-header">
+          <span class="part-num">Part VI</span>
+          <h4 class="part-title">Sector Accounting Logic</h4>
+        </div>
+        <div class="chapters-grid">
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-29-banking-accounting.html" class="chapter-link-card">
+            <span class="ch-num-badge">29</span>
+            <div class="ch-info"><span class="ch-title-text">Banking Sector Accounting Logic</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-30-development-bank-finance.html" class="chapter-link-card">
+            <span class="ch-num-badge">30</span>
+            <div class="ch-info"><span class="ch-title-text">Development Bank & Finance Accounting</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-31-microfinance-accounting.html" class="chapter-link-card">
+            <span class="ch-num-badge">31</span>
+            <div class="ch-info"><span class="ch-title-text">Microfinance (MFI) Accounting Logic</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-32-hydropower-accounting.html" class="chapter-link-card">
+            <span class="ch-num-badge">32</span>
+            <div class="ch-info"><span class="ch-title-text">Hydropower Project Accounting Logic</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-33-insurance-accounting.html" class="chapter-link-card">
+            <span class="ch-num-badge">33</span>
+            <div class="ch-info"><span class="ch-title-text">Insurance Sector Accounting</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-34-manufacturing-trading-hotel.html" class="chapter-link-card">
+            <span class="ch-num-badge">34</span>
+            <div class="ch-info"><span class="ch-title-text">Manufacturing, Trading & Hotel Accounting</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Part VII -->
+      <div class="part-block">
+        <div class="part-header">
+          <span class="part-num">Part VII</span>
+          <h4 class="part-title">Taxation & Ratios</h4>
+        </div>
+        <div class="chapters-grid">
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-35-capital-gains-tax.html" class="chapter-link-card">
+            <span class="ch-num-badge">35</span>
+            <div class="ch-info"><span class="ch-title-text">Capital Gains Tax in Nepal</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-36-dividend-interest-tax.html" class="chapter-link-card">
+            <span class="ch-num-badge">36</span>
+            <div class="ch-info"><span class="ch-title-text">Dividend and Interest Taxation</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-37-rights-bonus-tax.html" class="chapter-link-card">
+            <span class="ch-num-badge">37</span>
+            <div class="ch-info"><span class="ch-title-text">Tax Treatment of Rights and Bonus Shares</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-38-tax-planning.html" class="chapter-link-card">
+            <span class="ch-num-badge">38</span>
+            <div class="ch-info"><span class="ch-title-text">Tax Planning for the Long-Term Investor</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-39-valuation-ratios.html" class="chapter-link-card">
+            <span class="ch-num-badge">39</span>
+            <div class="ch-info"><span class="ch-title-text">Valuation Ratios in the NEPSE Context</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-40-profitability-ratios.html" class="chapter-link-card">
+            <span class="ch-num-badge">40</span>
+            <div class="ch-info"><span class="ch-title-text">Profitability Ratios — Sector by Sector</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-41-asset-quality-ratios.html" class="chapter-link-card">
+            <span class="ch-num-badge">41</span>
+            <div class="ch-info"><span class="ch-title-text">Asset Quality, Capital & Solvency Ratios</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Part VIII -->
+      <div class="part-block">
+        <div class="part-header">
+          <span class="part-num">Part VIII</span>
+          <h4 class="part-title">Project Finance & Hydropower Modelling</h4>
+        </div>
+        <div class="chapters-grid">
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-42-project-finance.html" class="chapter-link-card">
+            <span class="ch-num-badge">42</span>
+            <div class="ch-info"><span class="ch-title-text">Understanding Project Finance</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-43-hydropower-financial-model.html" class="chapter-link-card">
+            <span class="ch-num-badge">43</span>
+            <div class="ch-info"><span class="ch-title-text">The Hydropower Financial Model</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-44-evaluating-hydropower-stock.html" class="chapter-link-card">
+            <span class="ch-num-badge">44</span>
+            <div class="ch-info"><span class="ch-title-text">Evaluating a Hydropower Stock on NEPSE</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Part IX -->
+      <div class="part-block">
+        <div class="part-header">
+          <span class="part-num">Part IX</span>
+          <h4 class="part-title">Valuation</h4>
+        </div>
+        <div class="chapters-grid">
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-45-philosophy-valuation.html" class="chapter-link-card">
+            <span class="ch-num-badge">45</span>
+            <div class="ch-info"><span class="ch-title-text">The Philosophy of Valuation</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-46-dcf-valuation.html" class="chapter-link-card">
+            <span class="ch-num-badge">46</span>
+            <div class="ch-info"><span class="ch-title-text">Discounted Cash Flow (DCF) Valuation</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-47-relative-valuation-comps.html" class="chapter-link-card">
+            <span class="ch-num-badge">47</span>
+            <div class="ch-info"><span class="ch-title-text">Relative Valuation (Comps)</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-48-dividend-discount-model.html" class="chapter-link-card">
+            <span class="ch-num-badge">48</span>
+            <div class="ch-info"><span class="ch-title-text">Dividend Discount Model (DDM)</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-49-book-value-nav.html" class="chapter-link-card">
+            <span class="ch-num-badge">49</span>
+            <div class="ch-info"><span class="ch-title-text">Book Value & NAV Approaches</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- VOLUME 3 -->
+    <div class="vol-section" id="vol-3-sec">
+      <div class="vol-sec-header">
+        <span class="vol-sec-badge vol-3-badge">Volume 3</span>
+        <h3 class="vol-sec-title">Execution & Playbooks · Chapters 50 to 82</h3>
+      </div>
+
+      <!-- Part X -->
+      <div class="part-block">
+        <div class="part-header">
+          <span class="part-num">Part X</span>
+          <h4 class="part-title">Behaviour and Investor Psychology</h4>
+        </div>
+        <div class="chapters-grid">
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-50-why-nepali-investors-lose.html" class="chapter-link-card">
+            <span class="ch-num-badge">50</span>
+            <div class="ch-info"><span class="ch-title-text">Why Nepali Investors Lose Money</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-51-core-behavioural-biases.html" class="chapter-link-card">
+            <span class="ch-num-badge">51</span>
+            <div class="ch-info"><span class="ch-title-text">Core Behavioural Biases for NEPSE</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-52-building-investor-temperament.html" class="chapter-link-card">
+            <span class="ch-num-badge">52</span>
+            <div class="ch-info"><span class="ch-title-text">Building Investor Temperament</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-53-behavioural-training-exercises.html" class="chapter-link-card">
+            <span class="ch-num-badge">53</span>
+            <div class="ch-info"><span class="ch-title-text">Behavioural Training Exercises</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Part XI -->
+      <div class="part-block">
+        <div class="part-header">
+          <span class="part-num">Part XI</span>
+          <h4 class="part-title">Liquidity Engineering & Position Sizing</h4>
+        </div>
+        <div class="chapters-grid">
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-54-liquidity-first-order-risk.html" class="chapter-link-card">
+            <span class="ch-num-badge">54</span>
+            <div class="ch-info"><span class="ch-title-text">Liquidity as First-Order Risk in NEPSE</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-55-exit-risk.html" class="chapter-link-card">
+            <span class="ch-num-badge">55</span>
+            <div class="ch-info"><span class="ch-title-text">Exit Risk in NEPSE</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-56-adv-rule.html" class="chapter-link-card">
+            <span class="ch-num-badge">56</span>
+            <div class="ch-info"><span class="ch-title-text">Position Size vs. ADV Rule</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-57-free-float-allocation-limits.html" class="chapter-link-card">
+            <span class="ch-num-badge">57</span>
+            <div class="ch-info"><span class="ch-title-text">Free Float-Based Allocation Limits</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-58-circuit-trap-exit-modelling.html" class="chapter-link-card">
+            <span class="ch-num-badge">58</span>
+            <div class="ch-info"><span class="ch-title-text">Circuit Trap Exit Modelling</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Part XII -->
+      <div class="part-block">
+        <div class="part-header">
+          <span class="part-num">Part XII</span>
+          <h4 class="part-title">Portfolio Construction</h4>
+        </div>
+        <div class="chapters-grid">
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-59-asset-allocation.html" class="chapter-link-card">
+            <span class="ch-num-badge">59</span>
+            <div class="ch-info"><span class="ch-title-text">Asset Allocation Within Nepal</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-60-equity-portfolio-construction.html" class="chapter-link-card">
+            <span class="ch-num-badge">60</span>
+            <div class="ch-info"><span class="ch-title-text">Equity Portfolio Construction for NEPSE</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-61-portfolio-risk-management.html" class="chapter-link-card">
+            <span class="ch-num-badge">61</span>
+            <div class="ch-info"><span class="ch-title-text">Portfolio Risk Management</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-62-systematic-disciplined-investing.html" class="chapter-link-card">
+            <span class="ch-num-badge">62</span>
+            <div class="ch-info"><span class="ch-title-text">Systematic & Disciplined Investing</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Part XIII -->
+      <div class="part-block">
+        <div class="part-header">
+          <span class="part-num">Part XIII</span>
+          <h4 class="part-title">The Canon Scoring System</h4>
+        </div>
+        <div class="chapters-grid">
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-63-canon-scoring-philosophy.html" class="chapter-link-card">
+            <span class="ch-num-badge">63</span>
+            <div class="ch-info"><span class="ch-title-text">Philosophy of the Canon Scoring System</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-64-seven-dimension-score.html" class="chapter-link-card">
+            <span class="ch-num-badge">64</span>
+            <div class="ch-info"><span class="ch-title-text">The 7-Dimension Company Quality Score (0–100)</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-65-sector-subscore-adjustments.html" class="chapter-link-card">
+            <span class="ch-num-badge">65</span>
+            <div class="ch-info"><span class="ch-title-text">Sector-Specific Sub-Score Adjustments</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-66-using-canon-score-portfolio.html" class="chapter-link-card">
+            <span class="ch-num-badge">66</span>
+            <div class="ch-info"><span class="ch-title-text">Using the Canon Score in Portfolio Decisions</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Part XIV -->
+      <div class="part-block">
+        <div class="part-header">
+          <span class="part-num">Part XIV</span>
+          <h4 class="part-title">Strategies, Playbooks & Decision Frameworks</h4>
+        </div>
+        <div class="chapters-grid">
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-67-long-term-value-investing.html" class="chapter-link-card">
+            <span class="ch-num-badge">67</span>
+            <div class="ch-info"><span class="ch-title-text">Long-Term Value Investing on NEPSE</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-68-dividend-income-strategy.html" class="chapter-link-card">
+            <span class="ch-num-badge">68</span>
+            <div class="ch-info"><span class="ch-title-text">Dividend Income Strategy</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-69-ipo-rights-sector-rotation.html" class="chapter-link-card">
+            <span class="ch-num-badge">69</span>
+            <div class="ch-info"><span class="ch-title-text">IPO, Rights & Sector Rotation</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-70-research-tracking-systems.html" class="chapter-link-card">
+            <span class="ch-num-badge">70</span>
+            <div class="ch-info"><span class="ch-title-text">Research and Tracking Systems</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-71-banking-sector-playbook.html" class="chapter-link-card">
+            <span class="ch-num-badge">71</span>
+            <div class="ch-info"><span class="ch-title-text">The Banking Sector Playbook</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-72-hydropower-sector-playbook.html" class="chapter-link-card">
+            <span class="ch-num-badge">72</span>
+            <div class="ch-info"><span class="ch-title-text">The Hydropower Sector Playbook</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-73-microfinance-sector-playbook.html" class="chapter-link-card">
+            <span class="ch-num-badge">73</span>
+            <div class="ch-info"><span class="ch-title-text">The Microfinance Sector Playbook</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-74-insurance-sector-playbook.html" class="chapter-link-card">
+            <span class="ch-num-badge">74</span>
+            <div class="ch-info"><span class="ch-title-text">The Insurance Sector Playbook</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-75-manufacturing-hotel-playbook.html" class="chapter-link-card">
+            <span class="ch-num-badge">75</span>
+            <div class="ch-info"><span class="ch-title-text">Manufacturing & Hotel Playbook</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-76-liquidity-entry-exit-playbook.html" class="chapter-link-card">
+            <span class="ch-num-badge">76</span>
+            <div class="ch-info"><span class="ch-title-text">Liquidity Entry and Exit Playbook</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-77-ipo-playbook.html" class="chapter-link-card">
+            <span class="ch-num-badge">77</span>
+            <div class="ch-info"><span class="ch-title-text">The IPO Playbook</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-78-rights-issue-playbook.html" class="chapter-link-card">
+            <span class="ch-num-badge">78</span>
+            <div class="ch-info"><span class="ch-title-text">The Rights Issue Playbook</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Part XV -->
+      <div class="part-block">
+        <div class="part-header">
+          <span class="part-num">Part XV</span>
+          <h4 class="part-title">Calibration & Backtesting</h4>
+        </div>
+        <div class="chapters-grid">
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-79-backtesting-mindset.html" class="chapter-link-card">
+            <span class="ch-num-badge">79</span>
+            <div class="ch-info"><span class="ch-title-text">The Backtesting Mindset</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-80-calibrating-scoring-model.html" class="chapter-link-card">
+            <span class="ch-num-badge">80</span>
+            <div class="ch-info"><span class="ch-title-text">Calibrating Model Against History</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-81-testing-refining-exit-rules.html" class="chapter-link-card">
+            <span class="ch-num-badge">81</span>
+            <div class="ch-info"><span class="ch-title-text">Testing and Refining Exit Rules</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-82-measuring-managing-model-drift.html" class="chapter-link-card">
+            <span class="ch-num-badge">82</span>
+            <div class="ch-info"><span class="ch-title-text">Measuring & Managing Model Drift</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- VOLUME 4 -->
+    <div class="vol-section" id="vol-4-sec">
+      <div class="vol-sec-header">
+        <span class="vol-sec-badge vol-4-badge">Volume 4</span>
+        <h3 class="vol-sec-title">Mastery & Tools · Chapters 83 to 118</h3>
+      </div>
+
+      <!-- Part XVI -->
+      <div class="part-block">
+        <div class="part-header">
+          <span class="part-num">Part XVI</span>
+          <h4 class="part-title">Full Case Studies (Worked End-to-End)</h4>
+        </div>
+        <div class="chapters-grid">
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-83-case-study-commercial-bank.html" class="chapter-link-card">
+            <span class="ch-num-badge">83</span>
+            <div class="ch-info"><span class="ch-title-text">Case 1 — A Commercial Bank</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-84-case-study-hydropower-plant.html" class="chapter-link-card">
+            <span class="ch-num-badge">84</span>
+            <div class="ch-info"><span class="ch-title-text">Case 2 — A Hydropower Plant</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-85-case-study-microfinance-institution.html" class="chapter-link-card">
+            <span class="ch-num-badge">85</span>
+            <div class="ch-info"><span class="ch-title-text">Case 3 — A Microfinance Institution</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-86-case-study-manufacturing-company.html" class="chapter-link-card">
+            <span class="ch-num-badge">86</span>
+            <div class="ch-info"><span class="ch-title-text">Case 4 — A Manufacturing Company</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-87-case-study-rights-issue.html" class="chapter-link-card">
+            <span class="ch-num-badge">87</span>
+            <div class="ch-info"><span class="ch-title-text">Case 5 — A Rights Issue Decision</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-88-case-study-ipo-analysis.html" class="chapter-link-card">
+            <span class="ch-num-badge">88</span>
+            <div class="ch-info"><span class="ch-title-text">Case 6 — An IPO Analysis</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-89-case-study-bank-failure.html" class="chapter-link-card">
+            <span class="ch-num-badge">89</span>
+            <div class="ch-info"><span class="ch-title-text">Case 7 — Bank Failure / Near-Failure</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-90-case-study-nepse-mania.html" class="chapter-link-card">
+            <span class="ch-num-badge">90</span>
+            <div class="ch-info"><span class="ch-title-text">Case 8 — The 2021 NEPSE Mania</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-91-case-study-hydropower-overrun.html" class="chapter-link-card">
+            <span class="ch-num-badge">91</span>
+            <div class="ch-info"><span class="ch-title-text">Case 9 — Hydropower Overrun & Delay</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-92-case-study-insurance-company.html" class="chapter-link-card">
+            <span class="ch-num-badge">92</span>
+            <div class="ch-info"><span class="ch-title-text">Case 10 — An Insurance Company</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-93-case-study-hotel-investment.html" class="chapter-link-card">
+            <span class="ch-num-badge">93</span>
+            <div class="ch-info"><span class="ch-title-text">Case 11 — A Hotel Sector Investment</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Part XVII -->
+      <div class="part-block">
+        <div class="part-header">
+          <span class="part-num">Part XVII</span>
+          <h4 class="part-title">The Investment Constitution & Personal OS</h4>
+        </div>
+        <div class="chapters-grid">
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-94-daily-weekly-monthly-annual-routines.html" class="chapter-link-card">
+            <span class="ch-num-badge">94</span>
+            <div class="ch-info"><span class="ch-title-text">Daily, Weekly & Annual Routines</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-95-investment-constitution.html" class="chapter-link-card">
+            <span class="ch-num-badge">95</span>
+            <div class="ch-info"><span class="ch-title-text">Writing Your Investment Constitution</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-96-overriding-the-model.html" class="chapter-link-card">
+            <span class="ch-num-badge">96</span>
+            <div class="ch-info"><span class="ch-title-text">Rules for Overriding the Model</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-97-drawdown-loss-rules.html" class="chapter-link-card">
+            <span class="ch-num-badge">97</span>
+            <div class="ch-info"><span class="ch-title-text">Maximum Drawdown and Loss Rules</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-98-constitution-review-protocol.html" class="chapter-link-card">
+            <span class="ch-num-badge">98</span>
+            <div class="ch-info"><span class="ch-title-text">Constitution Review Protocol</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-99-full-investment-memo.html" class="chapter-link-card">
+            <span class="ch-num-badge">99</span>
+            <div class="ch-info"><span class="ch-title-text">The Full Investment Memo (Worked)</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-100-portfolio-construction-walkthrough.html" class="chapter-link-card">
+            <span class="ch-num-badge">100</span>
+            <div class="ch-info"><span class="ch-title-text">Full Portfolio Construction Walkthrough</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Part XVIII -->
+      <div class="part-block">
+        <div class="part-header">
+          <span class="part-num">Part XVIII</span>
+          <h4 class="part-title">Operational Tools, Data Reference & Almanac</h4>
+        </div>
+        <div class="chapters-grid">
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-101-pre-buy-checklists.html" class="chapter-link-card">
+            <span class="ch-num-badge">101</span>
+            <div class="ch-info"><span class="ch-title-text">Pre-Buy Checklists</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-102-financial-model-templates.html" class="chapter-link-card">
+            <span class="ch-num-badge">102</span>
+            <div class="ch-info"><span class="ch-title-text">Financial Model Templates</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-103-position-sizing-portfolio-tools.html" class="chapter-link-card">
+            <span class="ch-num-badge">103</span>
+            <div class="ch-info"><span class="ch-title-text">Position Sizing & Portfolio Tools</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-104-performance-monitoring-tools.html" class="chapter-link-card">
+            <span class="ch-num-badge">104</span>
+            <div class="ch-info"><span class="ch-title-text">Performance Monitoring Tools</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-105-canon-data-pipeline.html" class="chapter-link-card">
+            <span class="ch-num-badge">105</span>
+            <div class="ch-info"><span class="ch-title-text">The Canon Data Pipeline</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-106-nepse-data-handbook-almanac.html" class="chapter-link-card">
+            <span class="ch-num-badge">106</span>
+            <div class="ch-info"><span class="ch-title-text">NEPSE Historical Data Almanac</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-107-keeping-canon-current.html" class="chapter-link-card">
+            <span class="ch-num-badge">107</span>
+            <div class="ch-info"><span class="ch-title-text">Keeping the Canon Current</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-108-adapting-to-market-evolution.html" class="chapter-link-card">
+            <span class="ch-num-badge">108</span>
+            <div class="ch-info"><span class="ch-title-text">Adapting to Market Evolution</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-109-lifelong-investor-mindset.html" class="chapter-link-card">
+            <span class="ch-num-badge">109</span>
+            <div class="ch-info"><span class="ch-title-text">The Lifelong Investor’s Mindset</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-110-nepse-regulatory-change-tracker.html" class="chapter-link-card">
+            <span class="ch-num-badge">110</span>
+            <div class="ch-info"><span class="ch-title-text">Regulatory Change Tracker</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-111-personal-research-library.html" class="chapter-link-card">
+            <span class="ch-num-badge">111</span>
+            <div class="ch-info"><span class="ch-title-text">Personal Research Library</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-112-technology-tools-nepse-investor.html" class="chapter-link-card">
+            <span class="ch-num-badge">112</span>
+            <div class="ch-info"><span class="ch-title-text">Technology Tools for the NEPSE Investor</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-113-annual-financial-calendar.html" class="chapter-link-card">
+            <span class="ch-num-badge">113</span>
+            <div class="ch-info"><span class="ch-title-text">Annual Financial Calendar for NEPSE</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-114-communication-protocols.html" class="chapter-link-card">
+            <span class="ch-num-badge">114</span>
+            <div class="ch-info"><span class="ch-title-text">Communication Protocols — Broker & AGM</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-115-multigenerational-wealth-building.html" class="chapter-link-card">
+            <span class="ch-num-badge">115</span>
+            <div class="ch-info"><span class="ch-title-text">Multi-Generational Wealth Building</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-116-teaching-the-canon.html" class="chapter-link-card">
+            <span class="ch-num-badge">116</span>
+            <div class="ch-info"><span class="ch-title-text">Teaching the Canon Responsibly</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-117-canon-audit.html" class="chapter-link-card">
+            <span class="ch-num-badge">117</span>
+            <div class="ch-info"><span class="ch-title-text">The Canon Audit — Annual Self-Assessment</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+          <a href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-118-final-synthesis.html" class="chapter-link-card">
+            <span class="ch-num-badge">118</span>
+            <div class="ch-info"><span class="ch-title-text">Final Synthesis — The Complete Canon Investor</span></div>
+            <span class="ch-arrow">→</span>
+          </a>
+        </div>
+      </div>
     </div>
   </section>
 
