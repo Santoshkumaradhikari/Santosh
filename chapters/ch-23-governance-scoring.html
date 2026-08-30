@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Part IV · Chapter 23 — Governance Scoring for NEPSE Companies | The Investor's Canon</title>
+  <meta name="description" content="Part IV · Chapter 23 of The Investor's Canon by Santosh Kumar Adhikari: Six-dimension 12-point NEPSE governance scoring rubric, worked commercial bank example, position-sizing caps, and forensic limits.">
+  <meta name="author" content="Santosh Kumar Adhikari">
+  <link rel="canonical" href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-23-governance-scoring.html">
+  <style>
+    :root {
+      --bg: #0f172a;
+      --text: #e2e8f0;
+      --text-muted: #94a3b8;
+      --card-bg: #1e293b;
+      --border: #334155;
+      --primary: #38bdf8;
+      --primary-hover: #0ea5e9;
+      --accent: #f59e0b;
+      --code-bg: #0b1120;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.7;
+      color: var(--text);
+      background-color: var(--bg);
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+    nav.breadcrumbs {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+    }
+    nav.breadcrumbs a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+    nav.breadcrumbs a:hover {
+      text-decoration: underline;
+    }
+    h1 {
+      font-size: 2.25rem;
+      line-height: 1.25;
+      color: #fff;
+      margin: 0.5rem 0 0.75rem;
+    }
+    .meta {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+    .toc {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin: 2rem 0;
+    }
+    .toc h3 {
+      margin-top: 0;
+      font-size: 1.1rem;
+      color: var(--primary);
+    }
+    .toc ol {
+      margin-bottom: 0;
+      padding-left: 1.25rem;
+    }
+    .toc li {
+      margin-bottom: 0.4rem;
+    }
+    .toc a {
+      color: var(--text);
+      text-decoration: none;
+    }
+    .toc a:hover {
+      color: var(--primary);
+      text-decoration: underline;
+    }
+    h2 {
+      font-size: 1.6rem;
+      color: #fff;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.5rem;
+      margin-top: 3rem;
+    }
+    h3 {
+      font-size: 1.25rem;
+      color: var(--primary);
+      margin-top: 1.75rem;
+    }
+    blockquote {
+      border-left: 4px solid var(--primary);
+      background: rgba(56, 189, 248, 0.08);
+      margin: 1.5rem 0;
+      padding: 0.75rem 1.25rem;
+      border-radius: 0 6px 6px 0;
+      font-style: italic;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0;
+      font-size: 0.95rem;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.75rem 1rem;
+      text-align: left;
+    }
+    th {
+      background-color: var(--card-bg);
+      color: var(--primary);
+    }
+    tr:nth-child(even) {
+      background-color: rgba(30, 41, 59, 0.4);
+    }
+    pre, code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.88rem;
+    }
+    pre {
+      background: var(--code-bg);
+      border: 1px solid var(--border);
+      padding: 1rem;
+      border-radius: 6px;
+      overflow-x: auto;
+      color: #38bdf8;
+    }
+    footer {
+      border-top: 1px solid var(--border);
+      padding-top: 2rem;
+      margin-top: 4rem;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<div class="container" id="main">
+  <header>
+    <nav class="breadcrumbs">
+      <a href="https://santoshkumaradhikari.com.np/investors-canon/index.html">The Investor's Canon</a> · 
+      <a href="https://santoshkumaradhikari.com.np/investors-canon/framework.html">Framework</a> · 
+      <a href="https://santoshkumaradhikari.com.np/investors-canon/study-guide.html">Study Guide</a> · 
+      <a href="https://santoshkumaradhikari.com.np/investors-canon/glossary.html">Glossary</a> · 
+      <a href="https://santoshkumaradhikari.com.np/">Santosh Adhikari →</a>
+    </nav>
+    <div class="meta">Part IV · Chapter 23</div>
+    <h1>Governance Scoring for NEPSE Companies</h1>
+    <div class="meta">First published 21 Aug 2026 · Last verified 30 Aug 2026</div>
+  </header>
+
+  <nav class="toc">
+    <h3>In this chapter</h3>
+    <ol>
+      <li><a href="#lesson-23-1">Lesson 23.1 — Why a Structured Scorecard Beats Gut Feeling</a></li>
+      <li><a href="#lesson-23-2">Lesson 23.2 — Design Principles for a Publicly Sourced Scorecard</a></li>
+      <li><a href="#lesson-23-3">Lesson 23.3 — The Six-Dimension NEPSE Governance Scoring Rubric</a></li>
+      <li><a href="#lesson-23-4">Lesson 23.4 — Worked Example: Scoring Bank X</a></li>
+      <li><a href="#lesson-23-5">Lesson 23.5 — Using the Score: Position Sizing & Multiplier Haircuts</a></li>
+      <li><a href="#lesson-23-6">Lesson 23.6 — Forensic Boundaries of Public Scoring</a></li>
+    </ol>
+  </nav>
+
+  <blockquote>
+    A governance score is not a substitute for financial analysis — it is a multiplier. A cheap stock with terrible governance is not a bargain; it is a trap waiting for the right catalyst.
+  </blockquote>
+
+  <h2 id="lesson-23-1">Lesson 23.1 — Structured Scoring vs. Gut Feeling</h2>
+  <p>Replacing subjective impressions with a structured scoring framework eliminates recency bias, creates an objective audit trail, and establishes firm position-sizing constraints.</p>
+
+  <h2 id="lesson-23-2">Lesson 23.2 — Nepal-Buildable Scorecard Design</h2>
+  <p>Built from public filings (Annual Reports, AGM notices, SEBON CG reports) without requiring private insider access, emphasizing 3–5 year trends over static snapshots.</p>
+
+  <h2 id="lesson-23-3">Lesson 23.3 — The 6-Dimension Rubric (0–12 Scale)</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Dimension</th>
+        <th>Score 0 (Poor)</th>
+        <th>Score 1 (Fair)</th>
+        <th>Score 2 (Strong)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>1. Board Independence</strong></td>
+        <td>No independent directors</td>
+        <td>Bare statutory minimum met</td>
+        <td>≥ 2 independent directors with disclosed criteria</td>
+      </tr>
+      <tr>
+        <td><strong>2. Related-Party Deals</strong></td>
+        <td>Opaque/missing notes</td>
+        <td>Aggregated figures only</td>
+        <td>Itemized by counterparty, terms, & board review</td>
+      </tr>
+      <tr>
+        <td><strong>3. Promoter Trends</strong></td>
+        <td>Unexplained sell-downs</td>
+        <td>Roughly stable</td>
+        <td>Stable or rising; full rights subscription</td>
+      </tr>
+      <tr>
+        <td><strong>4. Disclosure Quality</strong></td>
+        <td>Chronic AGM delays</td>
+        <td>Minor past lapses</td>
+        <td>Consistently on-time AGMs & complete filings</td>
+      </tr>
+      <tr>
+        <td><strong>5. Capital Return History</strong></td>
+        <td>Dilutive at-par rights</td>
+        <td>Unremarkable history</td>
+        <td>Consistent cash/bonus policy; fair rights terms</td>
+      </tr>
+      <tr>
+        <td><strong>6. Audit & Tenure</strong></td>
+        <td>Qualified opinion; long tenure</td>
+        <td>Clean opinion; long tenure</td>
+        <td>Clean opinion; regular rotation & audit review</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2 id="lesson-23-4">Lesson 23.4 — Worked Example: Bank X</h2>
+  <p>Scoring Bank X across all 6 dimensions yields: 1 + 2 + 2 + 1 + 2 + 1 = <strong>9 / 12 (Grade B)</strong>, identifying adequate overall governance with specific monitorable items around board independence and auditor rotation.</p>
+
+  <h2 id="lesson-23-5">Lesson 23.5 — Portfolio Position Sizing & Valuation Haircuts</h2>
+  <ul>
+    <li><strong>Grade A (10–12 pts):</strong> Eligible for full conviction position sizing.</li>
+    <li><strong>Grade B (7–9 pts):</strong> Standard allocation with active monitoring.</li>
+    <li><strong>Grade C (4–6 pts):</strong> Position capped at 50% normal size; 15%–30% multiple haircut.</li>
+    <li><strong>Grade D (0–3 pts):</strong> <strong>Auto-disqualification (0% allocation)</strong>.</li>
+  </ul>
+
+  <h2 id="lesson-23-6">Lesson 23.6 — Forensic Boundaries</h2>
+  <p>Public scorecards measure <em>disclosed absence of red flags</em>, not unprovable innocence. They must always be paired with quantitative balance sheet and cash flow forensic analysis.</p>
+
+  <footer>
+    <p>Educational material only. Nothing on this site is investment advice, a solicitation, or a recommendation to buy or sell any security. Markets carry risk — always do your own research and consult a licensed professional before acting.</p>
+    <p>© 2026 Santosh Kumar Adhikari. All rights reserved.</p>
+  </footer>
+</div>
+</body>
+</html>
