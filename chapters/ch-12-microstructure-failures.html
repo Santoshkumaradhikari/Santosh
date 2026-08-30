@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Part II · Chapter 12 — Market Microstructure Failures in NEPSE | The Investor's Canon</title>
+  <meta name="description" content="Part II · Chapter 12 of The Investor's Canon by Santosh Kumar Adhikari: Order queues, wash trading, price ramping mechanics, information asymmetry, and circuit limit traps in NEPSE.">
+  <meta name="author" content="Santosh Kumar Adhikari">
+  <link rel="canonical" href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-12-microstructure-failures.html">
+  <style>
+    :root {
+      --bg: #0f172a;
+      --text: #e2e8f0;
+      --text-muted: #94a3b8;
+      --card-bg: #1e293b;
+      --border: #334155;
+      --primary: #38bdf8;
+      --primary-hover: #0ea5e9;
+      --accent: #f59e0b;
+      --code-bg: #0b1120;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.7;
+      color: var(--text);
+      background-color: var(--bg);
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+    nav.breadcrumbs {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+    }
+    nav.breadcrumbs a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+    nav.breadcrumbs a:hover {
+      text-decoration: underline;
+    }
+    h1 {
+      font-size: 2.25rem;
+      line-height: 1.25;
+      color: #fff;
+      margin: 0.5rem 0 0.75rem;
+    }
+    .meta {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+    .toc {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin: 2rem 0;
+    }
+    .toc h3 {
+      margin-top: 0;
+      font-size: 1.1rem;
+      color: var(--primary);
+    }
+    .toc ol {
+      margin-bottom: 0;
+      padding-left: 1.25rem;
+    }
+    .toc li {
+      margin-bottom: 0.4rem;
+    }
+    .toc a {
+      color: var(--text);
+      text-decoration: none;
+    }
+    .toc a:hover {
+      color: var(--primary);
+      text-decoration: underline;
+    }
+    h2 {
+      font-size: 1.6rem;
+      color: #fff;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.5rem;
+      margin-top: 3rem;
+    }
+    h3 {
+      font-size: 1.25rem;
+      color: var(--primary);
+      margin-top: 1.75rem;
+    }
+    blockquote {
+      border-left: 4px solid var(--primary);
+      background: rgba(56, 189, 248, 0.08);
+      margin: 1.5rem 0;
+      padding: 0.75rem 1.25rem;
+      border-radius: 0 6px 6px 0;
+      font-style: italic;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0;
+      font-size: 0.95rem;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.75rem 1rem;
+      text-align: left;
+    }
+    th {
+      background-color: var(--card-bg);
+      color: var(--primary);
+    }
+    tr:nth-child(even) {
+      background-color: rgba(30, 41, 59, 0.4);
+    }
+    pre, code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.88rem;
+    }
+    pre {
+      background: var(--code-bg);
+      border: 1px solid var(--border);
+      padding: 1rem;
+      border-radius: 6px;
+      overflow-x: auto;
+      color: #38bdf8;
+    }
+    .checklist {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    .checklist li {
+      padding: 0.5rem 0;
+      border-bottom: 1px solid rgba(51, 65, 85, 0.5);
+    }
+    .checklist li:before {
+      content: "✓ ";
+      color: var(--accent);
+      font-weight: bold;
+    }
+    footer {
+      border-top: 1px solid var(--border);
+      padding-top: 2rem;
+      margin-top: 4rem;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<div class="container" id="main">
+  <header>
+    <nav class="breadcrumbs">
+      <a href="https://santoshkumaradhikari.com.np/investors-canon/index.html">The Investor's Canon</a> · 
+      <a href="https://santoshkumaradhikari.com.np/investors-canon/framework.html">Framework</a> · 
+      <a href="https://santoshkumaradhikari.com.np/investors-canon/study-guide.html">Study Guide</a> · 
+      <a href="https://santoshkumaradhikari.com.np/investors-canon/glossary.html">Glossary</a> · 
+      <a href="https://santoshkumaradhikari.com.np/">Santosh Adhikari →</a>
+    </nav>
+    <div class="meta">Part II · Chapter 12</div>
+    <h1>Market Microstructure Failures in NEPSE</h1>
+    <div class="meta">First published 21 Aug 2026 · Last verified 30 Aug 2026</div>
+  </header>
+
+  <nav class="toc">
+    <h3>In this chapter</h3>
+    <ol>
+      <li><a href="#lesson-12-1">Lesson 12.1 — What Market Microstructure Means and Why It Matters to a Retail Investor</a></li>
+      <li><a href="#lesson-12-2">Lesson 12.2 — Queue Priority Mechanics: How the Order Queue Works and Who Benefits</a></li>
+      <li><a href="#lesson-12-3">Lesson 12.3 — Fake Volume Creation: How Matched Trades Between Connected Parties Simulate Activity</a></li>
+      <li><a href="#lesson-12-4">Lesson 12.4 — Broker-Level Order Routing Incentives: Where Your Order Goes and Execution Quality</a></li>
+      <li><a href="#lesson-12-5">Lesson 12.5 — Price Ramping in Illiquid Stocks: The 4-Phase Anatomy of How It Is Done</a></li>
+      <li><a href="#lesson-12-6">Lesson 12.6 — Information Asymmetry in NEPSE: Who Knows What and How Early</a></li>
+      <li><a href="#lesson-12-7">Lesson 12.7 — Circuit Limit Exploitation: How Operators Use Circuits to Trap Retail Investors</a></li>
+      <li><a href="#lesson-12-8">Lesson 12.8 — Protecting Yourself From Microstructure Predation: Practical Rules</a></li>
+    </ol>
+  </nav>
+
+  <blockquote>
+    Most books ignore this. Most retail investors are harmed by it.
+  </blockquote>
+
+  <h2 id="lesson-12-1">Lesson 12.1 — What Market Microstructure Means</h2>
+  <p>Market microstructure examines the mechanics beneath quoted screen prices. In thin frontier markets like NEPSE, three hidden execution costs dominate: <strong>the bid-ask spread</strong>, <strong>market impact (slippage)</strong>, and <strong>adverse selection</strong> from informed insider selling.</p>
+
+  <h2 id="lesson-12-2">Lesson 12.2 — Queue Priority Mechanics</h2>
+  <p>Orders in NATS execute on <strong>Price-Time Priority</strong>. Institutional and broker direct terminals benefit from lower-latency connections compared to retail mobile TMS apps. Operators also use <strong>spoofing</strong> (placing large fake orders and cancelling them before execution) to manipulate retail sentiment.</p>
+
+  <h2 id="lesson-12-3">Lesson 12.3 — Fake Volume Creation (Wash Trading)</h2>
+  <p>Wash trading involves circular matching between coordinated accounts without changing beneficial ownership. Its primary goal is to manufacture artificial volume breakouts in illiquid scrips, luring retail traders into buying operator inventory.</p>
+
+  <h2 id="lesson-12-4">Lesson 12.4 — Broker-Level Routing Incentives</h2>
+  <p>Using <strong>Market Orders</strong> gives execution intermediaries discretion over fill prices in thin books. Using <strong>Limit Orders</strong> protects retail investors by setting a strict price ceiling or floor.</p>
+
+  <h2 id="lesson-12-5">Lesson 12.5 — Price Ramping: The 4-Phase Model</h2>
+  <ol>
+    <li><strong>Quiet Accumulation:</strong> Operators quietly build positions in dormant scrips over weeks.</li>
+    <li><strong>Volume Ignition:</strong> Wash trades and planted social media rumors trigger the first upper circuit.</li>
+    <li><strong>Controlled Run:</strong> Multi-day upper circuits create artificial scarcity and intense retail FOMO.</li>
+    <li><strong>Distribution & Exit:</strong> Operators dump their entire inventory into pending retail buy queues.</li>
+  </ol>
+
+  <h2 id="lesson-12-6">Lesson 12.6 — Information Asymmetry in NEPSE</h2>
+  <p>Information flows from Promoters/Insiders $\rightarrow$ Connected Broker Desks $\rightarrow$ Institutional Funds $\rightarrow$ Public Retail Investors. Buying based on unverified social media tips invariably provides exit liquidity to earlier tiers.</p>
+
+  <h2 id="lesson-12-7">Lesson 12.7 — Circuit Limit Exploitation</h2>
+  <p>Operators exploit the <strong>±10% daily circuit bands</strong> by manufacturing upper circuit queues to exit at cycle peaks, or triggering lower circuits to engineer panic selling and accumulate distressed shares at deep discounts.</p>
+
+  <h2 id="lesson-12-8">Lesson 12.8 — Defensive Rules for Retail Investors</h2>
+  <div class="toc">
+    <h3>The 8 Rules of Microstructure Defense</h3>
+    <ul class="checklist">
+      <li>Never use Market Orders in illiquid counters; use Limit Orders strictly.</li>
+      <li>Treat 3+ consecutive upper circuits as a distribution warning, not a buy signal.</li>
+      <li>Demand a verifiable news catalyst for any sudden volume surge.</li>
+      <li>Ignore social media tipping channels and rumor groups.</li>
+      <li>Build illiquid positions in staggered tranches over multiple sessions.</li>
+      <li>Never sell in panic during engineered lower circuit cascades if fundamentals are sound.</li>
+      <li>Treat brokers strictly as transaction execution conduits.</li>
+      <li>Maintain a detailed decision log to track behavioral biases.</li>
+    </ul>
+  </div>
+
+  <footer>
+    <p>Educational material only. Nothing on this site is investment advice, a solicitation, or a recommendation to buy or sell any security. Markets carry risk — always do your own research and consult a licensed professional before acting.</p>
+    <p>© 2026 Santosh Kumar Adhikari. All rights reserved.</p>
+  </footer>
+</div>
+</body>
+</html>
