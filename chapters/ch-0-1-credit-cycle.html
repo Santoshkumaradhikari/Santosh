@@ -1,206 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Part 0 · Chapter 0.1 — Nepal’s Credit Cycle: The Hidden Equity Cycle | The Investor's Canon</title>
-  <meta name="description" content="Part 0 · Chapter 0.1 of The Investor's Canon by Santosh Kumar Adhikari: How Nepal Rastra Bank's credit cycle, remittances, SLR/CRR mechanics, and margin lending drive NEPSE equity valuations.">
-  <meta name="author" content="Santosh Kumar Adhikari">
-  <link rel="canonical" href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-0-1-credit-cycle.html">
-  <style>
-    :root {
-      --bg: #0f172a;
-      --text: #e2e8f0;
-      --text-muted: #94a3b8;
-      --card-bg: #1e293b;
-      --border: #334155;
-      --primary: #38bdf8;
-      --primary-hover: #0ea5e9;
-      --accent: #f59e0b;
-      --code-bg: #0b1120;
-    }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.7;
-      color: var(--text);
-      background-color: var(--bg);
-      margin: 0;
-      padding: 0;
-    }
-    .container {
-      max-width: 860px;
-      margin: 0 auto;
-      padding: 2.5rem 1.5rem;
-    }
-    header {
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 1.5rem;
-      margin-bottom: 2.5rem;
-    }
-    nav.breadcrumbs {
-      font-size: 0.9rem;
-      color: var(--text-muted);
-      margin-bottom: 1rem;
-    }
-    nav.breadcrumbs a {
-      color: var(--primary);
-      text-decoration: none;
-    }
-    nav.breadcrumbs a:hover {
-      text-decoration: underline;
-    }
-    h1 {
-      font-size: 2.25rem;
-      line-height: 1.25;
-      color: #fff;
-      margin: 0.5rem 0 0.75rem;
-    }
-    .meta {
-      font-size: 0.9rem;
-      color: var(--text-muted);
-    }
-    .toc {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 1.5rem;
-      margin: 2rem 0;
-    }
-    .toc h3 {
-      margin-top: 0;
-      font-size: 1.1rem;
-      color: var(--primary);
-    }
-    .toc ol {
-      margin-bottom: 0;
-      padding-left: 1.25rem;
-    }
-    .toc li {
-      margin-bottom: 0.4rem;
-    }
-    .toc a {
-      color: var(--text);
-      text-decoration: none;
-    }
-    .toc a:hover {
-      color: var(--primary);
-      text-decoration: underline;
-    }
-    h2 {
-      font-size: 1.6rem;
-      color: #fff;
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 0.5rem;
-      margin-top: 3rem;
-    }
-    h3 {
-      font-size: 1.25rem;
-      color: var(--primary);
-      margin-top: 1.75rem;
-    }
-    blockquote {
-      border-left: 4px solid var(--primary);
-      background: rgba(56, 189, 248, 0.08);
-      margin: 1.5rem 0;
-      padding: 0.75rem 1.25rem;
-      border-radius: 0 6px 6px 0;
-      font-style: italic;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 1.5rem 0;
-      font-size: 0.95rem;
-    }
-    th, td {
-      border: 1px solid var(--border);
-      padding: 0.75rem 1rem;
-      text-align: left;
-    }
-    th {
-      background-color: var(--card-bg);
-      color: var(--primary);
-    }
-    tr:nth-child(even) {
-      background-color: rgba(30, 41, 59, 0.4);
-    }
-    pre, code {
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-      font-size: 0.88rem;
-    }
-    pre {
-      background: var(--code-bg);
-      border: 1px solid var(--border);
-      padding: 1rem;
-      border-radius: 6px;
-      overflow-x: auto;
-      color: #38bdf8;
-    }
-    footer {
-      border-top: 1px solid var(--border);
-      padding-top: 2rem;
-      margin-top: 4rem;
-      font-size: 0.88rem;
-      color: var(--text-muted);
-      text-align: center;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Part 0 · Chapter 0.1 — Nepal’s Credit Cycle | The Investor's Canon</title>
+<meta name="description" content="An evidence-informed framework for understanding how credit, liquidity, remittances, bank earnings and monetary policy can influence Nepal’s equity market.">
+<meta name="author" content="Santosh Kumar Adhikari">
+<link rel="canonical" href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-0-1-credit-cycle.html">
+<style>
+:root{--bg:#0f172a;--text:#e2e8f0;--muted:#94a3b8;--card:#1e293b;--border:#334155;--primary:#38bdf8;--warn:#fbbf24}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.75 system-ui,-apple-system,"Segoe UI",sans-serif}.container{max-width:900px;margin:auto;padding:2rem 1.25rem 4rem}header{border-bottom:1px solid var(--border);padding-bottom:1.5rem;margin-bottom:2rem}.breadcrumbs{font-size:.9rem;color:var(--muted);margin-bottom:1rem}.breadcrumbs a{color:var(--primary);text-decoration:none}.meta{color:var(--muted);font-size:.9rem}h1,h2,h3{color:#fff;line-height:1.3}h1{font-size:clamp(2rem,5vw,3rem);margin:.5rem 0}h2{border-bottom:1px solid var(--border);padding-bottom:.45rem;margin-top:3rem}h3{color:var(--primary);margin-top:2rem}.toc,.notice{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:1.25rem 1.5rem;margin:2rem 0}.notice{border-left:4px solid var(--warn)}.toc a{color:var(--text)}blockquote{border-left:4px solid var(--primary);background:#0b2435;padding:.7rem 1.2rem;margin:1.5rem 0;font-size:1.08rem}table{border-collapse:collapse;width:100%;margin:1.5rem 0;font-size:.94rem}th,td{border:1px solid var(--border);padding:.7rem;text-align:left;vertical-align:top}th{background:var(--card);color:var(--primary)}tr:nth-child(even){background:#162236}pre{overflow:auto;background:#0b1120;border:1px solid var(--border);padding:1rem;border-radius:8px;color:var(--primary)}code{font-family:ui-monospace,monospace}a{color:var(--primary)}.sources li{margin:.4rem 0}footer{border-top:1px solid var(--border);margin-top:4rem;padding-top:2rem;color:var(--muted);font-size:.9rem}@media(max-width:650px){table{display:block;overflow-x:auto;white-space:normal}th,td{min-width:160px}}
+</style>
 </head>
-<body>
-<div class="container" id="main">
-  <header>
-    <nav class="breadcrumbs">
-      <a href="https://santoshkumaradhikari.com.np/investors-canon/index.html">The Investor's Canon</a> · 
-      <a href="https://santoshkumaradhikari.com.np/investors-canon/framework.html">Framework</a> · 
-      <a href="https://santoshkumaradhikari.com.np/investors-canon/study-guide.html">Study Guide</a> · 
-      <a href="https://santoshkumaradhikari.com.np/investors-canon/glossary.html">Glossary</a> · 
-      <a href="https://santoshkumaradhikari.com.np/">Santosh Adhikari →</a>
-    </nav>
-    <div class="meta">Part 0 · Chapter 0.1</div>
-    <h1>Nepal’s Credit Cycle: The Hidden Equity Cycle</h1>
-    <div class="meta">First published 21 Aug 2026 · Last verified 30 Aug 2026</div>
-  </header>
-
-  <nav class="toc">
-    <h3>In this chapter</h3>
-    <ol>
-      <li><a href="#section-0-1-1">0.1.1 — Bank Lending Growth vs. NEPSE Index: The Empirical Correlation</a></li>
-      <li><a href="#section-0-1-2">0.1.2 — Remittance → Deposit → Lending Multiplier</a></li>
-      <li><a href="#section-0-1-3">0.1.3 — Credit Expansion Lag to EPS Growth: The 6–12 Month Delay</a></li>
-      <li><a href="#section-0-1-4">0.1.4 — Credit Contraction and NPL Spike: The Inevitable Phase-Shift</a></li>
-      <li><a href="#section-0-1-5">0.1.5 — The 3-Number Monthly NRB Credit Discipline</a></li>
-    </ol>
-  </nav>
-
-  <blockquote>
-    Price is downstream of liquidity. Liquidity is downstream of credit. Credit is controlled by Nepal Rastra Bank. To understand why NEPSE does what it does, begin here.
-  </blockquote>
-
-  <p>The banking and financial complex — commercial banks, development banks, finance companies, microfinance and insurance — constituted roughly two-thirds of NEPSE market capitalisation as recently as 2021 (68.9% of total market cap that year) and has fallen steadily since, to 51.7% for banks, financial institutions and insurance combined as of mid-February 2026, with hydropower rising to 16.0% of market cap over the same period.</p>
-
-  <h2 id="section-0-1-1">0.1.1 — Bank Lending Growth vs. NEPSE Index</h2>
-  <p>Every major NEPSE cycle is driven primarily by NRB's private-sector credit growth. Margin lending amplifies bull markets as higher share prices expand collateral borrowing limits, while credit contraction triggers mechanical forced liquidations.</p>
-
-  <h2 id="section-0-1-2">0.1.2 — Remittance → Deposit → Lending Multiplier</h2>
-  <p>Remittance inflows equal 25%–30% of Nepal's GDP. As remittances enter the banking system, they expand deposit headroom. If the CRR is 4% and the regulatory SLR floor is 10% for commercial banks (8% dev. banks, 7% finance cos.), a bank receiving NPR 100 in fresh deposits can lend up to approximately NPR 86 at minimum compliance, though Nepali banks typically hold more liquidity than the floor requires, so realised lending capacity is usually lower.</p>
-
-  <h2 id="section-0-1-3">0.1.3 — Credit Expansion Lag to EPS Growth</h2>
-  <p>Bank earnings follow credit expansion with a 6 to 12 month lag due to loan disbursement timelines, fixed-deposit repricing schedules, and quarterly reporting delays. Equity markets anticipate reported earnings by 3 to 6 months.</p>
-
-  <h2 id="section-0-1-4">0.1.4 — Credit Contraction & NPL Spikes</h2>
-  <p>Late-stage credit expansion always shifts into NPL surges and aggressive loan-loss provisioning. The index fell from its all-time closing high of 3,198.60 (18 August 2021) to roughly 1,806 by June 2022 — a decline of approximately 45% over 13 months, one of the fastest major corrections in NEPSE's history.</p>
-
-  <h2 id="section-0-1-5">0.1.5 — The 3-Number Monthly NRB Credit Discipline</h2>
-  <ul>
-    <li><strong>Private Sector Credit Growth (YoY %):</strong> Leading cycle indicator (&gt;20% late-stage, 12%–18% healthy, &lt;10% tightening).</li>
-    <li><strong>System-Wide CD Ratio (%):</strong> Distance to the 90% statutory ceiling.</li>
-    <li><strong>Weighted Average Interbank Rate (%):</strong> Real-time measure of liquidity tightness.</li>
-  </ul>
-
-  <footer>
-    <p>Educational material only. Nothing on this site is investment advice, a solicitation, or a recommendation to buy or sell any security. Markets carry risk — always do your own research and consult a licensed professional before acting.</p>
-    <p>© 2026 Santosh Kumar Adhikari. All rights reserved.</p>
-  </footer>
-</div>
-</body>
-</html>
+<body><main class="container" id="main">
+<header><nav class="breadcrumbs"><a href="../index.html">The Investor's Canon</a> · <a href="../framework.html">Framework</a> · <a href="../../">Santosh Adhikari →</a></nav><div class="meta">Part 0 · Chapter 0.1</div><h1>Nepal’s Credit Cycle: The Hidden Equity Cycle</h1><div class="meta">First published 21 Aug 2026 · Last verified 31 Aug 2026</div></header>
+<div class="notice"><strong>Scope note:</strong> This chapter presents an evidence-informed framework, not a mechanical trading rule. The relationships below are hypotheses to test against current NRB, NEPSE and company data. They are not forecasts or investment recommendations.</div>
+<nav class="toc" aria-label="Contents"><strong>In this chapter</strong><ol><li><a href="#association">Credit growth and NEPSE: association, mechanism and limits</a></li><li><a href="#remittance">Remittance → deposits → credit</a></li><li><a href="#lag">Credit, bank earnings and the lag problem</a></li><li><a href="#npl">Credit contraction, asset quality and market risk</a></li><li><a href="#dashboard">A three-number starting dashboard</a></li></ol></nav>
+<blockquote><strong>Core thesis:</strong> Credit and liquidity are important common drivers of Nepal’s equity market. NRB strongly influences the monetary and regulatory environment, but transmission also depends on borrower demand, bank behaviour, asset quality, remittances, economic activity, valuation and investor expectations.</blockquote>
+<h2 id="association">0.1.1 — Credit growth and NEPSE: association, mechanism and limits</h2>
+<p>A share price reflects company-specific information, valuation, earnings expectations and market liquidity. In Nepal, banks, regulation, remittances and interest rates are especially important parts of that environment. The useful question is not whether credit growth always makes stocks rise. It is through which channels, with what delay, and under what conditions credit affects bank earnings, company cash flows and equity valuations.</p>
+<pre>NRB policy and liquidity operations
+              ↓
+Funding conditions, deposits and bank incentives
+              ↓
+Private-sector credit, rates and allocation
+              ↓
+Household/business activity and bank asset quality
+              ↓
+Earnings expectations, risk appetite and valuation
+              ↓
+NEPSE prices and turnover</pre>
+<h3>Why the relationship is plausible</h3><ol><li><strong>Financial-sector weight:</strong> banks and other financial institutions have historically represented a large share of listed-market capitalisation and turnover, although hydropower and other sectors have grown.</li><li><strong>Bank-centred financing:</strong> households and businesses depend on bank credit for property, working capital and investment.</li><li><strong>Market concentration:</strong> limited formal hedging and a large retail presence can make liquidity and risk appetite important during advances and corrections.</li><li><strong>Collateral feedback:</strong> lending against securities can amplify moves when falling collateral values trigger calls or deleveraging.</li></ol>
+<h3>What evidence must show</h3><p>Define the credit series, market return series, frequency, lags and control variables. Test policy rates, inflation, remittances, reserves, GDP, turnover, political events and global risk. Use returns and changes as well as levels: two trending series can produce spurious correlation. “Association”, “transmission channel” and “testable causal hypothesis” are safer descriptions than claiming that credit explains most market movement.</p>
+<table><thead><tr><th>Observed combination</th><th>Possible interpretation</th><th>What to verify</th></tr></thead><tbody><tr><td>Credit accelerating, deposits growing, interbank rate contained</td><td>Expansion may be broadening</td><td>Real credit, loan demand, valuation and sector allocation</td></tr><tr><td>Credit high but decelerating; CD ratio and funding costs rising</td><td>Late-expansion or tightening risk</td><td>Margin loans, bank spreads and NRB communication</td></tr><tr><td>Credit weak; deposits accumulate; rates ease</td><td>Weak demand or early recovery</td><td>Disbursement, NPLs and business confidence</td></tr></tbody></table>
+<h2 id="remittance">0.1.2 — Remittance → deposits → credit</h2><p>Remittances are a major source of foreign exchange and household income. They can support deposits, but a remittance receipt does not automatically become a new loan: it may be consumed, used to repay debt, invested in land, retained as a deposit or transferred through another channel.</p><pre>Foreign employment and remittance receipts
+              ↓
+Household income, consumption, repayment and saving
+              ↓
+Deposits and foreign-exchange reserves
+              ↓
+Bank liquidity, funding mix and risk appetite
+              ↓
+Credit supply × borrower demand
+              ↓
+Economic activity, earnings and sentiment</pre><p>CRR and SLR constrain liquidity, but they do not determine lending capacity by themselves. Capital adequacy, CD-ratio rules, liquidity, borrower demand, underwriting, loan pricing, sector limits, NPLs and provisioning also matter. It is misleading to claim that NPR 100 of deposits mechanically produces a fixed NPR 80–86 of lending.</p><p><strong>Correct rule:</strong> reserve and liquidity rules constrain deployment of deposits, but new credit is an outcome of regulation, capital, liquidity, bank behaviour and demand—not a fixed money-multiplier percentage.</p>
+<h2 id="lag">0.1.3 — Credit, bank earnings and the lag problem</h2><p>Credit does not translate into EPS on a fixed timetable. A possible sequence is policy change, bank repricing and underwriting, loan disbursement, interest-income and funding-cost changes, provisions and recoveries, quarterly reporting, and investor expectation revisions.</p><p>Analyse loan growth and mix, lending yields, deposit costs, NIM or net interest spread, CASA and term deposits, fees, treasury income, operating costs, gross and net NPLs, provision coverage, recoveries, write-offs, capital adequacy and regulatory changes. A policy-rate lag is not a universal EPS lag for every bank.</p>
+<h2 id="npl">0.1.4 — Credit contraction, asset quality and market risk</h2><p>Rapid credit growth can increase later asset-quality risk when underwriting weakens, collateral prices outrun income, or lending concentrates in cyclical sectors. NPL deterioration is not inevitable and is not caused by tightening alone.</p><pre>Tighter conditions or weaker activity
+              ↓
+Debt service becomes harder for some borrowers
+              ↓
+Overdue loans, restructuring and NPL classification
+              ↓
+Provisioning, recoveries and capital pressure
+              ↓
+Profit or ROE pressure; possible valuation de-rating
+              ↓
+Bank and market repricing</pre><p>Do not apply a universal “one percentage point NPL increase equals X percentage points of provisions” rule. Required provisions depend on classification, collateral, existing coverage, recoveries, write-offs and NRB rules.</p><p>The 2021–2022 correction is a useful case study, but it should be documented with dated NEPSE levels, credit, deposits, CD ratio, interest rates, margin-loan rules, bank NPLs and the dates information became public. NRB’s 2021/22 policy introduced a maximum 90% CD-ratio requirement and later policy documents addressed lending against share collateral; these are sourceable events, not proof that one variable caused the entire correction.</p>
+<h2 id="dashboard">0.1.5 — A three-number starting dashboard</h2><p>Three indicators are a useful monthly entry point, not a complete model.</p><ol><li><strong>Private-sector credit growth:</strong> record the exact definition, frequency and reporting date; separate nominal from real growth.</li><li><strong>CD ratio:</strong> identify whether it covers commercial banks, all BFIs or one institution. A regulatory ceiling is not a system average.</li><li><strong>Weighted-average interbank rate:</strong> compare it with the relevant policy corridor and observe persistence, not one-day spikes.</li></ol><p>Confirm the picture with deposits, remittances, lending and deposit rates, inflation, reserves, credit-to-GDP, NPLs, provisions, capital, sector allocation, valuation, turnover, breadth and margin-loan data where reliable.</p>
+<table><thead><tr><th>Question</th><th>Evidence to record</th><th>Confidence</th></tr></thead><tbody><tr><td>Is credit accelerating or decelerating?</td><td>NRB series, definition and date</td><td>Low / medium / high</td></tr><tr><td>Is liquidity easing or tightening?</td><td>Interbank rate, deposits, CD ratio</td><td>Low / medium / high</td></tr><tr><td>Is asset quality improving?</td><td>Gross/net NPL, provisions, restructuring</td><td>Low / medium / high</td></tr><tr><td>What could falsify the thesis?</td><td>Contradictory data or event</td><td>Low / medium / high</td></tr></tbody></table>
+<h2>Conclusion</h2><p>Nepal’s credit cycle is a valuable lens because it connects NRB policy, deposits, lending, bank earnings, household balance sheets and equity-market liquidity. It is not a single-variable explanation of NEPSE or a guaranteed timing system. Define the data, read current releases, separate liquidity from demand, distinguish association from causality, test lags and asset quality, compare macro signals with valuation, and record what would prove the framework wrong.</p>
+<h2>Primary sources</h2><ul class="sources"><li><a href="https://www.nrb.org.np/">Nepal Rastra Bank official indicators and publications</a></li><li><a href="https://www.nrb.org.np/red/">NRB current macroeconomic reports</a></li><li><a href="https://www.nrb.org.np/contents/uploads/2021/10/Monetary-Policy-2021-22.pdf">NRB Monetary Policy 2021/22</a></li><li><a href="https://www.nrb.org.np/ofg/monetary-policy-in-english-2022-23-full-text/">NRB Monetary Policy 2022/23</a></li><li><a href="https://www.nrb.org.np/contents/uploads/2025/08/nrb-wp-61-2025-08.pdf">NRB Working Paper No. 61 — monetary-policy transmission</a></li><li><a href="https://www.nrb.org.np/contents/uploads/2026/07/nrb-wp-64-2026-06.pdf">NRB Working Paper No. 64 — Nepal’s credit cycle</a></li><li><a href="https://www.nepalstock.com.np/">Nepal Stock Exchange</a></li><li><a href="https://sebon.gov.np/">SEBON</a></li></ul>
+<p><strong>Data policy:</strong> Figures, rules and ratios change. Verify each number against the latest primary publication. If this chapter conflicts with an official source, trust the official source and send a correction.</p>
+<footer><p>Educational material only. Nothing on this site is investment advice, a solicitation or a recommendation to buy or sell any security. Markets carry risk. Consult a licensed professional where appropriate.</p><p>© 2026 Santosh Kumar Adhikari. All rights reserved.</p></footer>
+</main></body></html>
