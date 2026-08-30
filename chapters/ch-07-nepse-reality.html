@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Part II · Chapter 7 — What Is NEPSE and Why It Behaves Differently | The Investor's Canon</title>
+  <meta name="description" content="Part II · Chapter 7 of The Investor's Canon by Santosh Kumar Adhikari: An in-depth analysis of NEPSE, its institutional history, regulatory architecture, index construction, and liquidity cycles.">
+  <meta name="author" content="Santosh Kumar Adhikari">
+  <link rel="canonical" href="https://santoshkumaradhikari.com.np/investors-canon/chapters/ch-07-nepse-reality.html">
+  <style>
+    :root {
+      --bg: #0f172a;
+      --text: #e2e8f0;
+      --text-muted: #94a3b8;
+      --card-bg: #1e293b;
+      --border: #334155;
+      --primary: #38bdf8;
+      --primary-hover: #0ea5e9;
+      --accent: #f59e0b;
+      --code-bg: #0b1120;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.7;
+      color: var(--text);
+      background-color: var(--bg);
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+    nav.breadcrumbs {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+    }
+    nav.breadcrumbs a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+    nav.breadcrumbs a:hover {
+      text-decoration: underline;
+    }
+    h1 {
+      font-size: 2.25rem;
+      line-height: 1.25;
+      color: #fff;
+      margin: 0.5rem 0 0.75rem;
+    }
+    .meta {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+    .toc {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin: 2rem 0;
+    }
+    .toc h3 {
+      margin-top: 0;
+      font-size: 1.1rem;
+      color: var(--primary);
+    }
+    .toc ol {
+      margin-bottom: 0;
+      padding-left: 1.25rem;
+    }
+    .toc li {
+      margin-bottom: 0.4rem;
+    }
+    .toc a {
+      color: var(--text);
+      text-decoration: none;
+    }
+    .toc a:hover {
+      color: var(--primary);
+      text-decoration: underline;
+    }
+    h2 {
+      font-size: 1.6rem;
+      color: #fff;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.5rem;
+      margin-top: 3rem;
+    }
+    h3 {
+      font-size: 1.25rem;
+      color: var(--primary);
+      margin-top: 1.75rem;
+    }
+    blockquote {
+      border-left: 4px solid var(--primary);
+      background: rgba(56, 189, 248, 0.08);
+      margin: 1.5rem 0;
+      padding: 0.75rem 1.25rem;
+      border-radius: 0 6px 6px 0;
+      font-style: italic;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0;
+      font-size: 0.95rem;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.75rem 1rem;
+      text-align: left;
+    }
+    th {
+      background-color: var(--card-bg);
+      color: var(--primary);
+    }
+    tr:nth-child(even) {
+      background-color: rgba(30, 41, 59, 0.4);
+    }
+    pre, code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.88rem;
+    }
+    pre {
+      background: var(--code-bg);
+      border: 1px solid var(--border);
+      padding: 1rem;
+      border-radius: 6px;
+      overflow-x: auto;
+      color: #38bdf8;
+    }
+    .checklist {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    .checklist li {
+      padding: 0.5rem 0;
+      border-bottom: 1px solid rgba(51, 65, 85, 0.5);
+    }
+    .checklist li:before {
+      content: "✓ ";
+      color: var(--accent);
+      font-weight: bold;
+    }
+    footer {
+      border-top: 1px solid var(--border);
+      padding-top: 2rem;
+      margin-top: 4rem;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<div class="container" id="main">
+  <header>
+    <nav class="breadcrumbs">
+      <a href="https://santoshkumaradhikari.com.np/investors-canon/index.html">The Investor's Canon</a> · 
+      <a href="https://santoshkumaradhikari.com.np/investors-canon/framework.html">Framework</a> · 
+      <a href="https://santoshkumaradhikari.com.np/investors-canon/study-guide.html">Study Guide</a> · 
+      <a href="https://santoshkumaradhikari.com.np/investors-canon/glossary.html">Glossary</a> · 
+      <a href="https://santoshkumaradhikari.com.np/">Santosh Adhikari →</a>
+    </nav>
+    <div class="meta">Part II · Chapter 7</div>
+    <h1>What Is NEPSE and Why It Behaves Differently</h1>
+    <div class="meta">First published 21 Aug 2026 · Last verified 30 Aug 2026</div>
+  </header>
+
+  <nav class="toc">
+    <h3>In this chapter</h3>
+    <ol>
+      <li><a href="#lesson-7-1">Lesson 7.1 — What a Stock Exchange Actually Is: Ownership, Price Discovery, and Capital Formation</a></li>
+      <li><a href="#lesson-7-2">Lesson 7.2 — The History of NEPSE: From 1993 to Today — How the Market Was Built and What Shaped It</a></li>
+      <li><a href="#lesson-7-3">Lesson 7.3 — NEPSE vs. BSE, NSE, NYSE: Scale, Depth, and Why Comparisons Must Be Made Carefully</a></li>
+      <li><a href="#lesson-7-4">Lesson 7.4 — Who Owns NEPSE: Government Structure, Shareholding, and the Implications of State Ownership</a></li>
+      <li><a href="#lesson-7-5">Lesson 7.5 — Market Capitalisation of NEPSE: What It Represents and What It Conceals</a></li>
+      <li><a href="#lesson-7-6">Lesson 7.6 — The NEPSE Index: Construction, Sector Weightage, and Why It Can Mislead</a></li>
+      <li><a href="#lesson-7-7">Lesson 7.7 — Sub-Indices: Banking, Hydropower, Microfinance, Insurance, Manufacturing — What Each Tracks</a></li>
+      <li><a href="#lesson-7-8">Lesson 7.8 — Bull and Bear Phases in NEPSE History: The 2016 Peak, 2021 Boom, 2022 Correction, and the 2024 Rebound</a></li>
+    </ol>
+  </nav>
+
+  <blockquote>
+    Before any strategy, instrument, or ratio — understand the arena you are actually in.
+  </blockquote>
+
+  <p>Most investors who lose money in Nepal's stock market do not lose it because they chose the wrong stock. They lose it because they applied the wrong mental model to the right stock in a market they did not truly understand. They treated NEPSE like a shrunken version of the New York Stock Exchange, or perhaps like a local analogue of India's BSE or NSE. They imported frameworks — strict P/E ratio screening, MACD crossovers, institutional momentum strategies — that were forged in markets of entirely different character, depth, and institutional architecture.</p>
+
+  <p>This chapter is not a warning against analysis. It is a foundation for it. Before you open a balance sheet, before you calculate a price-to-book ratio, before you chart a moving average, you must first understand the arena you have chosen to enter. What kind of market is NEPSE? Who built it, who owns it, who moves it, and why does it sometimes behave in ways that seem to defy both logic and global trends? These are not peripheral questions. They are the first questions — and the answers to them will shape every investment decision you make.</p>
+
+  <h2 id="lesson-7-1">Lesson 7.1 — What a Stock Exchange Actually Is: Ownership, Price Discovery, and Capital Formation</h2>
+
+  <h3>The Foundational Concept</h3>
+  <p>A stock exchange is, at its simplest, an organised marketplace where buyers and sellers of financial securities come together to transact. But this simple definition conceals three functions so fundamental that failure to understand any one of them leads to profound misunderstanding of markets as a whole. Those three functions are: <strong>the creation and transfer of ownership</strong>, <strong>the mechanism of price discovery</strong>, and <strong>the process of capital formation</strong>.</p>
+
+  <h3>Ownership: What You Are Actually Buying</h3>
+  <p>When you purchase shares of a company listed on NEPSE — say, Nepal Investment Mega Bank (NIMB) or Nabil Bank — you are not lending money to that company. You are not purchasing a bond with a guaranteed return. You are acquiring partial ownership of the enterprise. You become, legally and economically, a shareholder: a fractional owner of everything the company owns, net of everything it owes.</p>
+
+  <p>This ownership carries specific rights under the Nepal Companies Act, 2063 (2006). You have the right to vote at Annual General Meetings (AGMs) on matters of corporate governance — the election of directors, approval of audited financial statements, appointment of statutory auditors, and proposed amendments to the company's articles of association. You have the right to receive dividends, if and when the board of directors proposes and the AGM approves them. And you have the right to receive a proportional share of whatever value remains if the company is liquidated — though this residual claim ranks last behind secured creditors, bondholders, depositors, and government tax obligations.</p>
+
+  <p>This is a critical distinction. A depositor at a commercial bank is a creditor of that bank. If the bank encounters insolvency, the depositor has a prior claim on assets (supplemented by deposit insurance schemes through the Deposit and Credit Guarantee Fund up to statutory thresholds). A shareholder of that same bank is an owner. If the bank fails catastrophically, the shareholder may recover nothing. The potential upside of ownership — capital appreciation, cash dividends, and bonus shares — is fundamentally paired with the downside of complete capital loss. Understanding this is not pessimism; it is the prerequisite for rational risk pricing.</p>
+
+  <h3>Price Discovery: The Continuous Auction</h3>
+  <p>Markets discover prices. Prior to organised exchanges, determining the fair value of a company's equity stake required private negotiation — an opaque, illiquid, and inherently inefficient process. The exchange changes this by creating a continuous, transparent double-auction mechanism.</p>
+
+  <p>On NEPSE, during official trading hours (<strong>Sunday through Thursday, 11:00 AM to 3:00 PM Nepal Standard Time</strong>, preceded by a pre-open order collection session from 10:30 AM to 10:45 AM), thousands of individual orders enter the NEPSE Automated Trading System (NATS) via registered broker Trading Management Systems (TMS). The matching engine executes these orders strictly on <strong>price-time priority</strong>. The price at which the last transaction executes is broadcast in real time as the Last Traded Price (LTP). This is the discovered market price: not what any single participant thinks the company should be worth, but the price at which a willing buyer and a willing seller actually agreed to transact.</p>
+
+  <p>Price discovery aggregates dispersed information — the collective knowledge, expectations, liquidity needs, and risk assessments of thousands of participants — into a single number. When a commercial bank discloses robust quarterly earnings or improves its Non-Performing Loan (NPL) ratio, buyers step in, bidding prices upward. When a run-of-river hydropower company faces dry-season hydrology drops or transmission bottlenecks, sellers exit, driving prices downward. Prices encode information. This is the core mechanism of market efficiency — not perfect efficiency, but information-responsiveness over time.</p>
+
+  <p>In NEPSE's case, price discovery is meaningful but structurally imperfect. Thin trading liquidity in select counters, retail-dominated participation, informal broker syndicates, and structural information asymmetries mean that NEPSE prices often reflect short-term rumor and liquidity conditions rather than intrinsic value, sometimes lagging fundamental corporate realities by months.</p>
+
+  <h3>Capital Formation: The Economic Justification</h3>
+  <p>The third function of a stock exchange — capital formation — is its primary contribution to national economic development. A stock exchange allows enterprises to mobilize capital from the public by issuing shares through an Initial Public Offering (IPO), Further Public Offering (FPO), or Rights Issue. In exchange for this equity capital, the issuing company grants investors ownership stakes and voting rights.</p>
+
+  <p>Equity financing provides a resilient alternative to debt financing. A company that funds its expansion exclusively through bank loans must service interest and principal repayments regardless of macroeconomic conditions — a fixed contractual obligation that creates severe fragility during economic downturns. In contrast, an enterprise funded via equity has no contractual repayment obligation. Its shareholders absorb business risk, and if the venture prospers, they participate in the value created.</p>
+
+  <p>For Nepal, capital formation through NEPSE has been pivotal in building the modern banking, insurance, and energy sectors. NEPSE has been the primary vehicle through which millions of Nepali citizens have participated in the equity financing of commercial banks, development banks, microfinance institutions, and dozens of privately developed hydropower projects across the nation's river basins.</p>
+
+  <p>Regulatory provisions set by the Securities Board of Nepal (SEBON) — including the mandatory minimum 10-kitta allotment policy, the reservation of 10% of IPOs for Nepalis employed abroad under formal remittance channels, and 10% allocations for project-affected local residents in infrastructure and hydropower — have driven widespread retail participation unprecedented for an economy at Nepal's per-capita income level.</p>
+
+  <div class="toc">
+    <h3>Key Concepts in Lesson 7.1</h3>
+    <ul>
+      <li><strong>Shareholders are residual owners, not creditors</strong> — upside is uncapped, but equity losses can be total.</li>
+      <li><strong>Price discovery aggregates dispersed knowledge</strong> into a live market clearing price based on price-time priority.</li>
+      <li><strong>Trading hours run Sunday through Thursday, 11:00 AM to 3:00 PM NST</strong> (Pre-open: 10:30 AM – 10:45 AM).</li>
+      <li><strong>Capital formation via equity</strong> allows national infrastructure (especially hydropower and financial institutions) to mobilize long-term risk capital without fixed debt service fragility.</li>
+      <li><strong>SEBON's allocation quotas</strong> (10-kitta rule, remittance quota, local resident quota) have structurally broadened retail access.</li>
+    </ul>
+  </div>
+
+  <h2 id="lesson-7-2">Lesson 7.2 — The History of NEPSE: From 1993 to Today — How the Market Was Built and What Shaped It</h2>
+
+  <h3>Origins: Securities Exchange Centre (SEC), 1976</h3>
+  <p>NEPSE's institutional ancestor, the <strong>Securities Exchange Centre (SEC)</strong>, was established in 1976 under the Companies Act of 1964 with the joint initiative of Nepal Rastra Bank and the Nepal Industrial Development Corporation (NIDC). The SEC was a government body that performed multiple simultaneous roles: stock broker, market maker, issue manager, and share registry administrator. By modern governance standards, this concentration of functions was heavily conflicted. Transactions were largely manual, Over-The-Counter (OTC), and based on informal bilateral negotiations.</p>
+
+  <h3>The Birth of NEPSE: 1993–1994</h3>
+  <p>In line with macroeconomic liberalization policies supported by the IMF and World Bank in the early 1990s, the Government of Nepal restructured the capital market framework. Under the Securities Exchange Act, 2040 (1983, First Amendment 1993), the Securities Exchange Centre was formally converted into the <strong>Nepal Stock Exchange Limited (NEPSE)</strong>, incorporated on <strong>January 13, 1993</strong>. Formal open-outcry trading commenced on <strong>January 16, 1994</strong>, with the benchmark <strong>NEPSE Index established with a base value of 100 on February 12, 1994 (Magh 30, 2050 BS)</strong>. Simultaneously, the <strong>Securities Board of Nepal (SEBON)</strong> was established in 1993 as the apex capital market regulator.</p>
+
+  <h3>Modernisation & Dematerialisation (CDSC)</h3>
+  <p>To eliminate paper certificate risks, <strong>CDS and Clearing Limited (CDSC)</strong> was incorporated in 2010 as a wholly-owned subsidiary of NEPSE. The introduction of dematerialized (Demat) securities and electronic book-entry settlement transformed the market. By 2015–2016, demat trading became fully mandatory across all listed equity. In late 2018, NEPSE launched its web-based <strong>Trade Management System (TMS)</strong>, allowing retail investors to place orders directly online through licensed broker terminals and verify balances via the <strong>MeroShare</strong> portal.</p>
+
+  <h3>NEPSE Timeline: Key Milestones</h3>
+  <ul>
+    <li><strong>1976</strong> — Securities Exchange Centre (SEC) established.</li>
+    <li><strong>1993</strong> — Nepal Stock Exchange Ltd. incorporated (January 13, 1993); SEBON established.</li>
+    <li><strong>1994</strong> — Formal trading commences (January 16, 1994); Base Index established at 100 on February 12, 1994.</li>
+    <li><strong>2008</strong> — First modern bull peak at 1,175 points (August 2008), followed by a bear trough near 292 points in June 2011.</li>
+    <li><strong>2015</strong> — April Gorkha earthquake; market demonstrates resilience as reconstruction liquidity enters the banking system.</li>
+    <li><strong>2016</strong> — Major bull peak: NEPSE reaches <strong>1,881.45 on 27 July 2016</strong>, driven by bank capital hikes mandated by NRB (raising minimum capital to Rs 8 Arba).</li>
+    <li><strong>2019</strong> — Post-2016 bear trough: NEPSE declines to bottom at <strong>1,100.58 in March 2019</strong> following credit tightening.</li>
+    <li><strong>2021</strong> — All-time peak: NEPSE reaches an all-time high of <strong>3,198.60 on 18 August 2021</strong> amid pandemic monetary stimulus and retail surge.</li>
+    <li><strong>2022</strong> — Correction bottom: NEPSE declines to <strong>1,815.14 on 25 September 2022</strong> following NRB's 4/12-crore margin loan cap and rate hikes.</li>
+    <li><strong>2024–2026</strong> — Liquidity rebound: Driven by NRB rate cuts and removal of institutional share loan ceilings, NEPSE rallied toward ~3,000 points, setting an all-time single-day turnover record of <strong>NPR 29.95 billion on August 15, 2024</strong>.</li>
+  </ul>
+
+  <h2 id="lesson-7-3">Lesson 7.3 — NEPSE vs. BSE, NSE, NYSE: Scale, Depth, and Why Comparisons Must Be Made Carefully</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Metric</th>
+        <th>NYSE (USA)</th>
+        <th>BSE / NSE (India)</th>
+        <th>NEPSE (Nepal)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Listed Securities</strong></td>
+        <td>~2,400+</td>
+        <td>~2,200 (NSE) / ~5,400 (BSE)</td>
+        <td>~270+ scrips (~250+ equity companies)</td>
+      </tr>
+      <tr>
+        <td><strong>Market Capitalisation</strong></td>
+        <td>~$28–30+ Trillion</td>
+        <td>~$4.5–5.0+ Trillion</td>
+        <td>~$25–36 Billion (NPR 3.5–4.8 Trillion)</td>
+      </tr>
+      <tr>
+        <td><strong>Average Daily Turnover</strong></td>
+        <td>~$20–50+ Billion</td>
+        <td>~$8–12 Billion (Cash)</td>
+        <td>~$30–225 Million (NPR 4–29.95 Billion)</td>
+      </tr>
+      <tr>
+        <td><strong>Benchmark Index</strong></td>
+        <td>S&P 500 / DJIA</td>
+        <td>NIFTY 50 / SENSEX</td>
+        <td>NEPSE Index</td>
+      </tr>
+      <tr>
+        <td><strong>Derivatives Market</strong></td>
+        <td>Deep & liquid (Options/Futures)</td>
+        <td>Massive index & equity derivatives</td>
+        <td>Absent / Unregulated</td>
+      </tr>
+      <tr>
+        <td><strong>Market Participant Base</strong></td>
+        <td>~75–80% Institutional</td>
+        <td>~65–70% Institutional</td>
+        <td>~80–85% Retail</td>
+      </tr>
+      <tr>
+        <td><strong>Settlement Cycle</strong></td>
+        <td>T+1</td>
+        <td>T+1 (with optional T+0)</td>
+        <td>T+2 (CDSC clearing)</td>
+      </tr>
+      <tr>
+        <td><strong>Short Selling</strong></td>
+        <td>Permitted & regulated</td>
+        <td>Permitted & regulated</td>
+        <td>Not permitted</td>
+      </tr>
+      <tr>
+        <td><strong>Circuit Breakers</strong></td>
+        <td>Market-wide (7%, 13%, 20%)</td>
+        <td>Market-wide & stock price bands</td>
+        <td>Market-wide (4%, 5%, 6%) + Individual stock (±10%)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2 id="lesson-7-4">Lesson 7.4 — Who Owns NEPSE: Government Structure, Shareholding, and the Implications of State Ownership</h2>
+
+  <p>Nepal Stock Exchange Ltd. is a state-controlled public enterprise with a paid-up capital of <strong>NPR 1.00 billion (NPR 100 Crore)</strong>.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Shareholder</th>
+        <th>Approximate Stake</th>
+        <th>Entity Classification</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Government of Nepal (Ministry of Finance)</strong></td>
+        <td>58.66%</td>
+        <td>Sovereign State Treasury</td>
+      </tr>
+      <tr>
+        <td><strong>Rastriya Banijya Bank (RBB)</strong></td>
+        <td>11.23%</td>
+        <td>100% State-owned Commercial Bank</td>
+      </tr>
+      <tr>
+        <td><strong>Employees Provident Fund (EPF)</strong></td>
+        <td>10.00%</td>
+        <td>Statutory Retirement Fund</td>
+      </tr>
+      <tr>
+        <td><strong>Nepal Rastra Bank (Central Bank)</strong></td>
+        <td>9.50%</td>
+        <td>Central Bank of Nepal (reduced from 34.60% via divestment)</td>
+      </tr>
+      <tr>
+        <td><strong>Other Commercial Banks, Institutions & Stockbrokers</strong></td>
+        <td>10.60%</td>
+        <td>Mixed Intermediaries</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2 id="lesson-7-5">Lesson 7.5 — Market Capitalisation of NEPSE: What It Represents and What It Conceals</h2>
+
+  <p>Headline market capitalisation counts all issued shares across all listed entities multiplied by their last traded prices. Between 2024 and 2026, NEPSE's market capitalization has fluctuated between <strong>NPR 3.5 trillion and NPR 4.8 trillion</strong> (approx. USD 25–36 billion).</p>
+
+  <p>However, headline market cap conceals three fundamental realities:</p>
+  <ul>
+    <li><strong>The Free Float Disconnect:</strong> A large portion of issued shares consists of locked promoter equity (e.g., the statutory 3-year lock-in for hydropower developers) or permanent government holdings. Real tradeable liquidity is significantly smaller than the headline figure.</li>
+    <li><strong>Sectoral Over-Concentration:</strong> Commercial banking, hydropower, and insurance dominate the valuation. A surge in financial stocks elevates the entire index even if the broader non-financial corporate sector is contracting.</li>
+    <li><strong>National Economy Exclusion:</strong> Nepal's major economic engines — agriculture, remittance consumption, private unlisted trading houses, construction, and hospitality — are unlisted. The market cap reflects financial liquidity rather than broad GDP performance.</li>
+  </ul>
+
+  <h2 id="lesson-7-6">Lesson 7.6 — The NEPSE Index: Construction, Sector Weightage, and Why It Can Mislead</h2>
+
+  <p>The benchmark NEPSE Index is a market capitalisation-weighted index comprising all listed equities, anchored to a base value of 100 on 12 February 1994 (Magh 30, 2050 BS).</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Sector</th>
+        <th>Approx. Index Weight</th>
+        <th>Number of Companies (approx.)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Commercial Banks</td>
+        <td>~28–35%</td>
+        <td>20 (consolidated via mega-mergers)</td>
+      </tr>
+      <tr>
+        <td>Hydropower</td>
+        <td>~15–18%</td>
+        <td>90–100+</td>
+      </tr>
+      <tr>
+        <td>Life & Non-Life Insurance</td>
+        <td>~11–15%</td>
+        <td>~28–30</td>
+      </tr>
+      <tr>
+        <td>Microfinance</td>
+        <td>~6–8%</td>
+        <td>~55–60</td>
+      </tr>
+      <tr>
+        <td>Investment Companies</td>
+        <td>~6–8%</td>
+        <td>~7 (HIDCL, CIT, NRN, etc.)</td>
+      </tr>
+      <tr>
+        <td>Others</td>
+        <td>~6–8%</td>
+        <td>~4 (Nepal Telecom, Reinsurance, etc.)</td>
+      </tr>
+      <tr>
+        <td>Development Banks</td>
+        <td>~5–6%</td>
+        <td>~17</td>
+      </tr>
+      <tr>
+        <td>Manufacturing & Processing</td>
+        <td>~3–4%</td>
+        <td>~20–23</td>
+      </tr>
+      <tr>
+        <td>Finance Companies</td>
+        <td>~2–3%</td>
+        <td>~15–17</td>
+      </tr>
+      <tr>
+        <td>Hotels & Tourism / Trading</td>
+        <td>~1.5–2%</td>
+        <td>~10</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2 id="lesson-7-7">Lesson 7.7 — Sub-Indices: Banking, Hydropower, Microfinance, Insurance, Manufacturing — What Each Tracks</h2>
+
+  <h3>1. Banking Sub-Index (`BANKINGIND`)</h3>
+  <p>Tracks Nepal's 20 commercial banks. Driven directly by NRB monetary policy rates, Cash Reserve Ratio (CRR 4.0%), Statutory Liquidity Ratio (SLR 12.0%), Credit-to-Deposit (CD) ratios, Net Interest Margins, and Non-Performing Loan provisioning.</p>
+
+  <h3>2. Hydropower Sub-Index (`HYDROPOWIND`)</h3>
+  <p>Tracks over 90+ listed hydropower generation companies. Driven by monsoon vs. dry season hydrology, Take-or-Pay Power Purchase Agreements (PPAs) with NEA, transmission line connectivity, and the expiry of 3-year promoter lock-in periods.</p>
+
+  <h3>3. Microfinance Sub-Index (`MICROFININD`)</h3>
+  <p>Tracks 55+ microfinance institutions (Class 'D' BFIs). Highly sensitive to rural income shocks, NRB interest rate caps (15% lending ceiling), and uncollateralized loan asset quality.</p>
+
+  <h3>4. Insurance Sub-Indices (`LIFEINSUIND` & `NONLIFEIND`)</h3>
+  <p>Regulated by the <strong>Nepal Insurance Authority (Nepal Bima Pradhikaran - नेपाल बीमा प्राधिकरण)</strong> under the Insurance Act 2079 (2022). Driven by statutory capital mandates (Rs 5 Arba for Life, Rs 2.5 Arba for Non-Life), premium growth, life fund investment yields, and catastrophe reinsurance treaties.</p>
+
+  <h3>5. Manufacturing & Processing, Hotels, and Others</h3>
+  <p>Tracks industrial companies (cement, distilleries), hospitality operators, and statutory giants like Nepal Telecom (NTC) and Citizen Investment Trust (CIT).</p>
+
+  <h2 id="lesson-7-8">Lesson 7.8 — Bull and Bear Phases in NEPSE History: The 2016 Peak, 2021 Boom, and Subsequent Cycles</h2>
+
+  <p>NEPSE cycles are primarily <strong>liquidity and monetary policy events</strong> rather than classical business earnings cycles:</p>
+  <ul>
+    <li><strong>The 2014–2016 Bull Market:</strong> Peaked at <strong>1,881.45 on 27 July 2016</strong>, driven by post-earthquake reconstruction aid and NRB's mandatory bank capital quadrupling.</li>
+    <li><strong>The 2018–2019 Correction:</strong> Trough at <strong>1,100.58 in March 2019</strong> following credit tightening.</li>
+    <li><strong>The 2020–2021 Pandemic Bull Run:</strong> All-time peak of <strong>3,198.60 on 18 August 2021</strong> driven by near-zero money market rates, remittance surges, and online retail frenzy.</li>
+    <li><strong>The 2022 Bear Market:</strong> Trough at <strong>1,815.14 on 25 September 2022</strong> after NRB imposed the 4/12-crore share loan cap and tightened CD ratios.</li>
+    <li><strong>The 2024–2026 Liquidity Rebound:</strong> Rebound toward ~3,000 points following the easing of margin loan caps, risk weight reduction to 125%, and record single-day turnover of <strong>NPR 29.95 billion on August 15, 2024</strong>.</li>
+  </ul>
+
+  <div class="toc">
+    <h3>The NEPSE Investor's Cycle Checklist</h3>
+    <ul class="checklist">
+      <li>Where is NRB in its monetary policy cycle? (Rate cuts = tailwind; Rate hikes = headwind)</li>
+      <li>What is the system-wide Credit-to-Deposit (CD) ratio relative to the 90% statutory cap?</li>
+      <li>Are margin loan risk weights and institutional borrowing caps being relaxed or tightened?</li>
+      <li>Are target hydropower companies approaching their 3-year promoter lock-in expiration?</li>
+      <li>How are the Banking and Insurance sub-indices valued against their 5-year historical medians?</li>
+      <li>Is social media dominated by euphoria and anecdotal tips, or widespread apathy?</li>
+    </ul>
+  </div>
+
+  <div class="toc">
+    <h3>Primary Data Sources</h3>
+    <p>Verify all regulatory provisions and market statistics directly with official primary authorities:</p>
+    <ul>
+      <li><a href="https://www.nrb.org.np/" target="_blank" rel="noopener">Nepal Rastra Bank (NRB)</a> — Monetary policy directives, interest rate corridors, and BFI data.</li>
+      <li><a href="https://www.sebon.gov.np/" target="_blank" rel="noopener">Securities Board of Nepal (SEBON)</a> — Capital market regulations and issue approvals.</li>
+      <li><a href="https://www.nepalstock.com/" target="_blank" rel="noopener">Nepal Stock Exchange (NEPSE)</a> — Live index prices, turnover, and sub-index data.</li>
+      <li><a href="https://www.cdsc.com.np/" target="_blank" rel="noopener">CDS and Clearing Limited (CDSC)</a> — Settlement cycles, demat rules, and MeroShare data.</li>
+      <li><a href="https://nib.gov.np/" target="_blank" rel="noopener">Nepal Insurance Authority (NIA)</a> — Insurance solvency directives and capital rules.</li>
+    </ul>
+  </div>
+
+  <footer>
+    <p>Educational material only. Nothing on this site is investment advice, a solicitation, or a recommendation to buy or sell any security. Markets carry risk — always do your own research and consult a licensed professional before acting.</p>
+    <p>© 2026 Santosh Kumar Adhikari. All rights reserved.</p>
+  </footer>
+</div>
+</body>
+</html>
